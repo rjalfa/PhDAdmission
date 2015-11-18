@@ -8,6 +8,17 @@
 	<link rel="stylesheet" href="css/roboto.min.css">
 	<link rel="stylesheet" href="css/bootstrap-material-datetimepicker.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<style>
+		.info-div
+		{
+			background-color: #EEFFFF;
+			color: #555555;
+			border-radius: 4px;
+			border: 1px solid #C0C0C0;
+			font-family: inherit;
+			padding : 10px 10px 10px 10px;
+		}
+	</style>
 </head>
 <body style="padding-top:80px;height: 100%;overflow: scroll;">
 	<div class="navbar navbar-inverse navbar-fixed-top">
@@ -37,22 +48,30 @@
 						<form class="form-horizontal" method="post" action="submit">
 						    <fieldset>
 						        <legend>Personal Information</legend>
+						        <div class='info-div'>
+						        	<ol>
+						        		<li>The Enrollment Number will be generated after the form is successfully submitted.</li>
+						        		<li>All fields are mandatory, unless stated otherwise.</li>
+						        		<li>Applicants applying for ECE PhD Stream need to fill 4 Preference Options.</li>
+						        	<ol>
+						        </div>
+						        <hr>
 						        <div class="form-group">
-						            <label for="email" class="col-lg-2 control-label">Email*</label>
+						            <label for="email" class="col-lg-2 control-label">Email</label>
 						            <div class="col-lg-10">
 						                <input type="email" class="form-control" name="email" >
 						            </div>
 						        </div>
 						        <div class="form-group">
-						            <label for="name" class="col-lg-2 control-label">Name*</label>
+						            <label for="name" class="col-lg-2 control-label">Name</label>
 						            <div class="col-lg-10">
 						                <input type="text" class="form-control" name="name" >
 						            </div>
 						        </div>
 						        <div class="form-group">
-						            <label for="enrollmentNumber" class="col-lg-2 control-label">Enrollment Number</label>
+						            <label for="enrollmentNumber" class="col-lg-2 control-label" style="color:gray;">Enrollment Number</label>
 						            <div class="col-lg-10">
-						                <input type="text" class="form-control" name="enrollmentNumber" >
+						                <input type="text" class="form-control" name="enrollmentNumber" disabled>
 						            </div>
 						        </div>
 						        <div class="form-group">
@@ -69,7 +88,7 @@
 						        </div>
 						        <div class="form-group">
 						            <label class="col-lg-2 control-label">PhD Stream</label>
-						            <div class="col-lg-10">
+						            <div class="col-lg-10" id="streamSelector">
 						                <div class="radio radio-primary">
 						                    <label>
 						                        <input type="radio" name="phdStreamSelector" name="optionsRadios1" value="CSE" checked="">
@@ -94,39 +113,6 @@
 						            <label for="preferences1" class="col-lg-2 control-label">Preference #1</label>
 						            <div class="col-lg-10">
 						                <select class="form-control" name="preferences1">
-						                    <option value="1">Artificial Intelligence and Robotics - CSE</option>
-											<option value="23">Biophysics - CB</option>
-											<option value="31">Compilers - CSE</option>
-											<option value="14">Computer Architecture and Systems Design - ECE</option>
-											<option value="4">Computer Architecture and Systems Design - CSE</option>
-											<option value="3">Computer Graphics - CSE</option>
-											<option value="2">Computer Vision - CSE</option>
-											<option value="13">Controls and Robotics - ECE</option>
-											<option value="25">Digital and Analog VLSI Systems Design - ECE</option>
-											<option value="15">Electromagnetics - ECE</option>
-											<option value="16">Embedded and VLSI systems design - ECE</option>
-											<option value="26">Embedded Systems - ECE</option>
-											<option value="27">Fiber-Wireless Architectures - ECE</option>
-											<option value="5">Image Analysis and Biometrics - CSE</option>
-											<option value="6">Information Management and Data Engineering - CSE</option>
-											<option value="32">Machine Learning - CSE</option>
-											<option value="17">Machine Learning - ECE</option>
-											<option value="7">Massively Parallel Systems - CSE</option>
-											<option value="8">Mobile Computing and Networking Applications - CSE</option>
-											<option value="29">OFDM based Optical Access Networks - ECE</option>
-											<option value="30">Optical Wireless Communication Systems - ECE</option>
-											<option value="9">Program Analysis - CSE</option>
-											<option value="18">RF and mixed signal electronics - ECE</option>
-											<option value="10">Security and Privacy - CSE</option>
-											<option value="19">Signal and Image Processing - ECE</option>
-											<option value="33">Signal and Image Processing - CSE</option>
-											<option value="11">Software Engineering - CSE</option>
-											<option value="24">Structural Biology - CB</option>
-											<option value="22">Systems Biology - CB</option>
-											<option value="12">Theoretical Computer Science - CSE</option>
-											<option value="20">Wireless Communication - ECE</option>
-											<option value="21">Wireless Networks - ECE</option>
-											<option value="34">Wireless Networks - CSE</option>
 						                </select>
 						            </div>
 						        </div>
@@ -134,39 +120,6 @@
 						            <label for="preferences2" class="col-lg-2 control-label">Preference #2</label>
 						            <div class="col-lg-10">
 						                <select class="form-control" name="preferences2">
-						                    <option value="1">Artificial Intelligence and Robotics - CSE</option>
-											<option value="23">Biophysics - CB</option>
-											<option value="31">Compilers - CSE</option>
-											<option value="14">Computer Architecture and Systems Design - ECE</option>
-											<option value="4">Computer Architecture and Systems Design - CSE</option>
-											<option value="3">Computer Graphics - CSE</option>
-											<option value="2">Computer Vision - CSE</option>
-											<option value="13">Controls and Robotics - ECE</option>
-											<option value="25">Digital and Analog VLSI Systems Design - ECE</option>
-											<option value="15">Electromagnetics - ECE</option>
-											<option value="16">Embedded and VLSI systems design - ECE</option>
-											<option value="26">Embedded Systems - ECE</option>
-											<option value="27">Fiber-Wireless Architectures - ECE</option>
-											<option value="5">Image Analysis and Biometrics - CSE</option>
-											<option value="6">Information Management and Data Engineering - CSE</option>
-											<option value="32">Machine Learning - CSE</option>
-											<option value="17">Machine Learning - ECE</option>
-											<option value="7">Massively Parallel Systems - CSE</option>
-											<option value="8">Mobile Computing and Networking Applications - CSE</option>
-											<option value="29">OFDM based Optical Access Networks - ECE</option>
-											<option value="30">Optical Wireless Communication Systems - ECE</option>
-											<option value="9">Program Analysis - CSE</option>
-											<option value="18">RF and mixed signal electronics - ECE</option>
-											<option value="10">Security and Privacy - CSE</option>
-											<option value="19">Signal and Image Processing - ECE</option>
-											<option value="33">Signal and Image Processing - CSE</option>
-											<option value="11">Software Engineering - CSE</option>
-											<option value="24">Structural Biology - CB</option>
-											<option value="22">Systems Biology - CB</option>
-											<option value="12">Theoretical Computer Science - CSE</option>
-											<option value="20">Wireless Communication - ECE</option>
-											<option value="21">Wireless Networks - ECE</option>
-											<option value="34">Wireless Networks - CSE</option>
 						                </select>
 						            </div>
 						        </div>
@@ -174,39 +127,13 @@
 						            <label for="preferences3" class="col-lg-2 control-label">Preference #3</label>
 						            <div class="col-lg-10">
 						                <select class="form-control" name="preferences3">
-						                    <option value="1">Artificial Intelligence and Robotics - CSE</option>
-											<option value="23">Biophysics - CB</option>
-											<option value="31">Compilers - CSE</option>
-											<option value="14">Computer Architecture and Systems Design - ECE</option>
-											<option value="4">Computer Architecture and Systems Design - CSE</option>
-											<option value="3">Computer Graphics - CSE</option>
-											<option value="2">Computer Vision - CSE</option>
-											<option value="13">Controls and Robotics - ECE</option>
-											<option value="25">Digital and Analog VLSI Systems Design - ECE</option>
-											<option value="15">Electromagnetics - ECE</option>
-											<option value="16">Embedded and VLSI systems design - ECE</option>
-											<option value="26">Embedded Systems - ECE</option>
-											<option value="27">Fiber-Wireless Architectures - ECE</option>
-											<option value="5">Image Analysis and Biometrics - CSE</option>
-											<option value="6">Information Management and Data Engineering - CSE</option>
-											<option value="32">Machine Learning - CSE</option>
-											<option value="17">Machine Learning - ECE</option>
-											<option value="7">Massively Parallel Systems - CSE</option>
-											<option value="8">Mobile Computing and Networking Applications - CSE</option>
-											<option value="29">OFDM based Optical Access Networks - ECE</option>
-											<option value="30">Optical Wireless Communication Systems - ECE</option>
-											<option value="9">Program Analysis - CSE</option>
-											<option value="18">RF and mixed signal electronics - ECE</option>
-											<option value="10">Security and Privacy - CSE</option>
-											<option value="19">Signal and Image Processing - ECE</option>
-											<option value="33">Signal and Image Processing - CSE</option>
-											<option value="11">Software Engineering - CSE</option>
-											<option value="24">Structural Biology - CB</option>
-											<option value="22">Systems Biology - CB</option>
-											<option value="12">Theoretical Computer Science - CSE</option>
-											<option value="20">Wireless Communication - ECE</option>
-											<option value="21">Wireless Networks - ECE</option>
-											<option value="34">Wireless Networks - CSE</option>
+						                </select>
+						            </div>
+						        </div>
+						        <div class="form-group" id="preferences4div">
+						            <label for="preferences4" class="col-lg-2 control-label">Preference #4</label>
+						            <div class="col-lg-10">
+						                <select class="form-control" name="preferences4">
 						                </select>
 						            </div>
 						        </div>
@@ -262,91 +189,28 @@
 						            </div>
 						        </div>
 						        <div class="form-group">
-						            <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+						            <label for="fatherName" class="col-lg-2 control-label">Father's Namer</label>
 						            <div class="col-lg-10">
-						                <input type="password" class="form-control" name="inputPassword" placeholder="Password">
-						                <div class="checkbox">
-						                    <label>
-						                        <input type="checkbox"> Checkbox
-						                    </label>
-						                </div>
-						                <br>
-						                <div class="togglebutton">
-						                    <label>
-						                        <input type="checkbox" checked=""> Toggle button
-						                    </label>
-						                </div>
+						                <input type="text" class="form-control" name="fatherName">
 						            </div>
 						        </div>
 						        <div class="form-group">
-						            <label for="inputFile" class="col-lg-2 control-label">File</label>
+						            <label for="nationality" class="col-lg-2 control-label">Nationality</label>
 						            <div class="col-lg-10">
-						                <input type="text" readonly="" class="form-control floating-label" placeholder="Browse...">
-						                <input type="file" name="inputFile" multiple="">
-						            </div>
-						        </div>
-						        <div class="form-group">
-						            <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-						            <div class="col-lg-10">
-						                <textarea class="form-control" rows="3" name="textArea"></textarea>
-						                <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-						            </div>
-						        </div>
-						        <div class="form-group">
-						            <label class="col-lg-2 control-label">Radios</label>
-						            <div class="col-lg-10">
-						                <div class="radio radio-primary">
-						                    <label>
-						                        <input type="radio" name="optionsRadios" name="optionsRadios1" value="option1" checked="">
-						                        Option one is this
-						                    </label>
-						                </div>
-						                <div class="radio radio-primary">
-						                    <label>
-						                        <input type="radio" name="optionsRadios" name="optionsRadios2" value="option2">
-						                        Option two can be something else
-						                    </label>
-						                </div>
-						            </div>
-						        </div>
-						        <div class="form-group">
-						            <label for="select" class="col-lg-2 control-label">Selects</label>
-						            <div class="col-lg-10">
-						                <select class="form-control" name="select">
-						                    <option value="1">Artificial Intelligence and Robotics - CSE</option>
-											<option value="23">Biophysics - CB</option>
-											<option value="31">Compilers - CSE</option>
-											<option value="14">Computer Architecture and Systems Design - ECE</option>
-											<option value="4">Computer Architecture and Systems Design - CSE</option>
-											<option value="3">Computer Graphics - CSE</option>
-											<option value="2">Computer Vision - CSE</option>
-											<option value="13">Controls and Robotics - ECE</option>
-											<option value="25">Digital and Analog VLSI Systems Design - ECE</option>
-											<option value="15">Electromagnetics - ECE</option>
-											<option value="16">Embedded and VLSI systems design - ECE</option>
-											<option value="26">Embedded Systems - ECE</option>
-											<option value="27">Fiber-Wireless Architectures - ECE</option>
-											<option value="5">Image Analysis and Biometrics - CSE</option>
-											<option value="6">Information Management and Data Engineering - CSE</option>
-											<option value="32">Machine Learning - CSE</option>
-											<option value="17">Machine Learning - ECE</option>
-											<option value="7">Massively Parallel Systems - CSE</option>
-											<option value="8">Mobile Computing and Networking Applications - CSE</option>
-											<option value="29">OFDM based Optical Access Networks - ECE</option>
-											<option value="30">Optical Wireless Communication Systems - ECE</option>
-											<option value="9">Program Analysis - CSE</option>
-											<option value="18">RF and mixed signal electronics - ECE</option>
-											<option value="10">Security and Privacy - CSE</option>
-											<option value="19">Signal and Image Processing - ECE</option>
-											<option value="33">Signal and Image Processing - CSE</option>
-											<option value="11">Software Engineering - CSE</option>
-											<option value="24">Structural Biology - CB</option>
-											<option value="22">Systems Biology - CB</option>
-											<option value="12">Theoretical Computer Science - CSE</option>
-											<option value="20">Wireless Communication - ECE</option>
-											<option value="21">Wireless Networks - ECE</option>
-											<option value="34">Wireless Networks - CSE</option>
+						                <select class="form-control" name="nationality">
 						                </select>
+						            </div>
+						        </div>
+						        <div class="form-group">
+						            <label for="permAddress" class="col-lg-2 control-label">Permanent Address</label>
+						            <div class="col-lg-10">
+						                <textarea class="form-control" name="permAddress" rows=4></textarea>
+						            </div>
+						        </div>
+						        <div class="form-group">
+						            <label for="pincode" class="col-lg-2 control-label">PIN Code</label>
+						            <div class="col-lg-10">
+						                <input type="number" class="form-control" name="pincode" >
 						            </div>
 						        </div>
 						        <div class="form-group">
@@ -370,11 +234,7 @@
 	<script src="js/ripples.min.js"></script>
 	<script src="js/moment-with-locales.min.js"></script>
 	<script src="js/bootstrap-material-datetimepicker.js"></script>
-	
+	<script src="js/index.js"></script>
 	<script>
-      $.material.init();
-      var vdate = new Date();
-      vdate.setFullYear(vdate.getFullYear() - 15);
-      $("#dobField").bootstrapMaterialDatePicker({ weekStart : 0, time: false ,maxDate: vdate});
     </script>
 </body>
