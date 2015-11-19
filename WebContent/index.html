@@ -39,23 +39,27 @@
 		    <ul class="nav nav-tabs">
 		        <li class="nav active"><a href="#MainA" data-toggle="tab">Personal Information</a></li>
 		        <li class="nav"><a href="#MainB" data-toggle="tab">Educational Information</a></li>
-		        <li class="nav"><a href="#MainC" data-toggle="tab">Submit</a></li>
+		        <li class="nav"><a href="#MainC" data-toggle="tab">Feedback and Submit</a></li>
 		    </ul>
+		    <form class="form-horizontal" method="post" action="submit">
+						
 			<!-- Tab panes -->
 		    <div class="tab-content">
 		        <div class="tab-pane fade in active" id="MainA">
 		        	<div class="jumbotron">
-						<form class="form-horizontal" method="post" action="submit">
 						    <fieldset>
 						        <legend>Personal Information</legend>
 						        <div class='info-div'>
-						        	<ol>
-						        		<li>The Enrollment Number will be generated after the form is successfully submitted.</li>
-						        		<li>All enabled fields are mandatory, unless stated otherwise.</li>
-						        		<li>Applicants applying for ECE PhD Stream need to fill 4 Preference Options.</li>
-						        	<ol>
-						        </div>
-						        <hr>
+					        	<ol>
+					        		<li>The Enrollment Number will be generated after the form is successfully submitted.</li>
+					        		<li>All enabled fields are mandatory, unless stated otherwise.</li>
+					        		<li>Please complete and save all the fields before you click the submit button. Once you have submitted you will not be able to edit any field.</li>
+					        		<li>Applicants applying for ECE PhD Stream need to fill 4 Preference Options.</li>
+					        		<li>You can submit only on successful completion of all required forms fields.</li>
+					        		<li>The Optional Form regions enable only on toggle.</li>
+					        	<ol>
+					        	</div>
+						        <hr/>
 						        <div class="form-group">
 						            <label for="name" class="col-lg-2 control-label">Full Name</label>
 						            <div class="col-lg-10">
@@ -219,25 +223,26 @@
 						        <div class="form-group">
 						            <div class="col-lg-10 col-lg-offset-2">
 						                <button class="btn btn-default">Cancel</button>
-						                <button type="submit" class="btn btn-primary">Submit</button>
+						                <button type="submit" class="btn btn-primary">Save</button>
 						            </div>
 						        </div>
 						    </fieldset>
-						</form>
 					</div>
 				</div>
 				<div class="tab-pane fade" id="MainB">
 					<div class="jumbotron">
-						<form class="form-horizontal" method="post" action="submit">
-						    <fieldset>
+							<fieldset>
 						        <legend>Educational Information</legend>
 						        <div class='info-div'>
-						        	<ol>
-						        		<li>The Enrollment Number will be generated after the form is successfully submitted.</li>
-						        		<li>All enabled fields are mandatory, unless stated otherwise.</li>
-						        		<li>The Optional Form regions enable only on toggle.</li>
-						        	<ol>
-						        </div>
+					        	<ol>
+					        		<li>The Enrollment Number will be generated after the form is successfully submitted.</li>
+					        		<li>All enabled fields are mandatory, unless stated otherwise.</li>
+					        		<li>Please complete and save all the fields before you click the submit button. Once you have submitted you will not be able to edit any field.</li>
+					        		<li>Applicants applying for ECE PhD Stream need to fill 4 Preference Options.</li>
+					        		<li>You can submit only on successful completion of all required forms fields.</li>
+					        		<li>The Optional Form regions enable only on toggle.</li>
+					        	<ol>
+					        </div>
 						        <hr>
 						    	<div class="col-lg-6">
 									<h2>Class X</h2>
@@ -430,15 +435,71 @@
 						        <div class="form-group">
 						            <div class="col-lg-10 col-lg-offset-2">
 						                <button class="btn btn-default">Cancel</button>
-						                <button type="submit" class="btn btn-primary">Submit</button>
+						                <button type="submit" class="btn btn-primary">Save</button>
 						            </div>
 						        </div>
 						    </fieldset>
-						</form>
 					</div>
 				</div>
-		        <div class="tab-pane fade" id="MainC">Content inside tab C</div>
+		        <div class="tab-pane fade" id="MainC">
+		        	<fieldset>
+		        		<div class="jumbotron">
+		        			<legend> Feedback and Form Submission</legend>
+		        			<div class='info-div'>
+					        	<ol>
+					        		<li>The Enrollment Number will be generated after the form is successfully submitted.</li>
+					        		<li>All enabled fields are mandatory, unless stated otherwise.</li>
+					        		<li>Please complete and save all the fields before you click the submit button. Once you have submitted you will not be able to edit any field.</li>
+					        		<li>Applicants applying for ECE PhD Stream need to fill 4 Preference Options.</li>
+					        		<li>You can submit only on successful completion of all required forms fields.</li>
+					        		<li>The Optional Form regions enable only on toggle.</li>
+					        	<ol>
+					        </div>
+					        <hr/>
+		        			<div class="form-group">
+					            <label for="feedbackQ1" class="col-lg-2 control-label">How did you first hear about the IIIT-Delhi PhD program?</label>
+					            <div class="col-lg-10">
+					                <select class="form-control" name="feedbackQ1">
+					                	<option value="">Advertisement in the Dainik Jagran</option>
+										<option value="">Advertisement in the Hindu</option>
+										<option value="">Advertisement in the Hindustan Times</option>
+										<option value="">PhD flier</option>
+										<option value="">IIIT-Delhi Website</option>
+										<option value="">Other Website</option>
+										<option value="">Talk/Presentation</option>
+										<option value="">College/Teacher/Academic relation</option>
+										<option value="">Friend/Family/Personal relation</option>
+										<option value="">Other</option>
+					               	</select>
+					            </div>
+						    </div>
+							<div id="feedbackQ2" class="form-group">
+								<label for="category" class="col-lg-2 control-label">Why are you interested in the IIIT-Delhi PhD program?</label>
+					            <div class="col-lg-10">
+							        <div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">Faculty profile</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">Aligned research area/research projects</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">Collaborative PhD program</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">Sponsored PhD program</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">No GATE requirement</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">Attractive stipend and other benefits</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">Located in Delhi</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">May not get into IIT</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">I want to do PhD. IIIT-Delhi is one good option</label></div>
+									<div class="togglebutton"><label><input type="checkbox" class="feedbackQ2opt">Completely different reason. If none of the above applies, you may check this</label></div>
+								</div>
+							</div>
+							<hr/>
+					        <div class="form-group">
+					            <div class="col-lg-10 col-lg-offset-2">
+					                <button class="btn btn-default">Cancel</button>
+					                <button type="submit" class="btn btn-primary">Submit Form</button>
+					            </div>
+					        </div>
+						</div>
+		        	</fieldset>
+		        </div>
 		    </div>
+		</form>
 		</div>
 	</div>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
