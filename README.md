@@ -1,2 +1,1 @@
-# PhDAdmission
-PhD Admission Portal : AP Project
+# Phd Application Web Project
