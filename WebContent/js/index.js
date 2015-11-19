@@ -6,7 +6,7 @@ $(document).ready(main());
 
 function main()
 {
-	  $.material.init();
+	$.material.init();
       var vdate = new Date();
       vdate.setFullYear(vdate.getFullYear() - 15);
       $("#dobField").bootstrapMaterialDatePicker({ weekStart : 0, time: false ,maxDate: vdate});
@@ -51,5 +51,20 @@ function main()
       					$("[name='preferences3']").append("<option>"+element+"</option>");
       				});break;
       		}
+      });
+      $("#pgDIV").hide();
+      $("[name='pgApplicable']").click(function(){
+            if($(this).prop('checked')) $("#pgDIV").slideDown();
+            else $("#pgDIV").slideUp();
+      });
+      $("#oaDIV").hide();
+      $("[name='oaApplicable']").click(function(){
+            if($(this).prop('checked')) $("#oaDIV").slideDown();
+            else $("#oaDIV").slideUp();
+      });
+      $("#gateDIV").hide();
+      $("[name='gateApplicable']").click(function(){
+            if($(this).prop('checked')) $("#gateDIV").slideDown();
+            else $("#gateDIV").slideUp();
       });
 }
