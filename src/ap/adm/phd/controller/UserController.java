@@ -1,6 +1,8 @@
 package ap.adm.phd.controller;
 
 import java.io.IOException;
+import java.util.ArrayList;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,7 +21,9 @@ public class UserController extends HttpServlet {
 	}
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		doGet(request, response);
+//    	String res[] = new ArrayList()<String>();
+    	
+		System.out.println(request.getAttributeNames());
 	}
 
 }
