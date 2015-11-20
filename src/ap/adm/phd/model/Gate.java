@@ -2,13 +2,6 @@ package ap.adm.phd.model;
 
 import java.io.Serializable;
 
-import ap.adm.phd.utilities.SerializableDoubleProperty;
-import ap.adm.phd.utilities.SerializableIntegerProperty;
-import ap.adm.phd.utilities.SerializableStringProperty;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.StringProperty;
-
 /*
  * @author Rounaq Jhunjhunu Wala 2014089
  * @author Ambar Pal 2014012
@@ -16,49 +9,49 @@ import javafx.beans.property.StringProperty;
 
 public class Gate implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private StringProperty area;
-	private IntegerProperty year;
-	private DoubleProperty percentage;
-	private DoubleProperty score;
-	private IntegerProperty rank;
+	private String area;
+	private Integer year;
+	private Double percentage;
+	private Double score;
+	private Integer rank;
 	
 	public Gate()
 	{
-		area = new SerializableStringProperty();
-		year = new SerializableIntegerProperty();
-		percentage = new SerializableDoubleProperty();
-		score = new SerializableDoubleProperty();
-		rank = new SerializableIntegerProperty();
+		area = new String();
+		year = 0;
+		percentage = 0.0;
+		score = 0.0;
+		rank = 0;
 	}
 	
 	public String getArea() {
-		return area.get();
+		return area;
 	}
 	public void setArea(String area) {
-		this.area.set(area);
+		this.area = area;
 	}
 	public Integer getYear() {
-		return year.get();
+		return year;
 	}
 	public void setYear(Integer year) {
-		this.year.set(year);
+		this.year = year;
 	}
 	public Double getPercentage() {
-		return percentage.get();
+		return percentage;
 	}
 	public void setPercentage(Double percentage) {
-		this.percentage.set(percentage);
+		this.percentage = percentage;
 	}
 	public Double getScore() {
-		return score.get();
+		return score;
 	}
 	public void setScore(Double score) {
-		this.score.set(score);
+		this.score = score;
 	}
 	public Integer getRank() {
-		return rank.get();
+		return rank;
 	}
 	public void setRank(Integer rank) {
-		this.rank.set(rank);
+		this.rank = rank;
 	}
 }

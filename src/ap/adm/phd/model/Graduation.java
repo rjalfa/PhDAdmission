@@ -2,113 +2,104 @@ package ap.adm.phd.model;
 
 import java.io.Serializable;
 
-import ap.adm.phd.utilities.SerializableBooleanProperty;
-import ap.adm.phd.utilities.SerializableDoubleProperty;
-import ap.adm.phd.utilities.SerializableIntegerProperty;
-import ap.adm.phd.utilities.SerializableStringProperty;
-import javafx.beans.property.BooleanProperty;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.StringProperty;
-
 /*
  * @author Rounaq Jhunjhunu Wala 2014089
  * @author Ambar Pal 2014012
  */
 public class Graduation implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private StringProperty degreeName;
-	private StringProperty department;
-	private StringProperty collegeName;
-	private StringProperty universityName;
-	private StringProperty city;
-	private StringProperty state;
-	private IntegerProperty graduationYear;
-	private BooleanProperty cgpaSelected;
-	private BooleanProperty percentageSelected;
-	private DoubleProperty cgpa;
-	private DoubleProperty percentage;
+	private String degreeName;
+	private String department;
+	private String collegeName;
+	private String universityName;
+	private String city;
+	private String state;
+	private Integer graduationYear;
+	private Boolean cgpaSelected;
+	private Boolean percentageSelected;
+	private Double cgpa;
+	private Double percentage;
 	
 	public Graduation()
 	{
-		degreeName = new SerializableStringProperty();
-		department = new SerializableStringProperty();
-		collegeName = new SerializableStringProperty();
-		universityName = new SerializableStringProperty();
-		city = new SerializableStringProperty();
-		state = new SerializableStringProperty();
-		graduationYear = new SerializableIntegerProperty();
-		cgpaSelected = new SerializableBooleanProperty();
-		percentageSelected = new SerializableBooleanProperty();
-		cgpa = new SerializableDoubleProperty();
-		percentage = new SerializableDoubleProperty();
+		degreeName = new String();
+		department = new String();
+		collegeName = new String();
+		universityName = new String();
+		city = new String();
+		state = new String();
+		graduationYear = 0;
+		cgpaSelected = false;
+		percentageSelected = false;
+		cgpa = 0.0;
+		percentage = 0.0;
 	}
 	
 	public String getDegreeName() {
-		return degreeName.get();
+		return degreeName;
 	}
 	public void setDegreeName(String degree) {
-		this.degreeName.set(degree);
+		this.degreeName = degree;
 	}
 	public String getDepartment() {
-		return department.get();
+		return department;
 	}
 	public void setDepartment(String department) {
-		this.department.set(department);
+		this.department = department;
 	}
 	public String getCollegeName() {
-		return collegeName.get();
+		return collegeName;
 	}
 	public void setCollegeName(String collegeName) {
-		this.collegeName.set(collegeName);
+		this.collegeName = collegeName;
 	}
 	public String getUniversityName() {
-		return universityName.get();
+		return universityName;
 	}
 	public void setUniversityName(String universityName) {
-		this.universityName.set(universityName);
+		this.universityName = universityName;
 	}
 	public String getCity() {
-		return city.get();
+		return city;
 	}
 	public void setCity(String city) {
-		this.city.set(city);
+		this.city = city;
 	}
 	public String getState() {
-		return state.get();
+		return state;
 	}
 	public void setState(String state) {
-		this.state.set(state);
+		this.state = state;
 	}
 	public Integer getGraduationYear() {
-		return graduationYear.get();
+		return graduationYear;
 	}
 	public void setGraduationYear(Integer graduationYear) {
-		this.graduationYear.set(graduationYear);
+		this.graduationYear = graduationYear;
 	}
 	public Double getCgpa() {
-		return cgpa.get();
+		return cgpa;
 	}
 	public void setCgpaSelected(Boolean cgpaSelected){
-		this.cgpaSelected.set(cgpaSelected);
+		this.cgpaSelected = cgpaSelected;
 	}
 	public Boolean getPercentageSelected(){
-		return this.percentageSelected.get();
+		return this.percentageSelected;
 	}
 	public void setPercentageSelected(Boolean percentageSelected){
-		this.percentageSelected.set(percentageSelected);
+		this.percentageSelected = percentageSelected;
 	}
 	public Boolean getCgpaSelected(){
-		return this.cgpaSelected.get();
+		return this.cgpaSelected;
 	}
 	public void setCgpa(Double cgpa) {
-		this.cgpa.set(cgpa);
+		this.cgpa = cgpa;
 	}
 	public Double getPercentage() {
-		return percentage.get();
+		return percentage;
 	}
 	public void setPercentage(Double percentage) {
-		this.percentage.set(percentage);
+		this.percentage = percentage;
 	}
 }
 

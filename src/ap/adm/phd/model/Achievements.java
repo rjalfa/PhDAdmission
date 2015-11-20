@@ -2,9 +2,6 @@ package ap.adm.phd.model;
 
 import java.io.Serializable;
 
-import ap.adm.phd.utilities.SerializableStringProperty;
-import javafx.beans.property.StringProperty;
-
 /*
  * @author Rounaq Jhunjhunu Wala 2014089
  * @author Ambar Pal 2014012
@@ -12,33 +9,33 @@ import javafx.beans.property.StringProperty;
 
 public class Achievements implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private StringProperty description;
-	private StringProperty cv;
-	private StringProperty sop;
+	private String description;
+	private String cv;
+	private String sop;
 	
 	public Achievements()
 	{
-		description = new SerializableStringProperty();
-		cv = new SerializableStringProperty();
-		sop = new SerializableStringProperty();
+		description = new String();
+		cv = new String();
+		sop = new String();
 	}
 	
 	public String getCv() {
-		return cv.get();
+		return cv;
 	}
 	public void setCv(String cv) {
-		this.cv.set(cv);
+		this.cv = cv;
 	}
 	public String getSop() {
-		return sop.get();
+		return sop;
 	}
 	public void setSop(String sop) {
-		this.sop.set(sop);
+		this.sop = sop;
 	}
 	public String getDescription() {
-		return description.get();
+		return description;
 	}
 	public void setDescription(String description) {
-		this.description.set(description);
+		this.description = description;
 	}
 }

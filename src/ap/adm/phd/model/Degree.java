@@ -2,62 +2,55 @@ package ap.adm.phd.model;
 
 import java.io.Serializable;
 
-import ap.adm.phd.utilities.SerializableDoubleProperty;
-import ap.adm.phd.utilities.SerializableIntegerProperty;
-import ap.adm.phd.utilities.SerializableStringProperty;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.IntegerProperty;
-import javafx.beans.property.StringProperty;
-
 /*
  * @author Rounaq Jhunjhunu Wala 2014089
  * @author Ambar Pal 2014012
  */
 public class Degree implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private StringProperty degreeName;
-	private StringProperty subject;
-	private IntegerProperty year;
-	private StringProperty institution;
-	private DoubleProperty score;
+	private String degreeName;
+	private String subject;
+	private Integer year;
+	private String institution;
+	private Double score;
 	
 	public Degree()
 	{
-		degreeName = new SerializableStringProperty();
-		subject = new SerializableStringProperty();
-		year = new SerializableIntegerProperty();
-		institution = new SerializableStringProperty();
-		score = new SerializableDoubleProperty();
+		degreeName = new String();
+		subject = new String();
+		year = 0;
+		institution = new String();
+		score = 0.0;
 	}
 	
 	public String getDegreeName() {
-		return degreeName.get();
+		return degreeName;
 	}
 	public void setDegreeName(String degreeName) {
-		this.degreeName.set(degreeName);
+		this.degreeName = degreeName;
 	}
 	public String getSubject() {
-		return subject.get();
+		return subject;
 	}
 	public void setSubject(String subject) {
-		this.subject.set(subject);
+		this.subject = subject;
 	}
 	public Integer getYear() {
-		return year.get();
+		return year;
 	}
 	public void setYear(Integer year) {
-		this.year.set(year);
+		this.year = year;
 	}
 	public String getInstitution() {
-		return institution.get();
+		return institution;
 	}
 	public void setInstitution(String institution) {
-		this.institution.set(institution);
+		this.institution = institution;
 	}
 	public Double getScore() {
-		return score.get();
+		return score;
 	}
 	public void setScore(Double score) {
-		this.score.set(score);
+		this.score = score;
 	}
 }
