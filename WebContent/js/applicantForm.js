@@ -29,22 +29,22 @@ function main()
       		$("[name='preferences3']").empty();
       		switch($(this).val())
       		{
-      			case "CSE":
-      				$("#preferences4div").hide();
+      			case "Computer Science":
+      				$("#preferences4div").slideUp();
       				CSEChoice.forEach(function(element,index,array){
       					$("[name='preferences1']").append("<option>"+element+"</option>");
       					$("[name='preferences2']").append("<option>"+element+"</option>");
       					$("[name='preferences3']").append("<option>"+element+"</option>");
       				});break;
-      			case "ECE":
-      				$("#preferences4div").show();
+      			case "Electronics and Communication":
+      				$("#preferences4div").slideDown();
       				ECEChoice.forEach(function(element,index,array){
       					$("[name='preferences1']").append("<option>"+element+"</option>");
       					$("[name='preferences2']").append("<option>"+element+"</option>");
       					$("[name='preferences3']").append("<option>"+element+"</option>");
       				});break;
-      			case "CB":
-      				$("#preferences4div").hide();
+      			case "Computational Biology":
+      				$("#preferences4div").slideUp();
       				CBChoice.forEach(function(element,index,array){
       					$("[name='preferences1']").append("<option>"+element+"</option>");
       					$("[name='preferences2']").append("<option>"+element+"</option>");

@@ -1,47 +1,53 @@
 package ap.adm.phd;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 
 import ap.adm.phd.model.Applicant;
+import ap.adm.phd.utilities.GlobalVars;
 
 public class Database {
 	public static void fillUser(Applicant applicant,HashMap<String,String> params)
 	{
 //		mainApp.createText(applicant);
-		/*applicant.getPersonalInformation().setApplicantName(name.getText());
-		applicant.getPersonalInformation().setEmail(email.getText());
-		applicant.getPersonalInformation().setEnrollmentNo(enrollmentNumber.getText());
-		applicant.getPersonalInformation().setCorrespondenceAddress(corrAddress.getText());
-		applicant.getPersonalInformation().setMobileNo(mobNumber.getText());
-		applicant.getPersonalInformation().setDateOfBirth(dobField.getValue());
-		applicant.getPersonalInformation().setStream(((RadioButton)(phdStreamSelector.getSelectedToggle())).getText());
-		applicant.getPersonalInformation().setPreferences(preferences1.getValue(),preferences2.getValue(),preferences3.getValue(),preferences4.getValue());
-		applicant.getPersonalInformation().setGender(gender.getValue());
-		applicant.getPersonalInformation().setCategory(category.getValue());
-		applicant.getPersonalInformation().setDisabled(((RadioButton)(phyDisabled.getSelectedToggle())).getText().equals("Yes"));
-		applicant.getPersonalInformation().setDefence(((RadioButton)(defence.getSelectedToggle())).getText().equals("Yes"));	
-		applicant.getPersonalInformation().setFatherName(fatherName.getText());
-		applicant.getPersonalInformation().setNationality(nationality.getValue());
-		applicant.getPersonalInformation().setPermanentAddress(permAddress.getText());
-		applicant.getPersonalInformation().setPincode(pincode.getText());
+		applicant.getPersonalInformation().setApplicantName(params.get("name"));
+		applicant.getPersonalInformation().setEmail(params.get("email"));
+		applicant.getPersonalInformation().setEnrollmentNo(params.get("enrollmentNumber"));
+		applicant.getPersonalInformation().setCorrespondenceAddress(params.get("corrAddress"));
+		applicant.getPersonalInformation().setMobileNo(params.get("mobNumber"));
+		applicant.getPersonalInformation().setDateOfBirth(LocalDate.parse(params.get("dobField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+		applicant.getPersonalInformation().setStream(params.get("phdStreamSelector"));
+		if(params.get("phdStreamSelector").equals("Electronics and Communication")) applicant.getPersonalInformation().setPreferences(params.get("preferences1"),params.get("preferences2"),params.get("preferences3"),params.get("preferences4"));
+		else applicant.getPersonalInformation().setPreferences(params.get("preferences1"),params.get("preferences2"),params.get("preferences3"));
+		applicant.getPersonalInformation().setGender(params.get("gender"));
+		applicant.getPersonalInformation().setCategory(GlobalVars.casteList[Integer.parseInt(params.get("category"))-1]);
+		if(params.get("phyDisabled") != null) applicant.getPersonalInformation().setDisabled(true);
+		else applicant.getPersonalInformation().setDisabled(false);
+		if(params.get("defence") != null) applicant.getPersonalInformation().setDefence(true);
+		else applicant.getPersonalInformation().setDefence(false);
+		applicant.getPersonalInformation().setFatherName(params.get("fatherName"));
+		applicant.getPersonalInformation().setNationality(params.get("nationality"));
+		applicant.getPersonalInformation().setPermanentAddress(params.get("permAddress"));
+		applicant.getPersonalInformation().setPincode(params.get("pincode"));
 
 		//Schooling Information
-		applicant.getEducationInformation().getSchooling().setTenthBoardName(xBoard.getText());
-		applicant.getEducationInformation().getSchooling().setTenthBoardResults(Double.parseDouble(xMarks.getText()));
-		applicant.getEducationInformation().getSchooling().setTenthYear(Integer.parseInt(xYear.getText()));
-		applicant.getEducationInformation().getSchooling().setTwelfthBoardName(xiiBoard.getText());
-		applicant.getEducationInformation().getSchooling().setTwelfthBoardResults(Double.parseDouble(xiiMarks.getText()));
-		applicant.getEducationInformation().getSchooling().setTwelfthYear(Integer.parseInt(xiiYear.getText()));
+		applicant.getEducationInformation().getSchooling().setTenthBoardName(params.get("xBoard"));
+		applicant.getEducationInformation().getSchooling().setTenthBoardResults(Double.parseDouble(params.get("xMarks")));
+		applicant.getEducationInformation().getSchooling().setTenthYear(Integer.parseInt(params.get("xYear")));
+		applicant.getEducationInformation().getSchooling().setTwelfthBoardName(params.get("xiiBoard"));
+		applicant.getEducationInformation().getSchooling().setTwelfthBoardResults(Double.parseDouble(params.get("xiiMarks")));
+		applicant.getEducationInformation().getSchooling().setTwelfthYear(Integer.parseInt(params.get("xiiYear")));
 
 		//Graduation Information
-		applicant.getEducationInformation().getGraduation().setDegreeName(gradDegree.getText());
-		applicant.getEducationInformation().getGraduation().setDepartment(gradDept.getText());
-		applicant.getEducationInformation().getGraduation().setCollegeName(gradCollege.getText());
-		applicant.getEducationInformation().getGraduation().setUniversityName(gradUniv.getText());
-		applicant.getEducationInformation().getGraduation().setCity(gradCity.getText());
-		applicant.getEducationInformation().getGraduation().setState(gradState.getValue());
-		applicant.getEducationInformation().getGraduation().setGraduationYear(Integer.parseInt(gradYear.getText()));
-		if(gradCgpaRB.isSelected()) 
+		applicant.getEducationInformation().getGraduation().setDegreeName(params.get("gradDegree"));
+		applicant.getEducationInformation().getGraduation().setDepartment(params.get("gradDept"));
+		applicant.getEducationInformation().getGraduation().setCollegeName(params.get("gradCollege"));
+		applicant.getEducationInformation().getGraduation().setUniversityName(params.get("gradUniv"));
+		applicant.getEducationInformation().getGraduation().setCity(params.get("gradCity"));
+		applicant.getEducationInformation().getGraduation().setState(params.get("gradState"));
+		applicant.getEducationInformation().getGraduation().setGraduationYear(Integer.parseInt(params.get("gradYear")));
+		/*if(params.get("gradCgpaRB")!=null) 
 		{
 			applicant.getEducationInformation().getGraduation().setCgpa(Double.parseDouble(gradPerformanceCGPA.getText()));
 			applicant.getEducationInformation().getGraduation().setCgpaSelected(true);
@@ -51,21 +57,21 @@ public class Database {
 		{
 			applicant.getEducationInformation().getGraduation().setPercentage(Double.parseDouble(gradPerformancePercentage.getText()));
 			applicant.getEducationInformation().getGraduation().setPercentageSelected(true);
-		}
-		else applicant.getEducationInformation().getGraduation().setPercentageSelected(false);
+		}*/
+		//else applicant.getEducationInformation().getGraduation().setPercentageSelected(false);
 
 		//Post Graduation Information
-		if(pgApplicable.isSelected())
+		if(params.get("pgApplicable")!=null)
 		{
-			applicant.getEducationInformation().getPostGraduation().setDegreeName(pgDegree.getText());
-			applicant.getEducationInformation().getPostGraduation().setThesisTitle(pgThesis.getText());
-			applicant.getEducationInformation().getPostGraduation().setDepartment(pgDept.getText());
-			applicant.getEducationInformation().getPostGraduation().setCollege(pgCollege.getText());
-			applicant.getEducationInformation().getPostGraduation().setUniversity(pgUniv.getText());
-			applicant.getEducationInformation().getPostGraduation().setCity(pgCity.getText());
-			applicant.getEducationInformation().getPostGraduation().setState(pgState.getValue());
-			applicant.getEducationInformation().getPostGraduation().setYear(Integer.parseInt(pgYear.getText()));
-			if(pgCgpaRB.isSelected()) 
+			applicant.getEducationInformation().getPostGraduation().setDegreeName(params.get("pgDegree"));
+			applicant.getEducationInformation().getPostGraduation().setThesisTitle(params.get("pgThesis"));
+			applicant.getEducationInformation().getPostGraduation().setDepartment(params.get("pgDept"));
+			applicant.getEducationInformation().getPostGraduation().setCollege(params.get("pgCollege"));
+			applicant.getEducationInformation().getPostGraduation().setUniversity(params.get("pgUniv"));
+			applicant.getEducationInformation().getPostGraduation().setCity(params.get("pgCity"));
+			applicant.getEducationInformation().getPostGraduation().setState(params.get("pgState"));
+			applicant.getEducationInformation().getPostGraduation().setYear(Integer.parseInt(params.get("pgYear")));
+			/*if(pgCgpaRB.isSelected()) 
 			{
 				applicant.getEducationInformation().getPostGraduation().setCgpa(Double.parseDouble(pgPerformanceCGPA.getText()));
 				applicant.getEducationInformation().getPostGraduation().setCgpaSelected(true);
@@ -77,39 +83,39 @@ public class Database {
 				applicant.getEducationInformation().getPostGraduation().setPercentageSelected(true);
 			}
 			else applicant.getEducationInformation().getPostGraduation().setPercentageSelected(false);
-		}
+		*/}
 		else applicant.getEducationInformation().setPostGraduation(null);
 
 		//Other Academic Degrees
-		if(oAApplicable.isSelected())
+		if(params.get("oAApplicable")!=null)
 		{
-			applicant.getEducationInformation().getOtherAcademic().getDegree().setDegreeName(oADegree.getText());
-			applicant.getEducationInformation().getOtherAcademic().getDegree().setSubject(oASubject.getText());
-			applicant.getEducationInformation().getOtherAcademic().getDegree().setInstitution(oACollege.getText());
-			applicant.getEducationInformation().getOtherAcademic().getDegree().setYear(Integer.parseInt(oAYear.getText()));
-			applicant.getEducationInformation().getOtherAcademic().getDegree().setScore(Double.parseDouble(oAPerformance.getText()));
+			applicant.getEducationInformation().getOtherAcademic().getDegree().setDegreeName(params.get("oADegree"));
+			applicant.getEducationInformation().getOtherAcademic().getDegree().setSubject(params.get("oASubject"));
+			applicant.getEducationInformation().getOtherAcademic().getDegree().setInstitution(params.get("oACollege"));
+			applicant.getEducationInformation().getOtherAcademic().getDegree().setYear(Integer.parseInt(params.get("oAYear")));
+			applicant.getEducationInformation().getOtherAcademic().getDegree().setScore(Double.parseDouble(params.get("oAPerformance")));
 		}
 		else applicant.getEducationInformation().getOtherAcademic().setDegree(null);
 
 		//GATE
-		if(gateApplicable.isSelected())
+		if(params.get("gateApplicable")!=null)
 		{
-			applicant.getEducationInformation().getOtherAcademic().getGate().setArea(gateArea.getText());
-			applicant.getEducationInformation().getOtherAcademic().getGate().setYear(Integer.parseInt(gateYear.getText()));
-			applicant.getEducationInformation().getOtherAcademic().getGate().setPercentage(Double.parseDouble(gatePercentage.getText()));
-			applicant.getEducationInformation().getOtherAcademic().getGate().setScore(Double.parseDouble(gateScore.getText()));
-			applicant.getEducationInformation().getOtherAcademic().getGate().setRank(Integer.parseInt(gateRank.getText()));
+			applicant.getEducationInformation().getOtherAcademic().getGate().setArea(params.get("gateArea"));
+			applicant.getEducationInformation().getOtherAcademic().getGate().setYear(Integer.parseInt(params.get("gateYear")));
+			applicant.getEducationInformation().getOtherAcademic().getGate().setPercentage(Double.parseDouble(params.get("gatePercentage")));
+			applicant.getEducationInformation().getOtherAcademic().getGate().setScore(Double.parseDouble(params.get("gateScore")));
+			applicant.getEducationInformation().getOtherAcademic().getGate().setRank(Integer.parseInt(params.get("gateRank")));
 		}
 		else applicant.getEducationInformation().getOtherAcademic().setGate(null);
 
 		//Uploading Documents
-		applicant.getEducationInformation().getAchievements().setDescription(otherAchieve.getText());
-		applicant.getEducationInformation().getAchievements().setCv(cvUploadPath);
-		applicant.getEducationInformation().getAchievements().setSop(sopUploadPath);
+		applicant.getEducationInformation().getAchievements().setDescription(params.get("otherAchieve"));
+		//applicant.getEducationInformation().getAchievements().setCv(cvUploadPath);
+		//applicant.getEducationInformation().getAchievements().setSop(sopUploadPath);
 
 
 		//Feedback
-		applicant.getFeedback().setFirstHear(feedbackQ1.getValue());
+/*		applicant.getFeedback().setFirstHear(params.get("feedbackQ1"));
 		ArrayList<String> q2messages = new ArrayList<>();
 		if(feedbackQ2op1.isSelected()) q2messages.add(feedbackQ2op1.getText());
 		if(feedbackQ2op2.isSelected()) q2messages.add(feedbackQ2op2.getText());
@@ -122,15 +128,14 @@ public class Database {
 		if(feedbackQ2op9.isSelected()) q2messages.add(feedbackQ2op9.getText());
 		if(feedbackQ2op10.isSelected()) q2messages.add(feedbackQ2op10.getText());
 		applicant.getFeedback().setReasonOfInterest(q2messages.toArray(new String[q2messages.size()]));
-
-		//Set Today's Date to Record
-		applicant.setApplicationSubmit(LocalDate.now());
-		File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
-		if (!outDir.exists()) outDir.mkdirs();
-		Files.copy(new File(applicant.getEducationInformation().getAchievements().getCv()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf").toPath());
-		Files.copy(new File(applicant.getEducationInformation().getAchievements().getSop()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf").toPath());				
-		applicant.getEducationInformation().getAchievements().setCv("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf");
-		applicant.getEducationInformation().getAchievements().setSop("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf");	
 */
+		//Set Today's Date to Record
+		//applicant.setApplicationSubmit(LocalDate.now());
+		//File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
+		//if (!outDir.exists()) outDir.mkdirs();
+		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getCv()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf").toPath());
+		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getSop()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf").toPath());				
+		applicant.getEducationInformation().getAchievements().setCv("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf");
+		applicant.getEducationInformation().getAchievements().setSop("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf");
 	}
 }
