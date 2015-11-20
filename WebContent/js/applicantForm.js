@@ -67,4 +67,12 @@ function main()
             if($(this).prop('checked')) $("#gateDIV").slideDown();
             else $("#gateDIV").slideUp();
       });
+      $("[name='gradPerformanceCGPA']").click(function(){
+            if($(this).prop('checked')) $("[for='gradPerformance']").text("Performance (in CGPA)");
+            else $("[for='gradPerformance']").text("Performance (in %age)");
+      });
+      $("[name='pgPerformanceCGPA']").click(function(){
+            if($(this).prop('checked')) $("[for='pgPerformance']").text("Performance (in CGPA)");
+            else $("[for='pgPerformance']").text("Performance (in %age)");
+      });
 }

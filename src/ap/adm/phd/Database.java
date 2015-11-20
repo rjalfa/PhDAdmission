@@ -8,12 +8,14 @@ import ap.adm.phd.model.Applicant;
 import ap.adm.phd.utilities.GlobalVars;
 
 public class Database {
+	
+	//private static EnrollmentNoGenerator eig = new EnrollmentNoGenerator();
+	
 	public static void fillUser(Applicant applicant,HashMap<String,String> params)
 	{
-//		mainApp.createText(applicant);
 		applicant.getPersonalInformation().setApplicantName(params.get("name"));
 		applicant.getPersonalInformation().setEmail(params.get("email"));
-		applicant.getPersonalInformation().setEnrollmentNo(params.get("enrollmentNumber"));
+		applicant.getPersonalInformation().setEnrollmentNo(eidGenerator());
 		applicant.getPersonalInformation().setCorrespondenceAddress(params.get("corrAddress"));
 		applicant.getPersonalInformation().setMobileNo(params.get("mobNumber"));
 		applicant.getPersonalInformation().setDateOfBirth(LocalDate.parse(params.get("dobField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")));
@@ -47,18 +49,18 @@ public class Database {
 		applicant.getEducationInformation().getGraduation().setCity(params.get("gradCity"));
 		applicant.getEducationInformation().getGraduation().setState(params.get("gradState"));
 		applicant.getEducationInformation().getGraduation().setGraduationYear(Integer.parseInt(params.get("gradYear")));
-		/*if(params.get("gradCgpaRB")!=null) 
+		if(params.get("gradPerformanceCGPA")!=null) 
 		{
-			applicant.getEducationInformation().getGraduation().setCgpa(Double.parseDouble(gradPerformanceCGPA.getText()));
+			applicant.getEducationInformation().getGraduation().setCgpa(Double.parseDouble(params.get("gradPerformance")));
 			applicant.getEducationInformation().getGraduation().setCgpaSelected(true);
+			applicant.getEducationInformation().getGraduation().setPercentageSelected(false);
 		}
-		else applicant.getEducationInformation().getGraduation().setCgpaSelected(false);
-		if(gradPercentageRB.isSelected()) 
+		else
 		{
-			applicant.getEducationInformation().getGraduation().setPercentage(Double.parseDouble(gradPerformancePercentage.getText()));
+			applicant.getEducationInformation().getGraduation().setPercentage(Double.parseDouble(params.get("gradPerformance")));
 			applicant.getEducationInformation().getGraduation().setPercentageSelected(true);
-		}*/
-		//else applicant.getEducationInformation().getGraduation().setPercentageSelected(false);
+			applicant.getEducationInformation().getGraduation().setCgpaSelected(false);
+		} 
 
 		//Post Graduation Information
 		if(params.get("pgApplicable")!=null)
@@ -71,19 +73,19 @@ public class Database {
 			applicant.getEducationInformation().getPostGraduation().setCity(params.get("pgCity"));
 			applicant.getEducationInformation().getPostGraduation().setState(params.get("pgState"));
 			applicant.getEducationInformation().getPostGraduation().setYear(Integer.parseInt(params.get("pgYear")));
-			/*if(pgCgpaRB.isSelected()) 
+			if(params.get("pgPerformanceCGPA")!=null) 
 			{
-				applicant.getEducationInformation().getPostGraduation().setCgpa(Double.parseDouble(pgPerformanceCGPA.getText()));
+				applicant.getEducationInformation().getPostGraduation().setCgpa(Double.parseDouble(params.get("pgPerformance")));
 				applicant.getEducationInformation().getPostGraduation().setCgpaSelected(true);
+				applicant.getEducationInformation().getPostGraduation().setPercentageSelected(false);
 			}
-			else applicant.getEducationInformation().getPostGraduation().setCgpaSelected(false);
-			if(pgPercentageRB.isSelected()) 
+			else  
 			{
-				applicant.getEducationInformation().getPostGraduation().setPercentage(Double.parseDouble(pgPerformancePercentage.getText()));
+				applicant.getEducationInformation().getPostGraduation().setPercentage(Double.parseDouble(params.get("pgPerformance")));
 				applicant.getEducationInformation().getPostGraduation().setPercentageSelected(true);
+				applicant.getEducationInformation().getPostGraduation().setCgpaSelected(false);
 			}
-			else applicant.getEducationInformation().getPostGraduation().setPercentageSelected(false);
-		*/}
+		}
 		else applicant.getEducationInformation().setPostGraduation(null);
 
 		//Other Academic Degrees
@@ -130,12 +132,18 @@ public class Database {
 		applicant.getFeedback().setReasonOfInterest(q2messages.toArray(new String[q2messages.size()]));
 */
 		//Set Today's Date to Record
-		//applicant.setApplicationSubmit(LocalDate.now());
+		applicant.setApplicationSubmit(LocalDate.now());
 		//File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
 		//if (!outDir.exists()) outDir.mkdirs();
 		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getCv()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf").toPath());
 		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getSop()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf").toPath());				
 		applicant.getEducationInformation().getAchievements().setCv("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf");
 		applicant.getEducationInformation().getAchievements().setSop("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf");
+	}
+	
+	private static String eidGenerator()
+	{
+		return "PHD" + System.currentTimeMillis();
+		//return eig.next(); 
 	}
 }
