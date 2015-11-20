@@ -2,68 +2,61 @@ package ap.adm.phd.model;
 
 import java.io.Serializable;
 
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.IntegerProperty;
-import ap.adm.phd.utilities.SerializableDoubleProperty;
-import ap.adm.phd.utilities.SerializableIntegerProperty;
-import ap.adm.phd.utilities.SerializableStringProperty;
-import javafx.beans.property.StringProperty;
-
 /*
  * @author Rounaq Jhunjhunu Wala 2014089
  * @author Ambar Pal 2014012
  */
 public class Schooling implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private final StringProperty tenthBoardName;
-	private final DoubleProperty tenthBoardResults;
-	private final IntegerProperty tenthYear;
-	private final StringProperty twelfthBoardName;
-	private final DoubleProperty twelfthBoardResults;
-	private final IntegerProperty twelfthYear;
+	private String tenthBoardName;
+	private Double tenthBoardResults;
+	private Integer tenthYear;
+	private String twelfthBoardName;
+	private Double twelfthBoardResults;
+	private Integer twelfthYear;
 	
 	public Schooling() {
-		tenthBoardName = new SerializableStringProperty();
-		tenthBoardResults = new SerializableDoubleProperty();
-		tenthYear = new SerializableIntegerProperty();
-		twelfthBoardName = new SerializableStringProperty();
-		twelfthBoardResults = new SerializableDoubleProperty();
-		twelfthYear = new SerializableIntegerProperty();		
+		tenthBoardName = new String();
+		tenthBoardResults = 0.0;
+		tenthYear = 0;
+		twelfthBoardName = new String();
+		twelfthBoardResults = 0.0;
+		twelfthYear = 0;		
 	}
 	public String getTenthBoardName(){
-		return tenthBoardName.get();
+		return tenthBoardName;
 	}
 	public void setTenthBoardName(String tenthBoardName) {
-		this.tenthBoardName.set(tenthBoardName);
+		this.tenthBoardName = tenthBoardName;
 	}
 	public Double getTenthBoardResults() {
-		return tenthBoardResults.get();
+		return tenthBoardResults;
 	}
 	public void setTenthBoardResults(Double tenthBoardResults) {
-		this.tenthBoardResults.set(tenthBoardResults);
+		this.tenthBoardResults = tenthBoardResults;
 	}
 	public Integer getTenthYear() {
-		return tenthYear.get();
+		return tenthYear;
 	}
 	public void setTenthYear(Integer tenthYear) {
-		this.tenthYear.set(tenthYear);
+		this.tenthYear = tenthYear;
 	}
 	public String getTwelfthBoardName() {
-		return twelfthBoardName.get();
+		return twelfthBoardName;
 	}
 	public void setTwelfthBoardName(String twelfthBoardName) {
-		this.twelfthBoardName.set(twelfthBoardName);
+		this.twelfthBoardName = twelfthBoardName;
 	}
 	public Double getTwelfthBoardResults() {
-		return twelfthBoardResults.get();
+		return twelfthBoardResults;
 	}
 	public void setTwelfthBoardResults(Double twelfthBoardResults) {
-		this.twelfthBoardResults.set(twelfthBoardResults);
+		this.twelfthBoardResults = twelfthBoardResults;
 	}
 	public Integer getTwelfthYear() {
-		return twelfthYear.get();
+		return twelfthYear;
 	}
 	public void setTwelfthYear(Integer twelfthYear) {
-		this.twelfthYear.set(twelfthYear);
+		this.twelfthYear = twelfthYear;
 	}
 }

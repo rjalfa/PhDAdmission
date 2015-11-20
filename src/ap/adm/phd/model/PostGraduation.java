@@ -2,130 +2,121 @@ package ap.adm.phd.model;
 
 import java.io.Serializable;
 
-import javafx.beans.property.BooleanProperty;
-import javafx.beans.property.DoubleProperty;
-import javafx.beans.property.IntegerProperty;
-import ap.adm.phd.utilities.SerializableDoubleProperty;
-import ap.adm.phd.utilities.SerializableIntegerProperty;
-import ap.adm.phd.utilities.SerializableStringProperty;
-import ap.adm.phd.utilities.SerializableBooleanProperty;
-import javafx.beans.property.StringProperty;
-
 /*
  * @author Rounaq Jhunjhunu Wala 2014089
  * @author Ambar Pal 2014012
  */
 public class PostGraduation implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private BooleanProperty completedPostGraduation;
-	private StringProperty degreeName;
-	private StringProperty thesisTitle;
-	private StringProperty department;
-	private StringProperty college;
-	private StringProperty university;
-	private StringProperty city;
-	private StringProperty state;
-	private IntegerProperty year;
-	private BooleanProperty cgpaSelected;
-	private BooleanProperty percentageSelected;
-	private DoubleProperty cgpa;
-	private DoubleProperty percentage;
+	private Boolean completedPostGraduation;
+	private String degreeName;
+	private String thesisTitle;
+	private String department;
+	private String college;
+	private String university;
+	private String city;
+	private String state;
+	private Integer year;
+	private Boolean cgpaSelected;
+	private Boolean percentageSelected;
+	private Double cgpa;
+	private Double percentage;
 	
 	public PostGraduation()
 	{
-		completedPostGraduation = new SerializableBooleanProperty();
-		degreeName = new SerializableStringProperty();
-		thesisTitle = new SerializableStringProperty();
-		department = new SerializableStringProperty();
-		college = new SerializableStringProperty();
-		university = new SerializableStringProperty();
-		city = new SerializableStringProperty();
-		state = new SerializableStringProperty();
-		year = new SerializableIntegerProperty();
-		cgpaSelected = new SerializableBooleanProperty();
-		percentageSelected = new SerializableBooleanProperty();
-		cgpa = new SerializableDoubleProperty();
-		percentage = new SerializableDoubleProperty();
+		completedPostGraduation = false;
+		degreeName = new String();
+		thesisTitle = new String();
+		department = new String();
+		college = new String();
+		university = new String();
+		city = new String();
+		state = new String();
+		year = 0;
+		cgpaSelected = false;
+		percentageSelected = false;
+		cgpa = 0.0;
+		percentage = 0.0;
 	}
 	
 	// TODO: create constructor
 	public Boolean getCompletedPostGraduation() {
-		return completedPostGraduation.get();
+		return completedPostGraduation;
 	}
 	public void setCompletedPostGraduation(Boolean completedPostGraduation) {
-		this.completedPostGraduation.set(completedPostGraduation);
+		this.completedPostGraduation = completedPostGraduation;
 	}
 	public String getDegreeName() {
-		return degreeName.get();
+		return degreeName;
 	}
 	public void setDegreeName(String degree) {
-		this.degreeName.set(degree);
+		this.degreeName = degree;
 	}
 	public String getThesisTitle() {
-		return thesisTitle.get();
+		return thesisTitle;
 	}
 	public void setThesisTitle(String thesisTitle) {
-		this.thesisTitle.set(thesisTitle);
+		this.thesisTitle = thesisTitle;
 	}
 	public String getDepartment() {
-		return department.get();
+		return department;
 	}
 	public void setDepartment(String department) {
-		this.department.set(department);
+		this.department = department;
 	}
 	public String getCollege() {
-		return college.get();
+		return college;
 	}
 	public void setCollege(String college) {
-		this.college.set(college);
+		this.college = college;
 	}
 	public String getUniversity() {
-		return university.get();
+		return university;
 	}
 	public void setUniversity(String university) {
-		this.university.set(university);
+		this.university = university;
 	}
 	public String getCity() {
-		return city.get();
+		return city;
 	}
 	public void setCity(String city) {
-		this.city.set(city);
+		this.city = city;
 	}
 	public String getState() {
-		return state.get();
+		return state;
 	}
 	public void setState(String state) {
-		this.state.set(state);
+		this.state = state;
 	}
 	public Integer getYear() {
-		return year.get();
+		return year;
 	}
 	public void setYear(int year) {
-		this.year.set(year);
+		this.year = year;
 	}
 	public Boolean getCgpaSelected() {
-		return cgpaSelected.get();
+		return cgpaSelected;
 	}
 	public void setCgpaSelected(Boolean cgpaSelected) {
-		this.cgpaSelected.set(cgpaSelected);
+		this.cgpaSelected = cgpaSelected;
 	}
 	public Boolean getPercentageSelected() {
-		return percentageSelected.get();
+		return percentageSelected;
 	}
 	public void setPercentageSelected(Boolean percentageSelected) {
-		this.percentageSelected.set(percentageSelected);
+		this.percentageSelected = percentageSelected;
 	}
 	public Double getCgpa() {
-		return cgpa.get();
+		return cgpa;
 	}
 	public void setCgpa(Double cgpa) {
-		this.cgpa.set(cgpa);
+		this.cgpa = cgpa;
 	}
 	public Double getPercentage() {
-		return percentage.get();
+		return percentage;
 	}
 	public void setPercentage(Double percentage) {
-		this.percentage.set(percentage);
+		this.percentage = percentage;
 	}
 }
 

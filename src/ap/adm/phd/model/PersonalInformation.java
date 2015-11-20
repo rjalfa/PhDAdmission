@@ -3,106 +3,104 @@ package ap.adm.phd.model;
 import java.io.Serializable;
 import java.time.LocalDate;
 
-import ap.adm.phd.utilities.SerializableBooleanProperty;
-import ap.adm.phd.utilities.SerializableObjectProperty;
-import ap.adm.phd.utilities.SerializableStringProperty;
-import javafx.beans.property.BooleanProperty;
-import javafx.beans.property.ObjectProperty;
-import javafx.beans.property.StringProperty;
-
 /*
  * @author Rounaq Jhunjhunu Wala 2014089
  * @author Ambar Pal 2014012
  */
 public class PersonalInformation implements Serializable{
 	private static final long serialVersionUID = 1L;
-	private final StringProperty applicantName;
-	private final StringProperty email;
-	private final StringProperty enrollmentNo;
-	private final StringProperty correspondenceAddress;
-	private final StringProperty mobileNo;
-	private final StringProperty fatherName;
-	private final StringProperty permanentAddress;
-	private final StringProperty pinCode;
-	private final StringProperty nationality;
-	private final StringProperty stream;
-	private final ObjectProperty<String[]> preferences;
-	private final StringProperty gender;
-	private final StringProperty category;
-	private final ObjectProperty<LocalDate> dateOfBirth;
-	private final BooleanProperty disabled;
-	public final BooleanProperty defence;
+	private String applicantName;
+	private String email;
+	private String enrollmentNo;
+	private String correspondenceAddress;
+	private String mobileNo;
+	private String fatherName;
+	private String permanentAddress;
+	private String pinCode;
+	private String nationality;
+	private String stream;
+	private String[] preferences;
+	private String gender;
+	private String category;
+	private LocalDate dateOfBirth;
+	private Boolean disabled;
+	private Boolean defence;
 	
 	public PersonalInformation() {
-		this.applicantName = new SerializableStringProperty();
-		this.email = new SerializableStringProperty();
-		this.enrollmentNo = new SerializableStringProperty();
-		this.correspondenceAddress = new SerializableStringProperty();
-		this.mobileNo = new SerializableStringProperty();
-		this.stream = new SerializableStringProperty();
-		this.preferences = new SerializableObjectProperty<String[]>();
-		this.gender = new SerializableStringProperty();
-		this.category = new SerializableStringProperty();
-		this.disabled = new SerializableBooleanProperty();
-		this.dateOfBirth = new SerializableObjectProperty<LocalDate>();
-		this.defence = new SerializableBooleanProperty();
-		this.fatherName = new SerializableStringProperty();
-		this.nationality = new SerializableStringProperty();
-		this.permanentAddress = new SerializableStringProperty();
-		this.pinCode = new SerializableStringProperty();
+		this.applicantName = new String();
+		this.email = new String();
+		this.enrollmentNo = new String();
+		this.correspondenceAddress = new String();
+		this.mobileNo = new String();
+		this.stream = new String();
+		this.preferences = null;
+		this.gender = new String();
+		this.category = new String();
+		this.disabled = false;
+		this.dateOfBirth = LocalDate.now();
+		this.defence = false;
+		this.fatherName = new String();
+		this.nationality = new String();
+		this.permanentAddress = new String();
+		this.pinCode = new String();
 	}
 	
-	public String getApplicantName() {return this.applicantName.get();}
-	public void setApplicantName(String a) {this.applicantName.set(a);}
+	public String getApplicantName() {return this.applicantName;}
+	public void setApplicantName(String a) {this.applicantName = a;}
 	
-	public String getEmail() {return this.email.get();}
-	public void setEmail(String a) {this.email.set(a);}
+	public String getEmail() {return this.email;}
+	public void setEmail(String a) {this.email = a;}
 	
-	public String getEnrollmentNo() {return this.enrollmentNo.get();}
-	public void setEnrollmentNo(String a) {this.enrollmentNo.set(a);}
+	public String getEnrollmentNo() {return this.enrollmentNo;}
+	public void setEnrollmentNo(String a) {this.enrollmentNo = a;}
 	
-	public String getCorrespondenceAddress() {return this.correspondenceAddress.get();}
-	public void setCorrespondenceAddress(String a) {this.correspondenceAddress.set(a);}
+	public String getCorrespondenceAddress() {return this.correspondenceAddress;}
+	public void setCorrespondenceAddress(String a) {this.correspondenceAddress = a;}
 	
-	public String getMobileNo() {return this.mobileNo.get();}
-	public void setMobileNo(String a) {this.mobileNo.set(a);}
+	public String getMobileNo() {return this.mobileNo;}
+	public void setMobileNo(String a) {this.mobileNo = a;}
 	
-	public String getFatherName() {return this.fatherName.get();}
-	public void setFatherName(String a) {this.fatherName.set(a);}
+	public String getFatherName() {return this.fatherName;}
+	public void setFatherName(String a) {this.fatherName = a;}
 	
-	public String getPermanentAddress() {return this.permanentAddress.get();}
-	public void setPermanentAddress(String a) {this.permanentAddress.set(a);}
+	public String getPermanentAddress() {return this.permanentAddress;}
+	public void setPermanentAddress(String a) {this.permanentAddress = a;}
 	
-	public String getPincode() {return this.pinCode.get();}
-	public void setPincode(String a) {this.pinCode.set(a);}
+	public String getPincode() {return this.pinCode;}
+	public void setPincode(String a) {this.pinCode = a;}
 	
-	public String getNationality() {return this.nationality.get();}
-	public void setNationality(String a) {this.nationality.set(a);}
+	public String getNationality() {return this.nationality;}
+	public void setNationality(String a) {this.nationality = a;}
 	
-	public String getStream() {return this.stream.get();}
-	public void setStream(String a) {this.stream.set(a);}
+	public String getStream() {return this.stream;}
+	public void setStream(String a) {this.stream = a;}
 	
-	public String[] getPreferences() {return this.preferences.get();}
+	public String[] getPreferences() {return this.preferences;}
 	public void setPreferences(String a, String b, String c) {
 		String[] temp = {a,b,c};
-		this.preferences.set(temp);
+		this.preferences = temp;
 	}
 	
-	public String getGender() {return this.gender.get(); }
-	public void setGender(String a) {this.gender.set(a);}
+	public void setPreferences(String a, String b, String c, String d) {
+		String[] temp = {a,b,c,d};
+		this.preferences = temp;
+	}
 	
-	public String getPinCode() { return pinCode.get(); }
-	public void setPinCode(String a){ this.pinCode.set(a); } 
+	public String getGender() {return this.gender; }
+	public void setGender(String a) {this.gender = a;}
+	
+	public String getPinCode() { return pinCode; }
+	public void setPinCode(String a){ this.pinCode = a;} 
 
-	public String getCategory() {return this.category.get();}
-	public void setCategory(String a) {this.category.set(a);}
+	public String getCategory() {return this.category;}
+	public void setCategory(String a) {this.category = a;}
 	
-	public LocalDate getDateOfBirth() {return this.dateOfBirth.get();}
-	public void setDateOfBirth(LocalDate a) {this.dateOfBirth.set(a);}
+	public LocalDate getDateOfBirth() {return this.dateOfBirth;}
+	public void setDateOfBirth(LocalDate a) {this.dateOfBirth = a;}
 	
-	public boolean getDisabled() {return this.disabled.get();}
-	public void setDisabled(boolean a) {this.disabled.set(a);}
+	public boolean getDisabled() {return this.disabled;}
+	public void setDisabled(boolean a) {this.disabled = a;}
 	
-	public boolean getDefence() {return this.defence.get();}
-	public void setDefence(boolean a) {this.defence.set(a);}
+	public boolean getDefence() {return this.defence;}
+	public void setDefence(boolean a) {this.defence = a;}
 }
