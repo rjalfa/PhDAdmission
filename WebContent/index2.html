@@ -156,85 +156,85 @@
 						<form class="form-horizontal" method="post" action="UserController">
 						<fieldset>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">PhdStream</label>
+					            <label for="phdStreamField" class="col-lg-2 control-label">PhdStream</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="phdStreamField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">Graduation Degree</label>
+					            <label for="graduationDegreeField" class="col-lg-2 control-label">Graduation Degree</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="graduationDegreeField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>					        
 					        </div>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">Post Graduation Degree</label>
+					            <label for="pgDegreeField" class="col-lg-2 control-label">Post Graduation Degree</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="pgDegreeField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">Class X Board</label>
+					            <label for="xBoardField" class="col-lg-2 control-label">Class X Board</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="xBoardField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">Class XII Board</label>
+					            <label for="xiiBoardField" class="col-lg-2 control-label">Class XII Board</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="xiiBoardField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">Department(Graduation)</label>
+					            <label for="gradDeptField" class="col-lg-2 control-label">Department(Graduation)</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="gradDeptField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">Department(Post Graduation)</label>
+					            <label for="pgDeptField" class="col-lg-2 control-label">Department(Post Graduation)</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="pgDeptField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="email" class="col-lg-2 control-label">University(Graduation)</label>
+					            <label for="gradUnivField" class="col-lg-2 control-label">University(Graduation)</label>
 					            <div class="col-lg-10">
-					                <input type="email" class="form-control" name="emailField" >
+					                <input type="text" class="form-control" name="gradUnivField" >
 					            </div>
 					        </div>					        
 					        <div class="form-group">
-					            <label for="email" class="col-lg-2 control-label">University(Post Graduation)</label>
+					            <label for="pgUnivField" class="col-lg-2 control-label">University(Post Graduation)</label>
 					            <div class="col-lg-10">
-					                <input type="text" class="form-control" name="emailField" >
+					                <input type="text" class="form-control" name="pgUnivField" >
 					            </div>
 					        </div>					        
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">State(Graduation from)</label>
+					            <label for="gradStateField" class="col-lg-2 control-label">State(Graduation from)</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="gradStateField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="category" class="col-lg-2 control-label">State(Post Graduation from)</label>
+					            <label for="pgStateField" class="col-lg-2 control-label">State(Post Graduation from)</label>
 					            <div class="col-lg-10">
-					                <select class="form-control" name="category">
+					                <select class="form-control" name="pgStateField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
@@ -244,19 +244,19 @@
 					            <div class="col-lg-10">
 					                <div class="radio radio-primary">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption1" value="o1">
+					                        <input type="radio" name="xMarks" value="o1">
 					                        Greater Than
 					                    </label>
 					                </div>
 					                <div class="radio radio-primary">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o2">
+					                        <input type="radio" name="xMarks" value="o2">
 					                        Equal to 
 					                    </label>
 					                </div>
 					                <div class="radio radio-primary">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o3">
+					                        <input type="radio" name="xMarks" value="o3">
 					                        Less Than
 					                    </label>
 					                </div>						                
