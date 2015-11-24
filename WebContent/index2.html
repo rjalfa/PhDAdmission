@@ -101,18 +101,11 @@
 						            </div>
 						        </div>
 						        <div class="form-group">
-						            <label class="col-lg-2 control-label">Physically Disabled</label>
+						            <label class="col-lg-2 control-label"></label>
 						            <div class="col-lg-10">
-						                <div class="radio radio-primary">
+						            	<div class="togglebutton">
 						                    <label>
-						                        <input type="radio" name="phyDisabled" name="phyDisabledOption1" value="o1">
-						                        Yes
-						                    </label>
-						                </div>
-						                <div class="radio radio-primary">
-						                    <label>
-						                        <input type="radio" name="phyDisabled" name="phyDisabledOption2" value="o2">
-						                        No
+						                        <input type="checkbox" name="phyDisabled"> Physically Disabled
 						                    </label>
 						                </div>
 						            </div>
@@ -156,29 +149,14 @@
 						<form class="form-horizontal" method="post" action="UserController">
 						<fieldset>
 					        <div class="form-group">
-					            <label for="phdStreamField" class="col-lg-2 control-label">PhdStream</label>
+					            <label for="phdStreamField" class="col-lg-2 control-label">Ph.D. Stream</label>
 					            <div class="col-lg-10">
 					                <select class="form-control" name="phdStreamField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
 					        </div>
-					        <div class="form-group">
-					            <label for="graduationDegreeField" class="col-lg-2 control-label">Graduation Degree</label>
-					            <div class="col-lg-10">
-					                <select class="form-control" name="graduationDegreeField">
-					                    <!--<option value="1">General</option>-->
-									</select>
-					            </div>					        
-					        </div>
-					        <div class="form-group">
-					            <label for="pgDegreeField" class="col-lg-2 control-label">Post Graduation Degree</label>
-					            <div class="col-lg-10">
-					                <select class="form-control" name="pgDegreeField">
-					                    <!--<option value="1">General</option>-->
-									</select>
-					            </div>
-					        </div>
+					        <h3>Schooling Information</h3>
 					        <div class="form-group">
 					            <label for="xBoardField" class="col-lg-2 control-label">Class X Board</label>
 					            <div class="col-lg-10">
@@ -195,10 +173,42 @@
 									</select>
 					            </div>
 					        </div>
+					        <h3>Graduation Information</h3>
+					        <div class="form-group">
+					            <label for="graduationDegreeField" class="col-lg-2 control-label">Graduation Degree</label>
+					            <div class="col-lg-10">
+					                <select class="form-control" name="graduationDegreeField">
+					                    <!--<option value="1">General</option>-->
+									</select>
+					            </div>					        
+					        </div>
 					        <div class="form-group">
 					            <label for="gradDeptField" class="col-lg-2 control-label">Department(Graduation)</label>
 					            <div class="col-lg-10">
 					                <select class="form-control" name="gradDeptField">
+					                    <!--<option value="1">General</option>-->
+									</select>
+					            </div>
+					        </div>
+					        <div class="form-group">
+					            <label for="gradUnivField" class="col-lg-2 control-label">University(Graduation)</label>
+					            <div class="col-lg-10">
+					                <input type="text" class="form-control" name="gradUnivField" >
+					            </div>
+					        </div>					        
+					        <div class="form-group">
+					            <label for="gradStateField" class="col-lg-2 control-label">State(Graduation from)</label>
+					            <div class="col-lg-10">
+					                <select class="form-control" name="gradStateField">
+					                    <!--<option value="1">General</option>-->
+									</select>
+					            </div>
+					        </div>
+					        <h3>Post-graduation Information</h3>
+					        <div class="form-group">
+					            <label for="pgDegreeField" class="col-lg-2 control-label">Post Graduation Degree</label>
+					            <div class="col-lg-10">
+					                <select class="form-control" name="pgDegreeField">
 					                    <!--<option value="1">General</option>-->
 									</select>
 					            </div>
@@ -212,25 +222,11 @@
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="gradUnivField" class="col-lg-2 control-label">University(Graduation)</label>
-					            <div class="col-lg-10">
-					                <input type="text" class="form-control" name="gradUnivField" >
-					            </div>
-					        </div>					        
-					        <div class="form-group">
 					            <label for="pgUnivField" class="col-lg-2 control-label">University(Post Graduation)</label>
 					            <div class="col-lg-10">
 					                <input type="text" class="form-control" name="pgUnivField" >
 					            </div>
 					        </div>					        
-					        <div class="form-group">
-					            <label for="gradStateField" class="col-lg-2 control-label">State(Graduation from)</label>
-					            <div class="col-lg-10">
-					                <select class="form-control" name="gradStateField">
-					                    <!--<option value="1">General</option>-->
-									</select>
-					            </div>
-					        </div>
 					        <div class="form-group">
 					            <label for="pgStateField" class="col-lg-2 control-label">State(Post Graduation from)</label>
 					            <div class="col-lg-10">
@@ -239,148 +235,165 @@
 									</select>
 					            </div>
 					        </div>
+					        <h3> Performance Filters </h3>
 					        <div class="form-group">
-					            <label for="dateOfBirthField" class="col-lg-2 control-label">Class X Board Percentage</label>
-					            <div class="col-lg-10">
-					                <div class="radio radio-primary">
+					            <label for="xMarksField" class="col-lg-2 control-label">Class X Board Percentage</label>
+					            <!-- <div style="padding-top:15px;"> -->
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="xMarks" value="o1">
+					                        <input type="checkbox" name="dob" name="xMarksGreaterThan" value="o1">
 					                        Greater Than
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
-					                    <label>
-					                        <input type="radio" name="xMarks" value="o2">
-					                        Equal to 
-					                    </label>
-					                </div>
-					                <div class="radio radio-primary">
-					                    <label>
-					                        <input type="radio" name="xMarks" value="o3">
-					                        Less Than
-					                    </label>
-					                </div>						                
-					            	<input type="text" class="form-control" name="emailField" >
 					            </div>
-					        </div>
-					        <div class="form-group">
-					            <label for="dateOfBirthField" class="col-lg-2 control-label">Class X Board Percentage</label>
-					            <div class="col-lg-10">
-					                <div class="radio radio-primary">
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption1" value="o1">
-					                        Greater Than
-					                    </label>
-					                </div>
-					                <div class="radio radio-primary">
-					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o2">
+					                        <input type="checkbox" name="dob" name="xMarksEquals" value="o2">
 					                        Equal to 
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o3">
+					                        <input type="checkbox" name="dob" name="xMarksLesserThan" value="o3">
 					                        Less Than
 					                    </label>
-					                </div>						                
-					            	<input type="text" class="form-control" name="emailField" >
+					                </div>			
+					            <!-- </div> -->
+					        	</div>
+					            <div class="col-lg-4">			                
+					            	<input type="number" class="form-control" name="xMarksField" >
 					            </div>
 					        </div>
 							<div class="form-group">
-					            <label for="dateOfBirthField" class="col-lg-2 control-label">Class XII Board Percentage</label>
-					            <div class="col-lg-10">
-					                <div class="radio radio-primary">
+					            <label for="xiiMarksField" class="col-lg-2 control-label">Class XII Board Percentage</label>
+					            <!-- <div style="padding-top:15px;"> -->
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption1" value="o1">
+					                        <input type="checkbox" name="dob" name="xiiMarksGreaterThan" value="o1">
 					                        Greater Than
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o2">
+					                        <input type="checkbox" name="dob" name="xiiMarksEquals" value="o2">
 					                        Equal to 
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o3">
+					                        <input type="checkbox" name="dob" name="xiiMarksLesserThan" value="o3">
 					                        Less Than
 					                    </label>
-					                </div>						                
-					            	<input type="text" class="form-control" name="emailField" >
+					                </div>			
+					            <!-- </div> -->
+					        	</div>
+					            <div class="col-lg-4">			                
+					            	<input type="number" class="form-control" name="xiiMarksField" >
 					            </div>
 					        </div>
 							<div class="form-group">
-					            <label for="dateOfBirthField" class="col-lg-2 control-label">Graduation marks Percentage</label>
-					            <div class="col-lg-10">
-					                <div class="radio radio-primary">
+					            <label for="gradMarksField" class="col-lg-2 control-label">Graduation Marks Percentage</label>
+					            <!-- <div style="padding-top:15px;"> -->
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption1" value="o1">
+					                        <input type="checkbox" name="dob" name="gradMarksGreaterThan" value="o1">
 					                        Greater Than
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o2">
+					                        <input type="checkbox" name="dob" name="gradMarksEquals" value="o2">
 					                        Equal to 
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o3">
+					                        <input type="checkbox" name="dob" name="gradMarksLesserThan" value="o3">
 					                        Less Than
 					                    </label>
-					                </div>						                
-					            	<input type="text" class="form-control" name="emailField" >
+					                </div>			
+					            <!-- </div> -->
+					        	</div>
+					            <div class="col-lg-4">			                
+					            	<input type="number" class="form-control" name="gradMarksField" >
 					            </div>
 					        </div>
 					        <div class="form-group">
-					            <label for="dateOfBirthField" class="col-lg-2 control-label">PostGraduation marks percentage</label>
-					            <div class="col-lg-10">
-					                <div class="radio radio-primary">
+					            <label for="pgMarksField" class="col-lg-2 control-label">Post-Graduation Marks Percentage</label>
+					            <!-- <div style="padding-top:15px;"> -->
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption1" value="o1">
+					                        <input type="checkbox" name="dob" name="pgMarksGreaterThan" value="o1">
 					                        Greater Than
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o2">
+					                        <input type="checkbox" name="dob" name="pgMarksEquals" value="o2">
 					                        Equal to 
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o3">
+					                        <input type="checkbox" name="dob" name="pgMarksLesserThan" value="o3">
 					                        Less Than
 					                    </label>
-					                </div>						                
-					            	<input type="text" class="form-control" name="emailField" >
+					                </div>			
+					            <!-- </div> -->
+					        	</div>
+					            <div class="col-lg-4">			                
+					            	<input type="number" class="form-control" name="pgMarksField" >
 					            </div>
 					        </div>
 							<div class="form-group">
-					            <label for="dateOfBirthField" class="col-lg-2 control-label">GATE Score</label>
-					            <div class="col-lg-10">
-					                <div class="radio radio-primary">
+					            <label for="gateMarksField" class="col-lg-2 control-label">GATE Score</label>
+					            <!-- <div style="padding-top:15px;"> -->
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption1" value="o1">
+					                        <input type="checkbox" name="dob" name="gateMarksGreaterThan" value="o1">
 					                        Greater Than
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o2">
+					                        <input type="checkbox" name="dob" name="gateMarksEquals" value="o2">
 					                        Equal to 
 					                    </label>
 					                </div>
-					                <div class="radio radio-primary">
+					            </div>
+					            <div style="padding-top:15px" class="col-lg-2">
+					                <div class="togglebutton">
 					                    <label>
-					                        <input type="radio" name="dob" name="dobOption2" value="o3">
+					                        <input type="checkbox" name="dob" name="gateMarksLesserThan" value="o3">
 					                        Less Than
 					                    </label>
-					                </div>						                
-					            	<input type="text" class="form-control" name="emailField" >
+					                </div>			
+					            <!-- </div> -->
+					        	</div>
+					            <div class="col-lg-4">			                
+					            	<input type="number" class="form-control" name="gateMarksField" >
 					            </div>
 					        </div>
 					        <div class="form-group">
@@ -394,7 +407,35 @@
 					</div>
 				</div>
 
-		        <div class="tab-pane fade" id="C">Content inside tab C</div>
+		        <div class="tab-pane fade" id="C">
+		        	<div class="jumbotron">
+		        		<fieldset>
+		        			<div class="form-group">
+		        			<div class="col-lg-3"></div>
+		        				    <label for="adfField" class="col-lg-2 control-label">Applications dated from</label>
+						            <div class="col-lg-4">
+						                <input type="text" class="form-control" id="adfField" name="adfField">
+						            </div>
+					
+		        			<div class="col-lg-3">&nbsp;</div>
+		        			<div class="col-lg-3">&nbsp;</div>
+		        			<div class="col-lg-3">&nbsp;</div>
+						            <label for="adtField" class="col-lg-2 control-label">Applications dated till</label>
+						            <div class="col-lg-4">
+						                <input type="text" class="form-control" id="adtField" name="adtField">
+						            </div>
+						    </div>
+						    <div class="col-lg-6"></div>
+						    <hr/>
+					        <div class="form-group">
+					            <div class="col-lg-12" style="text-align:center;padding-top:20px">
+					                <button type="submit" class="btn btn-primary">Submit Form</button>
+					            </div>
+					        </div>
+						</fieldset>
+					</div>
+		        </div>
+		        </div>
 		    </div>
 		</div>
 	</div>
