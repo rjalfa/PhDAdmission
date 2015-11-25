@@ -1,7 +1,18 @@
 package ap.adm.phd;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.EOFException;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.PrintWriter;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 import ap.adm.phd.model.Applicant;
@@ -10,7 +21,7 @@ import ap.adm.phd.utilities.GlobalVars;
 public class Database {
 	
 	//private static EnrollmentNoGenerator eig = new EnrollmentNoGenerator();
-	
+	private static ArrayList<Applicant> applicants = new ArrayList<>();
 	public static void fillUser(Applicant applicant,HashMap<String,String> params)
 	{
 		applicant.getPersonalInformation().setApplicantName(params.get("name"));
@@ -133,17 +144,146 @@ public class Database {
 */
 		//Set Today's Date to Record
 		applicant.setApplicationSubmit(LocalDate.now());
-		//File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
-		//if (!outDir.exists()) outDir.mkdirs();
+		File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
+		if (!outDir.exists()) outDir.mkdirs();
 		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getCv()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf").toPath());
 		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getSop()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf").toPath());				
 		applicant.getEducationInformation().getAchievements().setCv("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf");
 		applicant.getEducationInformation().getAchievements().setSop("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf");
+		try
+		{
+			commitRecord(applicant);
+		}
+		catch(Exception E)
+		{
+			E.printStackTrace();
+		}
+		
 	}
 	
 	private static String eidGenerator()
 	{
 		return "PHD" + System.currentTimeMillis();
 		//return eig.next(); 
+	}
+	
+	public static void createText(Applicant applicant) throws IOException{
+		PrintWriter outStream = new PrintWriter("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo() + "/applicantInformation.txt");
+		outStream.println("Personal Information");
+		outStream.println("====================");
+		outStream.println("Name: " + applicant.getPersonalInformation().getApplicantName());
+		outStream.println("Email: " + applicant.getPersonalInformation().getEmail());
+		outStream.println("Enrollment No.: " + applicant.getPersonalInformation().getEnrollmentNo());
+		outStream.println("Correspondence Address:\n" + applicant.getPersonalInformation().getCorrespondenceAddress());
+		outStream.println("Mobile Number: " + applicant.getPersonalInformation().getMobileNo());
+		outStream.println("DOB: " + applicant.getPersonalInformation().getDateOfBirth());
+		outStream.println("Stream: " + applicant.getPersonalInformation().getStream());
+		outStream.println("Preferences:");for (String i : applicant.getPersonalInformation().getPreferences()) outStream.println(i);
+		outStream.println("Gender: " + applicant.getPersonalInformation().getGender());
+		outStream.println("Category: " + applicant.getPersonalInformation().getCategory());
+		outStream.println("Disabled: " + applicant.getPersonalInformation().getDisabled());
+		outStream.println("Defence Category: " + applicant.getPersonalInformation().getDefence());
+		outStream.println("Father's Name: " + applicant.getPersonalInformation().getFatherName());
+		outStream.println("Nationality: " + applicant.getPersonalInformation().getNationality());
+		outStream.println("Permanent Address:\n" + applicant.getPersonalInformation().getPermanentAddress());
+		outStream.println("PIN/ZIP Code: " + applicant.getPersonalInformation().getPincode());
+
+		outStream.println("\nSchooling Information");
+		outStream.println("=====================");
+		outStream.println("Class X:-");
+		outStream.println("Board: " + applicant.getEducationInformation().getSchooling().getTenthBoardName());
+		outStream.println("Percentage: " + applicant.getEducationInformation().getSchooling().getTenthBoardResults());
+		outStream.println("Year of Passing: " + applicant.getEducationInformation().getSchooling().getTenthYear());
+		outStream.println("Class XII:-");
+		outStream.println("Board: " + applicant.getEducationInformation().getSchooling().getTwelfthBoardName());
+		outStream.println("Percentage: " + applicant.getEducationInformation().getSchooling().getTwelfthBoardResults());
+		outStream.println("Year of Passing: " + applicant.getEducationInformation().getSchooling().getTwelfthYear());
+
+		outStream.println("\nGraduation Information");
+		outStream.println("======================");
+		outStream.println("Degree: " + applicant.getEducationInformation().getGraduation().getDegreeName());
+		outStream.println("Department: " + applicant.getEducationInformation().getGraduation().getDepartment());
+		outStream.println("College: " + applicant.getEducationInformation().getGraduation().getCollegeName());
+		outStream.println("University: " + applicant.getEducationInformation().getGraduation().getUniversityName());
+		outStream.println("City: " + applicant.getEducationInformation().getGraduation().getCity());
+		outStream.println("State: " + applicant.getEducationInformation().getGraduation().getState());
+		outStream.println("Year of Graduation:" + applicant.getEducationInformation().getGraduation().getGraduationYear());
+		if(applicant.getEducationInformation().getGraduation().getCgpaSelected()) outStream.println("CGPA: " + applicant.getEducationInformation().getGraduation().getCgpa());
+		else outStream.println("Percentage: " + applicant.getEducationInformation().getGraduation().getPercentage());
+	
+		if(applicant.getEducationInformation().getPostGraduation() != null)
+		{
+			outStream.println("\nPost Graduation Information");
+			outStream.println("===========================");
+			outStream.println("Degree: " + applicant.getEducationInformation().getPostGraduation().getDegreeName());
+			outStream.println("Thesis:" + applicant.getEducationInformation().getPostGraduation().getThesisTitle());
+			outStream.println("Department: " + applicant.getEducationInformation().getPostGraduation().getDepartment());
+			outStream.println("College: " + applicant.getEducationInformation().getPostGraduation().getCollege());
+			outStream.println("University: " + applicant.getEducationInformation().getPostGraduation().getUniversity());
+			outStream.println("City: " + applicant.getEducationInformation().getPostGraduation().getCity());
+			outStream.println("State: " + applicant.getEducationInformation().getPostGraduation().getState());
+			outStream.println("Year of Post Graduation: " + applicant.getEducationInformation().getPostGraduation().getYear());
+			if(applicant.getEducationInformation().getPostGraduation().getCgpaSelected()) outStream.println("CGPA: " + applicant.getEducationInformation().getPostGraduation().getCgpa());
+			else outStream.println("Percentage: " + applicant.getEducationInformation().getPostGraduation().getPercentage());
+		}
+		
+		//Other Academic Degrees
+		if(applicant.getEducationInformation().getOtherAcademic().getDegree() != null)
+		{
+			outStream.println("\nOther Academic Information");
+			outStream.println("===========================");
+			outStream.println("Degree: " + applicant.getEducationInformation().getOtherAcademic().getDegree().getDegreeName());
+			outStream.println("Subject: " + applicant.getEducationInformation().getOtherAcademic().getDegree().getSubject());
+			outStream.println("Institution: " + applicant.getEducationInformation().getOtherAcademic().getDegree().getInstitution());
+			outStream.println("Year: " + applicant.getEducationInformation().getOtherAcademic().getDegree().getYear());
+			outStream.println("Score: " + applicant.getEducationInformation().getOtherAcademic().getDegree().getScore());
+		}
+		
+		//GATE
+		if(applicant.getEducationInformation().getOtherAcademic().getGate() != null)
+		{
+			outStream.println("\nGATE Information");
+			outStream.println("================");
+			outStream.println("Area: " + applicant.getEducationInformation().getOtherAcademic().getGate().getArea());
+			outStream.println("Year: " + applicant.getEducationInformation().getOtherAcademic().getGate().getYear());
+			outStream.println("Percentage: " + applicant.getEducationInformation().getOtherAcademic().getGate().getPercentage());
+			outStream.println("Score: " + applicant.getEducationInformation().getOtherAcademic().getGate().getScore());
+			outStream.println("Rank: " + applicant.getEducationInformation().getOtherAcademic().getGate().getRank());
+		}
+		
+		if (applicant.getEducationInformation().getAchievements().getDescription().trim().length() > 0){
+			outStream.println("\nOther Achievements:");
+			outStream.println(applicant.getEducationInformation().getAchievements().getDescription());
+		}
+		outStream.close();
+	}
+	public static void commitRecord(Applicant applicant) throws IOException{
+		createText(applicant);
+		ObjectOutputStream outStream = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo() + "/applicantData.adm")));
+		outStream.writeObject(applicant);
+		outStream.close();
+	}
+	public static void readRecord() throws IOException, ClassNotFoundException{
+		Applicant applicant = null;
+		int i;
+		ObjectInputStream inStream = null;
+		applicants.clear();
+		File[] dataFolder = (new File("data")).listFiles();
+		for(i=0;i<dataFolder.length;i++)
+		{
+			if (dataFolder[i].getName().equals("enrollCounter.adm")) continue;
+			inStream = new ObjectInputStream(new BufferedInputStream(new FileInputStream("data/"+dataFolder[i].getName()+"/applicantData.adm")));
+			try{
+				while (true)
+				{	
+					applicant = (Applicant)inStream.readObject();
+					applicants.add(applicant);
+				}
+			}
+			catch(EOFException e){
+				inStream.close();
+			}
+		}
+	
 	}
 }

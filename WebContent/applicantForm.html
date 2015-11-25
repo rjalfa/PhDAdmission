@@ -42,7 +42,7 @@
 		        <li class="nav"><a href="#MainB" data-toggle="tab">Educational Information</a></li>
 		        <li class="nav"><a href="#MainC" data-toggle="tab">Feedback and Submit</a></li>
 		    </ul>
-		    <form class="form-horizontal" method="post" action="UserController">
+		    <form class="form-horizontal" method="post" action="UserController" enctype="multipart/form-data">
 						
 			<!-- Tab panes -->
 		    <div class="tab-content">
@@ -445,14 +445,14 @@
 					            <label for="cvUploadPath" class="col-lg-2 control-label">CV/Resume</label>
 					            <div class="col-lg-10">
 					                <input type="text" readonly class="form-control floating-label" placeholder="Browse...">
-					                <input type="file" name="cvUploadPath" multiple>
+					                <input type="file" name="cvUploadPath" accept=".pdf">
 					            </div>
 					        </div>
 					        <div class="form-group">
 					            <label for="sopUploadPath" class="col-lg-2 control-label">Statement of Purpose</label>
 					            <div class="col-lg-10">
 					                <input type="text" readonly class="form-control floating-label" placeholder="Browse...">
-					                <input type="file" name="sopUploadPath" multiple>
+					                <input type="file" name="sopUploadPath" accept=".pdf">
 					            </div>
 					        </div>
 					    </fieldset>
@@ -525,6 +525,7 @@
 	<script src="js/ripples.min.js"></script>
 	<script src="js/moment-with-locales.min.js"></script>
 	<script src="js/bootstrap-material-datetimepicker.js"></script>
+	<script src="js/validate.min.js"></script>
 	<script src="js/applicantForm.js"></script>
 	<script>
     </script>
