@@ -64,31 +64,31 @@
 						        <div class="form-group">
 						            <label for="name" class="col-lg-2 control-label">Full Name</label>
 						            <div class="col-lg-10">
-						                <input type="text" class="form-control" name="name" >
+						                <input type="text" class="form-control" name="name" required>
 						            </div>
 						        </div>
 						        <div class="form-group">
 						            <label for="fatherName" class="col-lg-2 control-label">Father's Name</label>
 						            <div class="col-lg-10">
-						                <input type="text" class="form-control" name="fatherName">
+						                <input type="text" class="form-control" name="fatherName" required>
 						            </div>
 						        </div>
 						        <div class="form-group">
 						            <label for="corrAddress" class="col-lg-2 control-label">Address of Correspondence</label>
 						            <div class="col-lg-10">
-						                <textarea class="form-control" name="corrAddress" rows=4></textarea>
+						                <textarea class="form-control" name="corrAddress" rows=4 required></textarea>
 						            </div>
 						        </div>
 						        <div class="form-group">
 						            <label for="mobNumber" class="col-lg-2 control-label">Mobile Number</label>
 						            <div class="col-lg-10">
-						                <input type="number" class="form-control" name="mobNumber" >
+						                <input type="number" class="form-control" name="mobNumber" min="0000000000" max="9999999999" required>
 						            </div>
 						        </div>
 						        <div class="form-group">
 						            <label for="email" class="col-lg-2 control-label">Email</label>
 						            <div class="col-lg-10">
-						                <input type="email" class="form-control" name="email" >
+						                <input type="email" class="form-control" name="email" required>
 						            </div>
 						        </div>
 						        <div class="form-group">
@@ -111,7 +111,7 @@
 						        <div class="form-group">
 						            <label for="dobField" class="col-lg-2 control-label">Date of Birth</label>
 						            <div class="col-lg-10">
-						                <input type="text" class="form-control" id="dobField" name="dobField">
+						                <input type="text" class="form-control" id="dobField" name="dobField" required>
 						            </div>
 						        </div>
 						        <div class="form-group">
@@ -153,13 +153,13 @@
 						        <div class="form-group">
 						            <label for="permAddress" class="col-lg-2 control-label">Permanent Address</label>
 						            <div class="col-lg-10">
-						                <textarea class="form-control" name="permAddress" rows=4></textarea>
+						                <textarea class="form-control" name="permAddress" rows=4 required></textarea>
 						            </div>
 						        </div>
 						        <div class="form-group">
 						            <label for="pincode" class="col-lg-2 control-label">PIN Code</label>
 						            <div class="col-lg-10">
-						                <input type="number" class="form-control" name="pincode" >
+						                <input type="number" class="form-control" name="pincode" min="000000" max="999999" required>
 						            </div>
 						        </div>
 						        <hr/>
@@ -195,7 +195,7 @@
 						        <div class="form-group">
 						            <label for="preferences1" class="col-lg-2 control-label">Preference #1</label>
 						            <div class="col-lg-10">
-						                <select class="form-control" name="preferences1">
+						                <select class="form-control" name="preferences1" required>
 						                </select>
 						            </div>
 						        </div>
@@ -241,17 +241,17 @@
 					    	<div class="col-lg-6">
 								<h2>Class X</h2>
 								<div class="form-group row">
-						            <label for="xBoard" class="col-lg-4 control-label">Board Name</label>
+						            <label for="xBoard" class="col-lg-4 control-label" required>Board Name</label>
 						            <div class="col-lg-6">
-						                <input type="text" class="form-control" name="xBoard" >
+						                <input type="text" class="form-control" name="xBoard">
 						            </div>
 						            <label for="xMarks" class="col-lg-4 control-label">Marks (%)</label>
 						            <div class="col-lg-6">
-						                <input type="number" class="form-control" name="xMarks" >
+						                <input type="number" class="form-control" name="xMarks" min="0" max="100" step="any" required>
 						            </div>
 						            <label for="xYear" class="col-lg-4 control-label">Year of Passing</label>
 						            <div class="col-lg-6">
-						                <input type="number" class="form-control" name="xYear" >
+						                <input type="number" class="form-control" name="xYear" min="1995" max="2015" required>
 						            </div>
 					    		</div>
 					    	</div>
@@ -260,15 +260,15 @@
 								<div class="form-group row">
 						            <label for="xiiBoard" class="col-lg-4 control-label">Board Name</label>
 						            <div class="col-lg-6">
-						                <input type="text" class="form-control" name="xiiBoard" >
+						                <input type="text" class="form-control" name="xiiBoard" required>
 						            </div>
 						            <label for="xiiMarks" class="col-lg-4 control-label">Marks (%)</label>
 						            <div class="col-lg-6">
-						                <input type="number" class="form-control" name="xiiMarks" >
+						                <input type="number" class="form-control" name="xiiMarks" min="0" max="100" step="any" required>
 						            </div>
 						            <label for="xiiYear" class="col-lg-4 control-label">Year of Passing</label>
 						            <div class="col-lg-6">
-						                <input type="number" class="form-control" name="xiiYear" >
+						                <input type="number" class="form-control" name="xiiYear" min="1995" max="2015" required>
 						            </div>
 					    		</div>
 					    	</div>
@@ -277,35 +277,35 @@
 						        <div class="form-group">
 						            <label for="gradDegree" class="col-lg-2 control-label">Degree</label>
 						            <div class="col-lg-4">
-						                <input type="text" class="form-control" name="gradDegree" >
+						                <input type="text" class="form-control" name="gradDegree" required>
 						            </div>
 						            <label for="gradDept" class="col-lg-2 control-label">Department/Discipline</label>
 						            <div class="col-lg-4">
-						                <input type="text" class="form-control" name="gradDept" >
+						                <input type="text" class="form-control" name="gradDept" required>
 						            </div>
 						            <label for="gradCollege" class="col-lg-2 control-label">College</label>
 						            <div class="col-lg-4">
-						                <input type="text" class="form-control" name="gradCollege" >
+						                <input type="text" class="form-control" name="gradCollege" required>
 						            </div>
 						            <label for="gradUniv" class="col-lg-2 control-label">University</label>
 						            <div class="col-lg-4">
-						                <input type="text" class="form-control" name="gradUniv" >
+						                <input type="text" class="form-control" name="gradUniv" required>
 						            </div>
 						            <label for="gradCity" class="col-lg-2 control-label">City</label>
 						            <div class="col-lg-4">
-						                <input type="text" class="form-control" name="gradCity" >
+						                <input type="text" class="form-control" name="gradCity" required>
 						            </div>
 						            <label for="gradState" class="col-lg-2 control-label">State</label>
 						            <div class="col-lg-4">
-						                <input type="text" class="form-control" name="gradState" >
+						                <input type="text" class="form-control" name="gradState" required>
 						            </div>
 						            <label for="gradYear" class="col-lg-2 control-label">Year of Graduation</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="gradYear" >
+						                <input type="number" class="form-control" name="gradYear" min="1995" max="2015" required>
 						            </div>
 						            <label for="gradPerformance" class="col-lg-2 control-label">Performance (in %age)</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="gradPerformance">
+						                <input type="number" class="form-control" name="gradPerformance" min="0" max="100" step="any" required>
 						            </div>
 						            <label for="gradPerformanceCGPA" class="col-lg-2 control-label"></label>
 						            <div class="togglebutton col-lg-offset-6 col-lg-4">
@@ -354,11 +354,11 @@
 						            </div>
 						            <label for="pgYear" class="col-lg-2 control-label">Year of Post Graduation</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="pgYear" >
+						                <input type="number" class="form-control" name="pgYear" min="1995" max="2015">
 						            </div>
 						            <label for="pgPerformance" class="col-lg-2 control-label">Performance (in %age)</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="pgPerformance">
+						                <input type="number" class="form-control" name="pgPerformance" min="0" max="100" step="any">
 						            </div>
 						            <label for="pgPerformanceCGPA" class="col-lg-2 control-label"></label>
 						            <div class="togglebutton col-lg-offset-6 col-lg-4">
@@ -390,7 +390,7 @@
 						            </div>
 						            <label for="oAYear" class="col-lg-2 control-label">Year</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="oAYear" >
+						                <input type="number" class="form-control" name="oAYear" min="1995" max="2015">
 						            </div>
 						            <label for="oACollege" class="col-lg-2 control-label">Institution</label>
 						            <div class="col-lg-4">
@@ -398,7 +398,7 @@
 						            </div>
 						            <label for="oAPerformance" class="col-lg-2 control-label">Performance</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="oAPerformance" >
+						                <input type="number" class="form-control" name="oAPerformance" min="0" max="100" step="any">
 						            </div>
 						        </div>
 					    	</div>
@@ -423,15 +423,15 @@
 						            </div>
 						            <label for="gatePercentage" class="col-lg-2 control-label">Marks (Percentage)</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="gatePercentage" >
+						                <input type="number" class="form-control" name="gatePercentage" min="0" max="100" step="any">
 						            </div>
 						            <label for="gateScore" class="col-lg-2 control-label">Marks (Actual Score)</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="gateScore" >
+						                <input type="number" class="form-control" name="gateScore" min="0" max="1000">
 						            </div>
 						            <label for="gateRank" class="col-lg-2 control-label">All India Rank</label>
 						            <div class="col-lg-4">
-						                <input type="number" class="form-control" name="gateRank" >
+						                <input type="number" class="form-control" name="gateRank" min="1">
 						            </div>
 						        </div>
 					    	</div>
@@ -445,14 +445,14 @@
 					            <label for="cvUploadPath" class="col-lg-2 control-label">CV/Resume</label>
 					            <div class="col-lg-10">
 					                <input type="text" readonly class="form-control floating-label" placeholder="Browse...">
-					                <input type="file" name="cvUploadPath" multiple>
+					                <input type="file" name="cvUploadPath" accept=".pdf" required>
 					            </div>
 					        </div>
 					        <div class="form-group">
 					            <label for="sopUploadPath" class="col-lg-2 control-label">Statement of Purpose</label>
 					            <div class="col-lg-10">
 					                <input type="text" readonly class="form-control floating-label" placeholder="Browse...">
-					                <input type="file" name="sopUploadPath" multiple>
+					                <input type="file" name="sopUploadPath" accept=".pdf" required>
 					            </div>
 					        </div>
 					    </fieldset>
@@ -509,7 +509,7 @@
 					        <div class="form-group">
 					            <div class="col-lg-10 col-lg-offset-2">
 					                <button class="btn btn-default">Cancel</button>
-					                <button type="submit" class="btn btn-primary">Submit Form</button>
+					                <button type="submit" id="submit-btn" class="btn btn-primary">Submit Form</button>
 					            </div>
 					        </div>
 						</fieldset>

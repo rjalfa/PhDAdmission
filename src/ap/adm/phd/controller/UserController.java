@@ -37,6 +37,7 @@ public class UserController extends HttpServlet {
     		System.out.println("Attribute Name - "+paramName+", Value - "+request.getParameter(paramName));
     	}
     	Database.fillUser(applicant, parameters);
+    	response.getWriter().println("Form submitted successfully");
 	}
 
 }

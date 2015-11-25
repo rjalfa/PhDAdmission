@@ -54,25 +54,77 @@ function main()
       });
       $("#pgDIV").hide();
       $("[name='pgApplicable']").click(function(){
-            if($(this).prop('checked')) $("#pgDIV").slideDown();
-            else $("#pgDIV").slideUp();
+            if($(this).prop('checked')) 
+            {
+                  $("#pgDIV").slideDown();
+                  $("#pgDIV").find("input").attr('required');
+                  $("#pgDIV","input[type=checkbox]").removeAttr('required');
+            }
+            else 
+            {
+                  $("#pgDIV").slideUp();
+                  $("#pgDIV").find("input").removeAttr('required');
+            }
       });
       $("#oaDIV").hide();
       $("[name='oaApplicable']").click(function(){
-            if($(this).prop('checked')) $("#oaDIV").slideDown();
-            else $("#oaDIV").slideUp();
+            if($(this).prop('checked')) 
+            {
+                  $("#oaDIV").slideDown();
+                  $("#oaDIV").find("input").attr('required');
+            }
+            else 
+            {
+                  $("#oaDIV").slideUp();
+                  $("#oaDIV").find("input").removeAttr('required');
+            }
       });
       $("#gateDIV").hide();
       $("[name='gateApplicable']").click(function(){
-            if($(this).prop('checked')) $("#gateDIV").slideDown();
-            else $("#gateDIV").slideUp();
+            if($(this).prop('checked')) 
+            {
+                  $("#gateDIV").slideDown();
+                  $("#gateDIV").find("input").attr('required');
+            }
+            else
+            {
+                  $("#gateDIV").slideUp();
+                  $("#gategDIV").find("input").removeAttr('required');
+            }
       });
       $("[name='gradPerformanceCGPA']").click(function(){
-            if($(this).prop('checked')) $("[for='gradPerformance']").text("Performance (in CGPA)");
-            else $("[for='gradPerformance']").text("Performance (in %age)");
+            if($(this).prop('checked')) 
+            {
+                  $("[for='gradPerformance']").text("Performance (in CGPA)");
+                  $("[name='gradPerformance']").attr("max")="10";
+            }
+            else 
+            {
+                  $("[for='gradPerformance']").text("Performance (in %age)");
+                  $("[name='gradPerformance']").attr("max")="100";
+            }
       });
       $("[name='pgPerformanceCGPA']").click(function(){
-            if($(this).prop('checked')) $("[for='pgPerformance']").text("Performance (in CGPA)");
-            else $("[for='pgPerformance']").text("Performance (in %age)");
+            if($(this).prop('checked')) 
+            {
+                  $("[for='pgPerformance']").text("Performance (in CGPA)");
+                  $("[name='pgPerformance']").attr("max")="10";
+            }
+            else
+            {
+                  $("[for='pgPerformance']").text("Performance (in %age)");
+                  $("[name='pgPerformance']").attr("max")="100";
+            }
       });
+      $("#submit-btn").click(validateForm);
+}
+
+function validateForm()
+{
+      $("form").find("input").each(function()
+      {
+            if($(this).checkValidity() == false) $(this).closest('.form-group').addClass('has-error');
+            else $(this).closest('.form-group').removeClass('has-error');
+      });
+      $("#feedbackQ2").addClass("has-error");
 }
