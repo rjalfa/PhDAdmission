@@ -209,7 +209,7 @@ public class AdminFilterController
 		gradStateField.setItems(IndianStates);
 		pgStateField.setItems(IndianStates);
 		graduationDegreeField.setItems(FXCollections.observableArrayList(temp1));
-		pgDegreeField.setItems(FXCollections.observableArrayList(temp2));
+		pgDegreeField.setItems(FXCollections.observableAqrrayList(temp2));
 		xBoardField.setItems(FXCollections.observableArrayList(temp3));
 		xiiBoardField.setItems(FXCollections.observableArrayList(temp4));
 		gradDeptField.setItems(FXCollections.observableArrayList(temp5));
