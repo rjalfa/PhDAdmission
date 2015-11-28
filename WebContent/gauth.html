@@ -65,18 +65,20 @@
     		<div class="col-lg-6 col-sm-12">
     			<div class="well" style="min-height:100%">
     				<h3 class="page-header" style="margin-top: 15px;">Register</h3>
+    				<form action="GoogleOauth">
     				<div class="row">
     					<div class="col-lg-12 col-sm-12">
     						<p style="text-align:center;">
-    						<a href="UserController" class="btn btn-md btn-social btn-google" style="background-color:#DD4B39;color:#ffffff;text-align:center;">
+    						<button type="submit" class="btn btn-md btn-social btn-google" style="background-color:#DD4B39;color:#ffffff;text-align:center;">
 							  <span class="fa fa-google"></span>
 							  Sign in with Google
-							</a>
+							</button>
 							</p>
     					</div>
-    				</div>
+					</div>
+    				</form>
     				<hr/>
-	            	<form class="form-horizontal" role="form" action="/" method="POST" id="registration">
+	            	<form class="form-horizontal" role="form" action="UserSessionManager" method="POST" id="registration">
 	                	<div class="form-group">
 				            <label for="email_reg" class="col-lg-3 control-label">Email</label>
 				            <div class="col-lg-9">

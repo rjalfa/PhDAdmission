@@ -1,12 +1,6 @@
 package ap.adm.phd.controller;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.logging.Level;
@@ -50,7 +44,7 @@ public class UserController extends HttpServlet {
     	}
     	Database.fillUser(applicant, parameters);
     	// Create path components to save the CV file
-        final String path = request.getParameter("destination");
+        /*final String path = request.getParameter("destination");
         final Part filePart = request.getPart("cvUploadPath");
         final String fileName = getFileName(filePart);
         
@@ -90,7 +84,7 @@ public class UserController extends HttpServlet {
             if (writer != null) {
                 writer.close();
             }
-        }
+        }*/
 	}
     
     private String getFileName(final Part part) {

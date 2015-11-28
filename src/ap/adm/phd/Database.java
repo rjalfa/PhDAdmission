@@ -146,6 +146,7 @@ public class Database {
 		applicant.setApplicationSubmit(LocalDate.now());
 		File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
 		if (!outDir.exists()) outDir.mkdirs();
+		System.out.println(outDir.getAbsolutePath());
 		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getCv()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf").toPath());
 		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getSop()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf").toPath());				
 		applicant.getEducationInformation().getAchievements().setCv("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf");
@@ -160,7 +161,6 @@ public class Database {
 		}
 		
 	}
-	
 	private static String eidGenerator()
 	{
 		return "PHD" + System.currentTimeMillis();
