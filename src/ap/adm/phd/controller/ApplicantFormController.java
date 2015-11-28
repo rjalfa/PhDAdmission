@@ -16,7 +16,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 
-import ap.adm.phd.adapter.TextField;
+import ap.adm.phd.adapter.AdapterTextField;
 
 import ap.adm.phd.model.Applicant;
 import javafx.scene.control.Button;
@@ -24,13 +24,13 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Control;
-import javafx.scene.control.DatePicker;
+import javafx.scene.control.AdapterDatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 
 import javafx.scene.control.Toggle;
 import javafx.scene.control.ToggleButton;
-import javafx.scene.control.ToggleGroup;
+import javafx.scene.control.AdapterToggleGroup;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.paint.Color;
 import javafx.stage.FileChooser;
@@ -45,84 +45,84 @@ public class ApplicantFormController
 	private Applicant applicant;
 	
 	//Tab: Personal Information
-	private TextField name;
-	private TextField email;
-	private TextField enrollmentNumber;
-	private TextArea corrAddress;
-	private TextField mobNumber;
-	private DatePicker dobField;
-	private ToggleGroup phdStreamSelector;
-	private ChoiceBox<String> preferences1;
-	private ChoiceBox<String> preferences2;
-	private ChoiceBox<String> preferences3;
-	private ChoiceBox<String> preferences4;
-	private ChoiceBox<String> gender;
-	private ChoiceBox<String> category;
-	private ToggleGroup phyDisabled;
-	private ToggleGroup defence;
-	private TextField fatherName;
+	private AdapterTextField name;
+	private AdapterTextField email;
+	private AdapterTextField enrollmentNumber;
+	private AdapterTextArea corrAddress;
+	private AdapterTextField mobNumber;
+	private AdapterDatePicker dobField;
+	private AdapterToggleGroup phdStreamSelector;
+	private AdapterChoiceBox<String> preferences1;
+	private AdapterChoiceBox<String> preferences2;
+	private AdapterChoiceBox<String> preferences3;
+	private AdapterChoiceBox<String> preferences4;
+	private AdapterChoiceBox<String> gender;
+	private AdapterChoiceBox<String> category;
+	private AdapterToggleGroup phyDisabled;
+	private AdapterToggleGroup defence;
+	private AdapterTextField fatherName;
 	private ComboBox<String> nationality;
-	private TextArea permAddress;
-	private TextField pincode;
+	private AdapterTextArea permAddress;
+	private AdapterTextField pincode;
 	private Button p_info_saveButton;
 
 	//Tab: Education Information
 	//Sub-Tab: Schooling Information
-	private TextField xBoard;
-	private TextField xMarks;
-	private TextField xYear;
-	private TextField xiiBoard;
-	private TextField xiiMarks;
-	private TextField xiiYear;
+	private AdapterTextField xBoard;
+	private AdapterTextField xMarks;
+	private AdapterTextField xYear;
+	private AdapterTextField xiiBoard;
+	private AdapterTextField xiiMarks;
+	private AdapterTextField xiiYear;
 
 	//Sub-Tab: Graduation Information
-	private TextField gradDegree;
-	private TextField gradDept;
-	private TextField gradCollege;
-	private TextField gradUniv;
-	private TextField gradCity;
+	private AdapterTextField gradDegree;
+	private AdapterTextField gradDept;
+	private AdapterTextField gradCollege;
+	private AdapterTextField gradUniv;
+	private AdapterTextField gradCity;
 	private ComboBox<String> gradState;
-	private TextField gradYear;
+	private AdapterTextField gradYear;
 	private RadioButton gradCgpaRB;
 	private RadioButton gradPercentageRB;
-	private ToggleGroup gradPerformanceSelector;
-	private TextField gradPerformanceCGPA;
-	private TextField gradPerformancePercentage;
+	private AdapterToggleGroup gradPerformanceSelector;
+	private AdapterTextField gradPerformanceCGPA;
+	private AdapterTextField gradPerformancePercentage;
 
 	//Sub-Tab: Post Graduation Information
 	private ToggleButton pgApplicable;
-	private TextField pgDegree;
-	private TextField pgThesis;
-	private TextField pgDept;
-	private TextField pgCollege;
-	private TextField pgUniv;
-	private TextField pgCity;
+	private AdapterTextField pgDegree;
+	private AdapterTextField pgThesis;
+	private AdapterTextField pgDept;
+	private AdapterTextField pgCollege;
+	private AdapterTextField pgUniv;
+	private AdapterTextField pgCity;
 	private ComboBox<String> pgState;
-	private TextField pgYear;
+	private AdapterTextField pgYear;
 	private RadioButton pgCgpaRB;
 	private RadioButton pgPercentageRB;
-	private ToggleGroup pgPerformanceSelector;
-	private TextField pgPerformanceCGPA;
-	private TextField pgPerformancePercentage;
+	private AdapterToggleGroup pgPerformanceSelector;
+	private AdapterTextField pgPerformanceCGPA;
+	private AdapterTextField pgPerformancePercentage;
 
 	//Sub-Tab: OtherAcademic Academic Degrees
 	private ToggleButton oAApplicable;
-	private TextField oADegree;
-	private TextField oASubject;
-	private TextField oAYear;
-	private TextField oACollege;
-	private TextField oAPerformance;
+	private AdapterTextField oADegree;
+	private AdapterTextField oASubject;
+	private AdapterTextField oAYear;
+	private AdapterTextField oACollege;
+	private AdapterTextField oAPerformance;
 
 	//Sub-Tab: GATE
 	private ToggleButton gateApplicable;
-	private TextField gateArea;
-	private TextField gateYear;
-	private TextField gatePercentage;
-	private TextField gateScore;
-	private TextField gateRank;
+	private AdapterTextField gateArea;
+	private AdapterTextField gateYear;
+	private AdapterTextField gatePercentage;
+	private AdapterTextField gateScore;
+	private AdapterTextField gateRank;
 
 	//Sub-Tab: Miscellaneous
-	private TextArea otherAchieve;
+	private AdapterTextArea otherAchieve;
 	private FileChooser cvUploader;
 	private FileChooser sopUploader;
 	private Button cvUpload;
@@ -136,7 +136,7 @@ public class ApplicantFormController
 	private Button e_info_saveButton;
 
 	//Tab: Feedback and Submit
-	private ChoiceBox<String> feedbackQ1;
+	private AdapterChoiceBox<String> feedbackQ1;
 	private CheckBox feedbackQ2op1;
 	private CheckBox feedbackQ2op2;
 	private CheckBox feedbackQ2op3;
@@ -250,7 +250,7 @@ public class ApplicantFormController
 	}
 
 	//Numeric Text Fields Constraint Event
-//	private void makeNumeric(TextField text)
+//	private void makeNumeric(AdapterTextField text)
 //	{
 //		text.addEventFilter(KeyEvent.KEY_TYPED, new EventHandler<KeyEvent>()
 //		{
@@ -264,7 +264,7 @@ public class ApplicantFormController
 //	}
 
 	//Numeric Text Fields (Floating Point Values) Constraint Event
-//	private void makeNumericF(TextField text)
+//	private void makeNumericF(AdapterTextField text)
 //	{
 //		text.addEventFilter(KeyEvent.KEY_TYPED, new EventHandler<KeyEvent>()
 //		{
@@ -576,18 +576,18 @@ public class ApplicantFormController
 //		else setValid(mobNumber);
 //		if(dobField.getValue() == null || (dobField.getValue()!=null && !dobField.getValue().isBefore(LocalDate.now().minusYears(15)))) {flag=false;setInvalid(dobField);}
 //		else setValid(dobField);
-//		if(phdStreamSelector.getSelectedToggle() == null) {flag=false;for(Toggle i:phdStreamSelector.getToggles()) setInvalid((RadioButton)i);}
-//		else for(Toggle i:phdStreamSelector.getToggles()) setValid((RadioButton)i);
+//		if(phdStreamSelector.getSelectedToggle() == null) {flag=false;for(AdapterToggle i:phdStreamSelector.getToggles()) setInvalid((RadioButton)i);}
+//		else for(AdapterToggle i:phdStreamSelector.getToggles()) setValid((RadioButton)i);
 //		if(preferences1.getValue() == null) {flag=false;setInvalid(preferences1);}
 //		else setValid(preferences1);
 //		if(gender.getValue() == null) {flag=false;setInvalid(gender);}
 //		else setValid(gender);
 //		if(category.getValue() == null) {flag=false;setInvalid(category);}
 //		else setValid(category);
-//		if(phyDisabled.getSelectedToggle() == null) {flag=false;for(Toggle i:phyDisabled.getToggles()) setInvalid((RadioButton)i);}
-//		else for(Toggle i:phyDisabled.getToggles()) setValid((RadioButton)i);
-//		if(defence.getSelectedToggle() == null) {flag=false;for(Toggle i:defence.getToggles()) setInvalid((RadioButton)i);}
-//		else for(Toggle i:defence.getToggles()) setValid((RadioButton)i);
+//		if(phyDisabled.getSelectedToggle() == null) {flag=false;for(AdapterToggle i:phyDisabled.getToggles()) setInvalid((RadioButton)i);}
+//		else for(AdapterToggle i:phyDisabled.getToggles()) setValid((RadioButton)i);
+//		if(defence.getSelectedToggle() == null) {flag=false;for(AdapterToggle i:defence.getToggles()) setInvalid((RadioButton)i);}
+//		else for(AdapterToggle i:defence.getToggles()) setValid((RadioButton)i);
 //		if(fatherName.getText().trim().length() == 0) {flag=false;setInvalid(fatherName);}
 //		else setValid(fatherName);
 //		if(nationality.getValue() == null) {flag=false;setInvalid(nationality);}
@@ -633,8 +633,8 @@ public class ApplicantFormController
 //		else setValid(gradState);
 //		if(gradYear.getText().trim().length() != 4) {flag=false;setInvalid(gradYear);}
 //		else setValid(gradYear);
-//		if(gradPerformanceSelector.getSelectedToggle() == null) {flag=false;for(Toggle i:gradPerformanceSelector.getToggles()) setInvalid((RadioButton)i);}
-//		else for(Toggle i:gradPerformanceSelector.getToggles()) setValid((RadioButton)i);
+//		if(gradPerformanceSelector.getSelectedToggle() == null) {flag=false;for(AdapterToggle i:gradPerformanceSelector.getToggles()) setInvalid((RadioButton)i);}
+//		else for(AdapterToggle i:gradPerformanceSelector.getToggles()) setValid((RadioButton)i);
 //		if(!gradPerformanceCGPA.isDisabled() && (gradPerformanceCGPA.getText().trim().length() == 0 || !checkDouble(gradPerformanceCGPA.getText()) || Double.parseDouble(gradPerformanceCGPA.getText()) > 10)) {flag=false;setInvalid(gradPerformanceCGPA);}
 //		else setValid(gradPerformanceCGPA);
 //		if(!gradPerformancePercentage.isDisabled() && (gradPerformancePercentage.getText().trim().length() == 0 || !checkDouble(gradPerformancePercentage.getText()) || Double.parseDouble(gradPerformancePercentage.getText()) > 100)) {flag=false;setInvalid(gradPerformancePercentage);}
@@ -657,8 +657,8 @@ public class ApplicantFormController
 //		else setValid(pgState);
 //		if(!pgYear.isDisabled() && pgYear.getText().trim().length() != 4) {flag=false;setInvalid(pgYear);}
 //		else setValid(pgYear);
-//		if(!pgCgpaRB.isDisabled() && pgPerformanceSelector.getSelectedToggle() == null) {flag=false;for(Toggle i:pgPerformanceSelector.getToggles()) setInvalid((RadioButton)i);}
-//		else for(Toggle i:pgPerformanceSelector.getToggles()) setValid((RadioButton)i);
+//		if(!pgCgpaRB.isDisabled() && pgPerformanceSelector.getSelectedToggle() == null) {flag=false;for(AdapterToggle i:pgPerformanceSelector.getToggles()) setInvalid((RadioButton)i);}
+//		else for(AdapterToggle i:pgPerformanceSelector.getToggles()) setValid((RadioButton)i);
 //		if(!pgPerformanceCGPA.isDisabled() && (pgPerformanceCGPA.getText().trim().length() == 0 || !checkDouble(pgPerformanceCGPA.getText()) || Double.parseDouble(pgPerformanceCGPA.getText()) > 10)) {flag=false;setInvalid(pgPerformanceCGPA);}
 //		else setValid(pgPerformanceCGPA);
 //		if(!pgPerformancePercentage.isDisabled() && (pgPerformancePercentage.getText().trim().length() == 0 || !checkDouble(pgPerformancePercentage.getText()) || Double.parseDouble(pgPerformancePercentage.getText()) > 100)) {flag=false;setInvalid(pgPerformancePercentage);}
@@ -769,14 +769,14 @@ public class ApplicantFormController
 			if(pi.getPreferences()[0] != null) preferences1.setValue(pi.getPreferences()[0]);
 			if(pi.getPreferences()[1] != null) preferences2.setValue(pi.getPreferences()[1]);
 			if(pi.getPreferences()[2] != null) preferences3.setValue(pi.getPreferences()[2]);
-//			 private ChoiceBox<String> gender;
-//			 private ChoiceBox<String> category;
-//			 private ToggleGroup phyDisabled;
-//			 private ToggleGroup defence;
-//			 private TextField fatherName;
-//			 private TextField nationality;
-//			 private TextArea permAddress;
-//			 private TextField pincode;
+//			 private AdapterChoiceBox<String> gender;
+//			 private AdapterChoiceBox<String> category;
+//			 private AdapterToggleGroup phyDisabled;
+//			 private AdapterToggleGroup defence;
+//			 private AdapterTextField fatherName;
+//			 private AdapterTextField nationality;
+//			 private AdapterTextArea permAddress;
+//			 private AdapterTextField pincode;
 //			 private Button p_info_saveButton;
 		}
 	}*/
