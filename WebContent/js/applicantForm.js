@@ -18,9 +18,13 @@ function readCookie(name) {
 function main()
 {
 	$.material.init();
+      if(readCookie('guser_name')!=null)
       $("[name='name']").val(readCookie('guser_name').replace(/\"/g, ""));
+      if(readCookie('guser_email')!=null)
       $("[name='email']").val(readCookie('guser_email').replace(/\"/g, ""));
+      if(readCookie('guser_corrAddress')!=null)
       $("[name='corrAddress']").val(readCookie('guser_corrAddress').replace(/\"/g, ""));
+      if(readCookie('guser_mobNumber')!=null)
       $("[name='mobNumber']").val(readCookie('guser_mobNumber').replace(/\"/g, ""));
       var vdate = new Date();
       vdate.setFullYear(vdate.getFullYear() - 15);
@@ -90,4 +94,14 @@ function main()
             if($(this).prop('checked')) $("[for='pgPerformance']").text("Performance (in CGPA)");
             else $("[for='pgPerformance']").text("Performance (in %age)");
       });
+}
+
+function markError(field_name)
+{
+  $("[name='"+field_name+"']").closest(".form-group").addClass("has-error");
+}
+
+function unmarkError(field_name)
+{
+  $("[name='"+field_name+"']").closest(".form-group").removeClass("has-error");
 }
