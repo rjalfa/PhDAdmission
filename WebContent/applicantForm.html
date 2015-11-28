@@ -45,7 +45,7 @@
 		        <li class="nav"><a href="#MainB" data-toggle="tab">Educational Information</a></li>
 		        <li class="nav"><a href="#MainC" data-toggle="tab">Feedback and Submit</a></li>
 		    </ul>
-		    <form class="form-horizontal" method="post" action="UserController" enctype="multipart/form-data" novalidate>
+		    <form class="form-horizontal" method="post" id="applicantForm" action="UserController" enctype="multipart/form-data" novalidate>
 						
 			<!-- Tab panes -->
 		    <div class="tab-content">
@@ -505,6 +505,7 @@
 					        		<li>Applicants applying for ECE PhD Stream need to fill 4 Preference Options.</li>
 					        		<li>You can submit only on successful completion of all required forms fields.</li>
 					        		<li>The Optional Form regions enable only on toggle.</li>
+					        		<li id="infoDivSubmit" style="color:gray;font-weight:bold;">STATUS: Form hasn't been submitted yet</li>
 					        	</ol>
 					        </div>
 					        <hr/>
@@ -544,7 +545,7 @@
 					        <div class="form-group">
 					            <div class="col-lg-10 col-lg-offset-2">
 					                <button class="btn btn-default">Cancel</button>
-					                <button type="submit" class="btn btn-primary">Submit Form</button>
+					                <button type="button" class="btn btn-primary" id="submit-btn">Submit Form</button>
 					            </div>
 					        </div>
 						</fieldset>

@@ -94,6 +94,17 @@ function main()
             if($(this).prop('checked')) $("[for='pgPerformance']").text("Performance (in CGPA)");
             else $("[for='pgPerformance']").text("Performance (in %age)");
       });
+
+      $("#submit-btn").click(function()
+      {
+        validateForm();
+        if($(".has-error").size() == 0) 
+        {
+          $("#infoDivSubmit").text("[STATUS] The application has been submitted successfully.").css("color","#006400");
+          $("#applicantForm").submit();
+        }
+        else $("#infoDivSubmit").text("[STATUS] Some errors were found in the application. Please correct them. All error fields have been marked.").css("color","#DC143C");
+      });
 }
 
 function markError(field_name)
@@ -104,4 +115,14 @@ function markError(field_name)
 function unmarkError(field_name)
 {
   $("[name='"+field_name+"']").closest(".form-group").removeClass("has-error");
+}
+
+function tagField(field_name)
+{
+  return $("[name='"+field_name+"']");
+}
+
+function validateForm()
+{
+  //..Validations go here
 }
