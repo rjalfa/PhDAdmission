@@ -122,7 +122,52 @@ function tagField(field_name)
   return $("[name='"+field_name+"']");
 }
 
+function validateEmail(email) {
+    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+    return re.test(email);
+}
+
 function validateForm()
 {
   //..Validations go here
+  
+  var field = "name";
+  var input = tagField(field).val().trim();
+  if(input.length == 0) markError(field);
+  else unmarkError(field);
+
+  field = "fatherName";
+  var input = tagField(field).val().trim();
+  if(input.length == 0) markError(field);
+  else unmarkError(field);
+
+  field = "corrAddress";
+  var input = tagField(field).val().trim();
+  if(input.length == 0) markError(field);
+  else unmarkError(field);
+
+  field = "mobNumber";
+  var input = tagField(field).val().trim();
+  if(!(input.length == 10 && Number.isInteger(input) && parseInt(input) > 0)) markError(field);
+  else unmarkError(field);
+
+  field = "fatherName";
+  var input = tagField(field).val().trim();
+  if(input.length == 0) markError(field);
+  else unmarkError(field);
+
+  field = "email";
+  var input = tagField(field).val().trim();
+  if(input.length == 0 || validateEmail(input) == false) markError(field);
+  else unmarkError(field);
+
+  field = "permAddress";
+  var input = tagField(field).val().trim();
+  if(input.length == 0) markError(field);
+  else unmarkError(field);
+
+  field = "pincode";
+  var input = tagField(field).val().trim();
+  if(!(input.length == 6 && Number.isInteger(input) && parseInt(input) > 0)) markError(field);
+  else unmarkError(field);
 }
