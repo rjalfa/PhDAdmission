@@ -6,6 +6,7 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Iterator;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
@@ -28,7 +29,8 @@ public class UserController extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
     	Applicant applicant = new Applicant();
 		request.getSession().setAttribute("applicant",applicant);
-    	response.sendRedirect("applicantForm.html");
+		RequestDispatcher rd = request.getRequestDispatcher("applicantForm.html");
+		rd.include(request,response);
 	}
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

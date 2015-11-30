@@ -28,6 +28,7 @@ public class SessionDestroy extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		request.getSession().setAttribute("logged_in_user", false);
+		request.getSession().invalidate();
 		response.sendRedirect("UserSessionManager");
 		return;
 	}
