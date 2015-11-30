@@ -54,6 +54,7 @@ public class AdminController extends HttpServlet {
 			e.printStackTrace();
 		}
     	AdminManager.filter(parameters);
+    	System.out.println(AdminManager.getFilteredApplicants().size());
 	}
 
 }
