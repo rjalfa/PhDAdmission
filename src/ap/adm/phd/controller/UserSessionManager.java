@@ -1,6 +1,8 @@
 package ap.adm.phd.controller;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -28,7 +30,8 @@ public class UserSessionManager extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.sendRedirect("gauth.html");
+		RequestDispatcher rd = request.getRequestDispatcher("gauth.html");
+		rd.include(request,response);
 	}
 
 	/**

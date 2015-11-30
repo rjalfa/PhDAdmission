@@ -41,11 +41,12 @@ public class AuthenticationFilter implements Filter {
 		// place your code here
 		 	HttpServletRequest req = (HttpServletRequest) request;
 	        HttpServletResponse res = (HttpServletResponse) response;
-	        System.out.println("[INFO] Filter Call");
 	        String uri = req.getRequestURI();
+	        System.out.println("[INFO] Filter Call , URI:"+uri);
 	         
 	        HttpSession session = req.getSession();
-	        if((session.getAttribute("logged_in_user") != null && (Boolean)session.getAttribute("logged_in_user") == true) && (uri.contains("UserSessionManager") || uri.contains("gauth.html")))
+	        if(uri.endsWith("html")) res.sendError(404);
+	        else if((session.getAttribute("logged_in_user") != null && (Boolean)session.getAttribute("logged_in_user") == true) && uri.contains("UserSessionManager"))
 	        {
 	        	System.out.println("[INFO] User already logged in!");
 	        	res.sendRedirect("UserController");
@@ -58,7 +59,7 @@ public class AuthenticationFilter implements Filter {
 	        else if((session.getAttribute("logged_in_user") == null || (Boolean)session.getAttribute("logged_in_user") == false)  && (uri.contains("UserController") || uri.contains("AdminController")))
 	        {
 	        	System.out.println("[INFO] User not logged in! / Successfully Logged out");
-	            res.sendRedirect("gauth.html");
+	            res.sendRedirect("UserSessionManager");
 	            return;
 	        }
 	        else
