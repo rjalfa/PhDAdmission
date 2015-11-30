@@ -45,7 +45,8 @@ public class AuthenticationFilter implements Filter {
 	        System.out.println("[INFO] Filter Call , URI:"+uri);
 	         
 	        HttpSession session = req.getSession();
-	        if(uri.endsWith("html")) res.sendError(404);
+	        if(uri.endsWith("html")) 
+	        	res.sendError(404);
 	        else if((session.getAttribute("logged_in_user") != null && (Boolean)session.getAttribute("logged_in_user") == true) && uri.contains("UserSessionManager"))
 	        {
 	        	System.out.println("[INFO] User already logged in!");

@@ -42,13 +42,19 @@ public class AdminManager {
 		}
 		return;
 	}
+	
+	public static ArrayList<Applicant> getFilteredApplicants()
+	{
+		return filteredApplicants;
+	}
 	private static boolean filterPredicate(Applicant A, HashMap<String, String> params)
 	{
 		//Personal Information
 		if(params.get("nameField").trim().length() > 0 && A.getPersonalInformation().getApplicantName().equals(params.get("nameField")) == false) return false;
+		System.out.println(params.get("emailField"));
 		if(params.get("emailField").trim().length() > 0 && A.getPersonalInformation().getEmail().equals(params.get("emailField")) == false) return false;
-		if(params.get("enrollField").trim().length() > 0 && A.getPersonalInformation().getEnrollmentNo().equals(params.get("enrollField")) == false) return false;
-		if(!params.get("category").equals("") && A.getPersonalInformation().getCategory().equals(params.get("category")) == false) return false;
+		//if(params.get("enrollField").trim().length() > 0 && A.getPersonalInformation().getEnrollmentNo().equals(params.get("enrollField")) == false) return false;
+		//if(!params.get("category").equals("") && A.getPersonalInformation().getCategory().equals(params.get("category")) == false) return false;
 		// if(genderField.getSelectedToggle() != null && A.getPersonalInformation().getGender().equals(((RadioButton)(genderField.getSelectedToggle())).getText()) == false) return false;
 		// if(phyDisField.getSelectedToggle() != null && A.getPersonalInformation().getDisabled() == (((RadioButton)(phyDisField.getSelectedToggle())).getText().equals("Yes"))) return false; 
 		// if(dateOfBirthConditionField.getSelectedToggle() != null && dateOfBirthField.getValue() != null)
@@ -62,7 +68,7 @@ public class AdminManager {
 		// }
 		
 		//Educational Information
-		if(!params.get("phdStreamField").equals("") && !A.getPersonalInformation().getPreferences()[0].equals(params.get("phdStreamField")) && !A.getPersonalInformation().getPreferences()[1].equals(params.get("phdStreamField")) && !A.getPersonalInformation().getPreferences()[2].equals(params.get("phdStreamField"))) return false;
+		/*if(!params.get("phdStreamField").equals("") && !A.getPersonalInformation().getPreferences()[0].equals(params.get("phdStreamField")) && !A.getPersonalInformation().getPreferences()[1].equals(params.get("phdStreamField")) && !A.getPersonalInformation().getPreferences()[2].equals(params.get("phdStreamField"))) return false;
 		if(!params.get("graduationDegreeField").equals("") && A.getEducationInformation().getGraduation().getDegreeName().equals(params.get("graduationDegreeField")) == false) return false;
 		if(!params.get("pgDegreeField").equals("") && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getDegreeName().equals(params.get("pgDegreeField")) == false))) return false;
 		if(!params.get("xBoardField").equals("") && A.getEducationInformation().getSchooling().getTenthBoardName().equals(params.get("xBoardField")) == false) return false;
@@ -70,7 +76,7 @@ public class AdminManager {
 		if(!params.get("gradDeptField").equals("") && A.getEducationInformation().getGraduation().getDepartment().equals(params.get("gradDeptField")) == false) return false;
 		if(!params.get("pgDeptField").equals("") && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getDepartment().equals(params.get("pgDeptField")) == false))) return false;
 		if(params.get("gradUnivField").trim().length() > 0 && A.getEducationInformation().getGraduation().getUniversityName().equals(params.get("gradUnivField")) == false) return false;
-		// if(params.get("pgUnivField").trim().length() > 0 && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getUniversity().equals(pgUnivField.getText()) == false))) return false;
+		*/// if(params.get("pgUnivField").trim().length() > 0 && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getUniversity().equals(pgUnivField.getText()) == false))) return false;
 		// if(!params.get("gradStateField").equals("") && A.getEducationInformation().getGraduation().getState().equals(gradStateField.getValue()) == false) return false;
 		// if!(params.get("pgStateField").equals("") && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getState().equals(pgStateField.getValue()) == false))) return false;
 		// if(params.get("xMarksField").trim().length() > 0)
