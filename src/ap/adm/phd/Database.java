@@ -147,10 +147,8 @@ public class Database {
 		File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
 		if (!outDir.exists()) outDir.mkdirs();
 		System.out.println(outDir.getAbsolutePath());
-		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getCv()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf").toPath());
-		//Files.copy(new File(applicant.getEducationInformation().getAchievements().getSop()).toPath(),new File("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf").toPath());				
-		applicant.getEducationInformation().getAchievements().setCv("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantCV.pdf");
-		applicant.getEducationInformation().getAchievements().setSop("data/DATA"+applicant.getPersonalInformation().getEnrollmentNo()+"/applicantSOP.pdf");
+		applicant.getEducationInformation().getAchievements().setCv(outDir.getAbsolutePath()+"/applicantCV.pdf");
+		applicant.getEducationInformation().getAchievements().setSop(outDir.getAbsolutePath()+"/applicantSOP.pdf");
 		try
 		{
 			commitRecord(applicant);
@@ -164,7 +162,6 @@ public class Database {
 	private static String eidGenerator()
 	{
 		return "PHD" + System.currentTimeMillis();
-		//return eig.next(); 
 	}
 	
 	public static void createText(Applicant applicant) throws IOException{
