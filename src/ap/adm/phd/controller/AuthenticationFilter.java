@@ -52,7 +52,7 @@ public class AuthenticationFilter implements Filter {
 	        	return;
 	        }
 	        else if((session.getAttribute("logged_in_user") != null && (Boolean)session.getAttribute("logged_in_user") == true) && uri.contains("AdminController")){
-	        	if (!session.getAttribute("email").equals("rounaq14089@iiitd.ac.in")) res.sendRedirect("SessionDestroy");
+	        	if (!session.getAttribute("guser_email").equals("rounaq14089@iiitd.ac.in")) res.sendRedirect("SessionDestroy");
 	        	else chain.doFilter(request, response);
 	        }
 	        else if((session.getAttribute("logged_in_user") == null || (Boolean)session.getAttribute("logged_in_user") == false)  && (uri.contains("UserController") || uri.contains("AdminController")))
