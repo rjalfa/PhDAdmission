@@ -20,13 +20,12 @@ import ap.adm.phd.utilities.GlobalVars;
 
 public class Database {
 	
-	//private static EnrollmentNoGenerator eig = new EnrollmentNoGenerator();
 	private static ArrayList<Applicant> applicants = new ArrayList<>();
 	public static void fillUser(Applicant applicant,HashMap<String,String> params)
 	{
 		applicant.getPersonalInformation().setApplicantName(params.get("name"));
 		applicant.getPersonalInformation().setEmail(params.get("email"));
-		applicant.getPersonalInformation().setEnrollmentNo(eidGenerator());
+		applicant.getPersonalInformation().setEnrollmentNo(params.get("enrollmentNumber"));
 		applicant.getPersonalInformation().setCorrespondenceAddress(params.get("corrAddress"));
 		applicant.getPersonalInformation().setMobileNo(params.get("mobNumber"));
 		applicant.getPersonalInformation().setDateOfBirth(LocalDate.parse(params.get("dobField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")));
@@ -123,25 +122,11 @@ public class Database {
 
 		//Uploading Documents
 		applicant.getEducationInformation().getAchievements().setDescription(params.get("otherAchieve"));
-		//applicant.getEducationInformation().getAchievements().setCv(cvUploadPath);
-		//applicant.getEducationInformation().getAchievements().setSop(sopUploadPath);
-
 
 		//Feedback
-/*		applicant.getFeedback().setFirstHear(params.get("feedbackQ1"));
-		ArrayList<String> q2messages = new ArrayList<>();
-		if(feedbackQ2op1.isSelected()) q2messages.add(feedbackQ2op1.getText());
-		if(feedbackQ2op2.isSelected()) q2messages.add(feedbackQ2op2.getText());
-		if(feedbackQ2op3.isSelected()) q2messages.add(feedbackQ2op3.getText());
-		if(feedbackQ2op4.isSelected()) q2messages.add(feedbackQ2op4.getText());
-		if(feedbackQ2op5.isSelected()) q2messages.add(feedbackQ2op5.getText());
-		if(feedbackQ2op6.isSelected()) q2messages.add(feedbackQ2op6.getText());
-		if(feedbackQ2op7.isSelected()) q2messages.add(feedbackQ2op7.getText());
-		if(feedbackQ2op8.isSelected()) q2messages.add(feedbackQ2op8.getText());
-		if(feedbackQ2op9.isSelected()) q2messages.add(feedbackQ2op9.getText());
-		if(feedbackQ2op10.isSelected()) q2messages.add(feedbackQ2op10.getText());
-		applicant.getFeedback().setReasonOfInterest(q2messages.toArray(new String[q2messages.size()]));
-*/
+		applicant.getFeedback().setFirstHear(params.get("feedbackQ1"));
+		applicant.getFeedback().setReasonOfInterest(params.get("feedbackQ2string").split(";"));
+
 		//Set Today's Date to Record
 		applicant.setApplicationSubmit(LocalDate.now());
 		File outDir = new File("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo());
@@ -254,6 +239,14 @@ public class Database {
 		}
 		outStream.close();
 	}
+	
+	public static Applicant newApplicant()
+	{
+		Applicant a = new Applicant();
+		a.getPersonalInformation().setEnrollmentNo(eidGenerator());
+		return a;
+	}
+	
 	public static void commitRecord(Applicant applicant) throws IOException{
 		createText(applicant);
 		ObjectOutputStream outStream = new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream("data/DATA" + applicant.getPersonalInformation().getEnrollmentNo() + "/applicantData.adm")));
