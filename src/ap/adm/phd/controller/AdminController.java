@@ -7,7 +7,6 @@ import java.util.HashMap;
 
 import javax.json.Json;
 import javax.json.JsonObject;
-import javax.json.JsonValue;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -49,6 +48,8 @@ public class AdminController extends HttpServlet {
 			     .add("gradDeptField",String.join(",",Arrays.toString(AdminManager.temp4.toArray(new String[AdminManager.temp4.size()]))))
 			     .add("pgDegreeField",String.join(",",Arrays.toString(AdminManager.temp5.toArray(new String[AdminManager.temp5.size()]))))
 			     .add("pgDeptField",String.join(",",Arrays.toString(AdminManager.temp6.toArray(new String[AdminManager.temp6.size()]))))
+			     .add("gradStateField",String.join(",",Arrays.toString(AdminManager.temp6.toArray(new String[AdminManager.temp7.size()]))))
+			     .add("pgStateField",String.join(",",Arrays.toString(AdminManager.temp6.toArray(new String[AdminManager.temp8.size()]))))
 			     .build();
 		System.out.println("[AdminController GET] JSON:"+value);
 		response.addCookie(new Cookie("dropdowndata",value+""));
@@ -70,6 +71,7 @@ public class AdminController extends HttpServlet {
     	}
     	AdminManager.filter(parameters);
     	System.out.println(AdminManager.getFilteredApplicants().size());
+    	
 	}
 
 }
