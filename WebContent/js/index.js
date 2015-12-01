@@ -82,26 +82,26 @@ function validateForm()
 
     field = "xMarksField";
     var input = tagField(field).val().trim();
-    if(input.length == 0 || !ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0)) markError(field);
+    if(input.length !=0 && (!ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0))) markError(field);
     else unmarkError(field);
 
     field = "xiiMarksField";
     var input = tagField(field).val().trim();
-    if(input.length == 0 || !ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0)) markError(field);
+    if(input.length !=0 && (!ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0))) markError(field);
     else unmarkError(field);
 
     field = "gradMarksField";
     var input = tagField(field).val().trim();
-    if(input.length == 0 || !ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0)) markError(field);
+    if(input.length !=0 && (!ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0))) markError(field);
     else unmarkError(field);
 
     field = "pgMarksField";
     var input = tagField(field).val().trim();
-    if(input.length == 0 || !ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0)) markError(field);
+    if(input.length !=0 && (!ProperDoubleRE.test(input) || !(parseFloat(input)<=100.0))) markError(field);
     else unmarkError(field);
 
     field = "gateMarksField";
     var input = tagField(field).val().trim();
-    if(input.length == 0 || !ProperDoubleRE.test(input) || !(parseFloat(input)<=1000.0)) markError(field);
+    if(input.length !=0 && (!ProperDoubleRE.test(input) || !(parseFloat(input)<=1000.0))) markError(field);
     else unmarkError(field);
 }
