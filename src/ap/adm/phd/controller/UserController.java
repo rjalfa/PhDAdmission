@@ -19,6 +19,12 @@ import javax.servlet.http.Part;
 import ap.adm.phd.Database;
 import ap.adm.phd.model.Applicant;
 
+
+/*
+ * @author Rounaq Jhunjhunu Wala 2014089
+ * @author Ambar Pal 2014012
+ */
+
 @WebServlet("/UserController")
 @MultipartConfig
 public class UserController extends HttpServlet {

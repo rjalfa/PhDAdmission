@@ -18,6 +18,10 @@ import java.util.HashMap;
 import ap.adm.phd.model.Applicant;
 import ap.adm.phd.utilities.GlobalVars;
 
+/*
+ * @author Rounaq Jhunjhunu Wala 2014089
+ * @author Ambar Pal 2014012
+ */
 public class Database {
 	
 	private static ArrayList<Applicant> applicants = new ArrayList<>();

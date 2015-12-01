@@ -14,6 +14,10 @@ import java.util.HashSet;
 
 import ap.adm.phd.model.Applicant;
 
+/*
+ * @author Rounaq Jhunjhunu Wala 2014089
+ * @author Ambar Pal 2014012
+ */
 public class AdminManager {
 	private static ArrayList<Applicant> applicants;
 	private static ArrayList<Applicant> filteredApplicants;
