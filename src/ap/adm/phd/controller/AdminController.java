@@ -71,7 +71,7 @@ public class AdminController extends HttpServlet {
     	}
     	AdminManager.filter(parameters);
     	System.out.println(AdminManager.getFilteredApplicants().size());
-    	response.sendRedirect("AdminFilterController");
+    	response.sendRedirect("AdminResultsController");
 	}
 
 }

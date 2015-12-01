@@ -31,6 +31,8 @@ function main()
       $("[name='corrAddress']").val(readCookie('guser_corrAddress').replace(/\"/g, ""));
       if(readCookie('guser_mobNumber')!=null)
       $("[name='mobNumber']").val(readCookie('guser_mobNumber').replace(/\"/g, ""));
+      if(readCookie('enrollmentNumber')!=null)
+      $("[name='enrollmentNumber']").val(readCookie('enrollmentNumber').replace(/\"/g, ""));
       var vdate = new Date();
       vdate.setFullYear(vdate.getFullYear() - 15);
       $("#dobField").bootstrapMaterialDatePicker({ weekStart : 0, time: false ,maxDate: vdate});
@@ -399,21 +401,21 @@ function validateForm()
     unmarkError("gateRank");
   }
 
-  field = "cvUploadPath";
+  /*field = "cvUploadPath";
   var input = tagField(field);
-  if(!input.prop('files')[0] || input.files[0].size > 4194304) markError(field);
+  if(!(input.prop('files')[0]) || input.files[0].size > 4194304) markError(field);
   else unmarkError(field); 
 
   field = "sopUploadPath";
   var input = tagField(field);
-  if(!input.prop('files')[0] || input.files[0].size > 4194304) markError(field);
+  if(!(input.prop('files')[0]) || input.files[0].size > 4194304) markError(field);
   else unmarkError(field);
-
-  field = "feedbackQ2";
-  if(feedbackQ2().length == 0) markError(field);
-  else
-  {
-    unmarkError(field);
-    $("[name='feedbackQ2string']").val(feedbackQ2());
-  }
+*/
+  // field = "feedbackQ2";
+  // if(feedbackQ2().length == 0) markError(field);
+  // else
+  // {
+  //   unmarkError(field);
+  //   $("[name='feedbackQ2string']").val(feedbackQ2());
+  // }
 }
