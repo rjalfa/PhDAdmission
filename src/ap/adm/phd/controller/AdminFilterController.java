@@ -200,8 +200,7 @@ public class AdminFilterController
 			{
 				temp2.add(A.getEducationInformation().getPostGraduation().getDegreeName());
 				temp6.add(A.getEducationInformation().getPostGraduation().getDepartment());
-			}
-			
+			}	
 		}
 		//System.out.println(filteredResult);
 		categoryField.setItems(casteList);

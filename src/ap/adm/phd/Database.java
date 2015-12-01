@@ -274,6 +274,5 @@ public class Database {
 				inStream.close();
 			}
 		}
-	
 	}
 }

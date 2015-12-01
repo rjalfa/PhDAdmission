@@ -10,14 +10,31 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 import ap.adm.phd.model.Applicant;
 
 public class AdminManager {
 	private static ArrayList<Applicant> applicants;
 	private static ArrayList<Applicant> filteredApplicants;
+	public static HashSet<String> temp1;
+	public static HashSet<String> temp2;
+	public static HashSet<String> temp3;
+	public static HashSet<String> temp4;
+	public static HashSet<String> temp5;
+	public static HashSet<String> temp6;
+	public static HashSet<String> temp7;
+	public static HashSet<String> temp8;
 	public static void readRecord() throws IOException, ClassNotFoundException{
 		Applicant applicant = null;
+		temp1 = new HashSet<String>();
+		temp2 = new HashSet<String>();
+		temp3 = new HashSet<String>();
+		temp4 = new HashSet<String>();
+		temp5 = new HashSet<String>();
+		temp6 = new HashSet<String>();
+		temp7 = new HashSet<String>();
+		temp8 = new HashSet<String>();
 		int i;
 		ObjectInputStream inStream = null;
 		applicants = new ArrayList<>();
@@ -30,6 +47,17 @@ public class AdminManager {
 				{	
 					applicant = (Applicant)inStream.readObject();
 					applicants.add(applicant);
+					temp1.add(applicant.getEducationInformation().getSchooling().getTenthBoardName());
+					temp2.add(applicant.getEducationInformation().getSchooling().getTwelfthBoardName());
+					temp3.add(applicant.getEducationInformation().getGraduation().getDegreeName());
+					temp4.add(applicant.getEducationInformation().getGraduation().getDepartment());
+					temp7.add(applicant.getEducationInformation().getGraduation().getState());
+					if(applicant.getEducationInformation().getPostGraduation() != null)
+					{
+						temp5.add(applicant.getEducationInformation().getPostGraduation().getDegreeName());
+						temp6.add(applicant.getEducationInformation().getPostGraduation().getDepartment());
+						temp8.add(applicant.getEducationInformation().getPostGraduation().getState());
+					}
 				}
 			}
 			catch(EOFException e){
