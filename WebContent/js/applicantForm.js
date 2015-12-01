@@ -191,6 +191,38 @@ function validateForm()
   if(!(input.length == 6) || !ProperNumberRE.test(input)) markError(field);
   else unmarkError(field);
 
+  var b0, b1, b2, b3;
+  b0 = (tagField("preferences1").val().trim().length > 0) * 1;
+  b1 = (tagField("preferences2").val().trim().length > 0) * 2;
+  b2 = (tagField("preferences3").val().trim().length > 0) * 4;
+  b3 = (tagField("preferences4").val().trim().length > 0) * 8;
+  var s = b0 + b1 + b2 + b3;
+
+  var c0, c1, c2, c3;
+  c0 = tagField("preferences1").val().trim(); if (c0.length == 0) co = "0";
+  c1 = tagField("preferences2").val().trim(); if (c1.length == 0) c1 = "1";
+  c2 = tagField("preferences3").val().trim(); if (c2.length == 0) c2 = "2";
+  c3 = tagField("preferences4").val().trim(); if (c3.length == 0) c3 = "3";
+
+  if (c0 == c1 || c0 == c2 || c0 == c3 || c1 == c2 || c1 == c3 || c2 == c3){
+    markError("preferences1");
+    markError("preferences2");
+    markError("preferences3");
+    markError("preferences4");
+  }
+  else if ((s & (s + 1)) != 0){
+    console.log("sahfkjag");
+    markError("preferences1");
+    markError("preferences2");
+    markError("preferences3");
+    markError("preferences4");
+  }
+  else{
+    unmarkError("preferences1");
+    unmarkError("preferences2");
+    unmarkError("preferences3");
+    unmarkError("preferences4");
+  }
 
   //Education Information
   field = "xBoard";
