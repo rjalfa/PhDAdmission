@@ -37,7 +37,7 @@ public class Database {
 		if(params.get("phdStreamSelector").equals("Electronics and Communication")) applicant.getPersonalInformation().setPreferences(params.get("preferences1"),params.get("preferences2"),params.get("preferences3"),params.get("preferences4"));
 		else applicant.getPersonalInformation().setPreferences(params.get("preferences1"),params.get("preferences2"),params.get("preferences3"));
 		applicant.getPersonalInformation().setGender(params.get("gender"));
-		applicant.getPersonalInformation().setCategory(GlobalVars.casteList[Integer.parseInt(params.get("category"))-1]);
+		applicant.getPersonalInformation().setCategory(params.get("category"));
 		if(params.get("phyDisabled") != null) applicant.getPersonalInformation().setDisabled(true);
 		else applicant.getPersonalInformation().setDisabled(false);
 		if(params.get("defence") != null) applicant.getPersonalInformation().setDefence(true);
