@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: Annice Santos
+Email: annicesantos@gmail.com
+Enrollment No.: PHD1057
+Correspondence Address:
+1 Horeb Rd, Kidwelly, Carmarthenshire SA17 4PB, India
+Mobile Number: 9026662707
+DOB: 1987-09-12
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Female
+Category: ST
+Disabled: false
+Defence Category: true
+Father's Name: Raymon Santos
+Nationality: Indian
+Permanent Address:
+1 Horeb Rd, Kidwelly, Carmarthenshire SA17 4PB, UK
+PIN/ZIP Code: 495785
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 96.0
+Year of Passing: 2003
+Class XII:-
+Board: ICSE
+Percentage: 71.0
+Year of Passing: 2005
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Graduation:2009
+Percentage: 75.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Post Graduation: 2011
+Percentage: 82.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2009
+Percentage: 75.0
+Score: 787.0
+Rank: 4848

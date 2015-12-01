@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ATheresia Hemond
+Email: theresiahemond@gmail.com
+Enrollment No.: PHD1647
+Correspondence Address:
+8 Bowman Ct, Pocklington, York, East Riding of Yorkshire YO42 2FG, India
+Mobile Number: 9540474455
+DOB: 1988-04-27
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Embedded Systems
+Wireless Network
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Hassan Hemond
+Nationality: Indian
+Permanent Address:
+8 Bowman Ct, Pocklington, York, East Riding of Yorkshire YO42 2FG, UK
+PIN/ZIP Code: 354367
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 76.0
+Year of Passing: 2004
+Class XII:-
+Board: ICSE
+Percentage: 75.0
+Year of Passing: 2006
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IIT-Kharagpur
+University: IIT
+City: Kharagpur
+State: West Bengal
+Year of Graduation:2010
+Percentage: 77.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IIT-Kharagpur
+University: IIT-Kharagpur
+City: Kharagpur
+State: West Bengal
+Year of Post Graduation: 2012
+Percentage: 75.0

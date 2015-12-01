@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoGeorgianna Broxton
+Email: georgiannabroxton@gmail.com
+Enrollment No.: PHD1453
+Correspondence Address:
+2A School Ln, Poynton, Stockport, Cheshire East SK12 1AX, India
+Mobile Number: 9597767749
+DOB: 1987-01-26
+Stream: Computational Biology
+Preferences:
+BioSimulations
+Mathematical Biology
+
+
+Gender: Male
+Category: General
+Disabled: true
+Defence Category: false
+Father's Name: Chase Broxton
+Nationality: Indian
+Permanent Address:
+2A School Ln, Poynton, Stockport, Cheshire East SK12 1AX, UK
+PIN/ZIP Code: 480992
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 75.0
+Year of Passing: 2003
+Class XII:-
+Board: ICSE
+Percentage: 86.0
+Year of Passing: 2005
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Graduation:2009
+Percentage: 81.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2011
+Percentage: 84.0

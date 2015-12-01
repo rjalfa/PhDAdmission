@@ -1,0 +1,61 @@
+Personal Information
+====================
+Name: GoAngelika Dingle
+Email: angelikadingle@gmail.com
+Enrollment No.: PHD1410
+Correspondence Address:
+9 Field Rd, Denham, Uxbridge, Buckinghamshire UB9 4HJ, India
+Mobile Number: 9999024521
+DOB: 1989-05-31
+Stream: Electronics and Communication
+Preferences:
+Compilers
+Distributed Systems
+Embedded System
+
+Gender: Male
+Category: SC
+Disabled: false
+Defence Category: false
+Father's Name: Jewel Dingle
+Nationality: Indian
+Permanent Address:
+9 Field Rd, Denham, Uxbridge, Buckinghamshire UB9 4HJ, UK
+PIN/ZIP Code: 925838
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 71.0
+Year of Passing: 2005
+Class XII:-
+Board: CBSE
+Percentage: 82.0
+Year of Passing: 2007
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Graduation:2011
+CGPA: 8.4
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Post Graduation: 2013
+Percentage: 82.0
+
+Other Achievements:
+Prime Minister's Scholarship

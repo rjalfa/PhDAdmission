@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ElThomasina Alcantara
+Email: thomasinaalcantara@gmail.com
+Enrollment No.: PHD1745
+Correspondence Address:
+4 Mains Rd, Ballantrae, Girvan, South Ayrshire KA26 0NJ, India
+Mobile Number: 9975933393
+DOB: 1986-01-22
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Embedded Systems
+Compilers
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Hayden Alcantara
+Nationality: Indian
+Permanent Address:
+4 Mains Rd, Ballantrae, Girvan, South Ayrshire KA26 0NJ, UK
+PIN/ZIP Code: 439317
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 86.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 72.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: College of Engineering
+University: Savitribai Phule Pune University 
+City: Pune
+State: Maharashtra
+Year of Graduation:2008
+Percentage: 97.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: College of Engineering
+University: College of Engineering
+City: Pune
+State: Maharashtra
+Year of Post Graduation: 2010
+Percentage: 72.0

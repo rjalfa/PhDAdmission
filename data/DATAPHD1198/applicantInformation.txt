@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: JoEarleen Hughey
+Email: earleenhughey@gmail.com
+Enrollment No.: PHD1198
+Correspondence Address:
+28 Holm Grove, Uxbridge, Greater London UB10 9LZ, India
+Mobile Number: 8425023390
+DOB: 1991-08-09
+Stream: Computational Biology
+Preferences:
+Image Processing
+Data Processing
+Molecular Biology
+
+Gender: Male
+Category: General
+Disabled: true
+Defence Category: false
+Father's Name: Duane Hughey
+Nationality: Pakistani
+Permanent Address:
+28 Holm Grove, Uxbridge, Greater London UB10 9LZ, UK
+PIN/ZIP Code: 476143
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 72.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 70.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2013
+Percentage: 70.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2015
+Percentage: 69.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 88.0
+Score: 924.0
+Rank: 1717

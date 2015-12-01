@@ -59,5 +59,6 @@ public class UserController extends HttpServlet {
     			break;
     		}
     	}
+        response.sendRedirect("thankyou.html");
     }
 }

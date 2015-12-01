@@ -1,0 +1,54 @@
+Personal Information
+====================
+Name: JoMarquetta Pernell
+Email: marquettapernell@gmail.com
+Enrollment No.: PHD1163
+Correspondence Address:
+78 Church Ln, Newington, Sittingbourne, Kent ME9 7JU, India
+Mobile Number: 9421463053
+DOB: 1986-07-08
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Male
+Category: ST
+Disabled: false
+Defence Category: true
+Father's Name: Rosendo Pernell
+Nationality: Indian
+Permanent Address:
+78 Church Ln, Newington, Sittingbourne, Kent ME9 7JU, UK
+PIN/ZIP Code: 961386
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 85.0
+Year of Passing: 2002
+Class XII:-
+Board: ICSE
+Percentage: 92.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: IT - BHU
+University: IT - BHU
+City: Varanasi
+State: Uttar Pradesh
+Year of Graduation:2008
+CGPA: 7.8
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2008
+Percentage: 76.0
+Score: 798.0
+Rank: 5656

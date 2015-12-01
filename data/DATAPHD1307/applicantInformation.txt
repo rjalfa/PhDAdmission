@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: MaMica Glasscock
+Email: micaglasscock@gmail.com
+Enrollment No.: PHD1307
+Correspondence Address:
+Hurst Ln, London SE2, India
+Mobile Number: 9540474455
+DOB: 1991-03-11
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Embedded Systems
+Embedded System
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Rick Glasscock
+Nationality: Nepalese
+Permanent Address:
+Hurst Ln, London SE2, UK
+PIN/ZIP Code: 572388
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 73.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 83.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: Netaji Subhas Institute of Technology
+University: Delhi University
+City: New Delhi
+State: Delhi
+Year of Graduation:2013
+Percentage: 76.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: Netaji Subhas Institute of Technology
+University: Netaji Subhas Institute of Technology
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2015
+Percentage: 74.0

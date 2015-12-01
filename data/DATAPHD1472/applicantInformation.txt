@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoRyan Priddy
+Email: ryanpriddy@gmail.com
+Enrollment No.: PHD1472
+Correspondence Address:
+184 Luckwell Rd, Bristol, City of Bristol BS3 3HE, India
+Mobile Number: 8939033524
+DOB: 1991-09-14
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Data Processing
+Mobile Computing
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: true
+Father's Name: Don Priddy
+Nationality: Indian
+Permanent Address:
+184 Luckwell Rd, Bristol, City of Bristol BS3 3HE, UK
+PIN/ZIP Code: 133179
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 93.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 75.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2013
+Percentage: 77.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2015
+Percentage: 72.0

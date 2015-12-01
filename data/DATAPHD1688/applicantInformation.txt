@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: AMartha Drouin
+Email: marthadrouin@gmail.com
+Enrollment No.: PHD1688
+Correspondence Address:
+11 Mannings Cl, Saffron Walden, Essex CB11 4BD, India
+Mobile Number: 9312237451
+DOB: 1991-09-26
+Stream: Computer Science
+Preferences:
+Information Security
+
+
+
+Gender: Female
+Category: ST
+Disabled: false
+Defence Category: false
+Father's Name: Hershel Drouin
+Nationality: Indian
+Permanent Address:
+11 Mannings Cl, Saffron Walden, Essex CB11 4BD, UK
+PIN/ZIP Code: 766712
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 73.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 81.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: NIT-Warangal
+University: NIT
+City: Warangal
+State: Andhra Pradesh
+Year of Graduation:2013
+Percentage: 69.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: NIT-Warangal
+University: NIT-Warangal
+City: Warangal
+State: Andhra Pradesh
+Year of Post Graduation: 2015
+Percentage: 74.0

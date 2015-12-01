@@ -1,0 +1,61 @@
+Personal Information
+====================
+Name: GoLeticia Masek
+Email: leticiamasek@gmail.com
+Enrollment No.: PHD1406
+Correspondence Address:
+56 Rollesby Rd, Chessington, Greater London KT9 2BZ, India
+Mobile Number: 7879417879
+DOB: 1988-04-16
+Stream: Computer Science
+Preferences:
+Information Security
+
+
+
+Gender: Female
+Category: OBC
+Disabled: false
+Defence Category: false
+Father's Name: Rolland Masek
+Nationality: Indian
+Permanent Address:
+56 Rollesby Rd, Chessington, Greater London KT9 2BZ, UK
+PIN/ZIP Code: 238341
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 82.0
+Year of Passing: 2004
+Class XII:-
+Board: CBSE
+Percentage: 84.0
+Year of Passing: 2006
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Graduation:2010
+Percentage: 80.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Post Graduation: 2012
+Percentage: 84.0
+
+Other Achievements:
+MCP Certification

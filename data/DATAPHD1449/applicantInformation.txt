@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoDiedra Abdo
+Email: diedraabdo@gmail.com
+Enrollment No.: PHD1449
+Correspondence Address:
+3 Poplars Dr, Marldon, Paignton, Devon TQ3 1NS, India
+Mobile Number: 8652494041
+DOB: 1991-12-15
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Embedded Systems
+Embedded System
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Santo Abdo
+Nationality: Indian
+Permanent Address:
+3 Poplars Dr, Marldon, Paignton, Devon TQ3 1NS, UK
+PIN/ZIP Code: 499077
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 92.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 77.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: Harcourt Butler Technological Institute
+University: UPTU
+City: Kanpur
+State: Uttar Pradesh
+Year of Graduation:2013
+Percentage: 84.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: Harcourt Butler Technological Institute
+University: Harcourt Butler Technological Institute
+City: Kanpur
+State: Uttar Pradesh
+Year of Post Graduation: 2015
+Percentage: 70.0

@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: PeLorenzo Nakano
+Email: lorenzonakano@gmail.com
+Enrollment No.: PHD1530
+Correspondence Address:
+1 St James Rd, Hereford, Herefordshire HR1 2QL, India
+Mobile Number: 9999024521
+DOB: 1985-12-31
+Stream: Computational Biology
+Preferences:
+Image Processing
+
+
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Frankie Nakano
+Nationality: Indian
+Permanent Address:
+1 St James Rd, Hereford, Herefordshire HR1 2QL, UK
+PIN/ZIP Code: 752853
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 86.0
+Year of Passing: 2001
+Class XII:-
+Board: CBSE
+Percentage: 86.0
+Year of Passing: 2003
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Netaji Subhas Institute of Technology
+University: Delhi University
+City: New Delhi
+State: Delhi
+Year of Graduation:2007
+CGPA: 8.4
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Netaji Subhas Institute of Technology
+University: Netaji Subhas Institute of Technology
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2009
+Percentage: 81.0

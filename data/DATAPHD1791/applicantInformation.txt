@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: ElBroderick Padro
+Email: broderickpadro@gmail.com
+Enrollment No.: PHD1791
+Correspondence Address:
+8 Kylerhea, Breakish, Isle of Skye, Highland IV42 8NH, India
+Mobile Number: 9599775300
+DOB: 1991-04-21
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+Mathematical Biology
+
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Johnathon Padro
+Nationality: Indian
+Permanent Address:
+8 Kylerhea, Breakish, Isle of Skye, Highland IV42 8NH, UK
+PIN/ZIP Code: 501156
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 82.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 87.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IT - BHU
+University: IT - BHU
+City: Varanasi
+State: Uttar Pradesh
+Year of Graduation:2013
+Percentage: 88.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IT - BHU
+University: IT - BHU
+City: Varanasi
+State: Uttar Pradesh
+Year of Post Graduation: 2015
+Percentage: 87.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 82.0
+Score: 861.0
+Rank: 3737

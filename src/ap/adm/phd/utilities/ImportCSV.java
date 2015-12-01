@@ -240,7 +240,7 @@ public class ImportCSV {
 		CSVParser csvParser = null;
 		CSVFormat csvFormat = CSVFormat.DEFAULT.withHeader("Email","Name","Address of Correspondence","Mobile","PhD Stream","PhD Area Preference 1","PhD Area Preference 2","PhD Area Preference 3","Gender","Category","Physically Disabled","DOB","Children/War Widows of Defence Personnel killed/Disabled in Action","Father's Name","Nationality","Permanent Address","Pin Code","Xth Board","Xth Marks (%)","Year of Passing Xth","XIIth Board","XIIth Marks (%)","Year of Passing XIIth","Graduation Degree","Graduation Department","Graduation College","Graduation University","Graduation City","Graduation State","Year of Graduation","Grad CGPA or Marks","Applying for ECE PhD","ECE PhD Subject Preference 1","ECE PhD Subject Preference 2","ECE PhD Subject Preference 3","ECE PhD Subject Preference 4","Completed Post Grad","Post Grad Degree","Post Grad Department","Post Grad College","Post Grad Thesis","Post Grad City","Post Grad State","Year of Post Grad","Post Grad CGPA or Marks","Other Academic Degrees","Exam Name","Subject","Year","Score","Rank","Taken GATE Exam","GATE Area","Year of Gate","Marks(%)","Gate Score","Gate Rank","Achievements","Timestamp","EnrollmentNo");
 		try{
-			fileReader = new FileReader("externalData/Data_to_Import.csv");
+			fileReader = new FileReader("ext/Data_to_Import.csv");
 			csvParser = new CSVParser(fileReader, csvFormat);
 			List<CSVRecord> records = csvParser.getRecords();
 			for (int i = 1; i < records.size(); i++){

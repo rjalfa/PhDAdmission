@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: MaChris Truett
+Email: christruett@gmail.com
+Enrollment No.: PHD1315
+Correspondence Address:
+13 Murray Pl, Cambusbarron, Stirling, Stirling FK7 9PF, India
+Mobile Number: 7415173953
+DOB: 1985-11-30
+Stream: Electronics and Communication
+Preferences:
+Compilers
+VLSI
+Embedded System
+
+Gender: Male
+Category: ST
+Disabled: false
+Defence Category: false
+Father's Name: Kraig Truett
+Nationality: Indian
+Permanent Address:
+13 Murray Pl, Cambusbarron, Stirling, Stirling FK7 9PF, UK
+PIN/ZIP Code: 417039
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 96.0
+Year of Passing: 2001
+Class XII:-
+Board: CBSE
+Percentage: 87.0
+Year of Passing: 2003
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IIT-Kharagpur
+University: IIT
+City: Kharagpur
+State: West Bengal
+Year of Graduation:2007
+Percentage: 72.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IIT-Kharagpur
+University: IIT-Kharagpur
+City: Kharagpur
+State: West Bengal
+Year of Post Graduation: 2009
+Percentage: 70.0

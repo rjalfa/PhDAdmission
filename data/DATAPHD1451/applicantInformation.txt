@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoNyla Rector
+Email: nylarector@gmail.com
+Enrollment No.: PHD1451
+Correspondence Address:
+85 Bernard St, Southampton, Southampton SO14 3EG, India
+Mobile Number: 9599775300
+DOB: 1986-04-21
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Male
+Category: OBC
+Disabled: false
+Defence Category: false
+Father's Name: Dennis Rector
+Nationality: Indian
+Permanent Address:
+85 Bernard St, Southampton, Southampton SO14 3EG, UK
+PIN/ZIP Code: 782645
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 85.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 97.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIT-Delhi
+University: IIT
+City: New Delhi
+State: Delhi
+Year of Graduation:2008
+Percentage: 74.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IIT-Delhi
+University: IIT-Delhi
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2010
+Percentage: 74.0

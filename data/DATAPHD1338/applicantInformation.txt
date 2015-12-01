@@ -1,0 +1,46 @@
+Personal Information
+====================
+Name: ShoBonita Spurrier
+Email: bonitaspurrier@gmail.com
+Enrollment No.: PHD1338
+Correspondence Address:
+12 Oaktree Ave, Derby, Derby DE24 8ES, India
+Mobile Number: 8425023390
+DOB: 1991-03-28
+Stream: Computer Science
+Preferences:
+Information Security
+Data Processing
+Mobile Computing
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: true
+Father's Name: Vincent Spurrier
+Nationality: Indian
+Permanent Address:
+12 Oaktree Ave, Derby, Derby DE24 8ES, UK
+PIN/ZIP Code: 486808
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 86.0
+Year of Passing: 2007
+Class XII:-
+Board: State Board
+Percentage: 79.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Graduation:2013
+Percentage: 86.0

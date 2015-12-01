@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: MaBillie Hollowell
+Email: billiehollowell@gmail.com
+Enrollment No.: PHD1292
+Correspondence Address:
+3 Homfray Ave, Morecambe, Lancashire LA3 3AG, India
+Mobile Number: 8939033524
+DOB: 1986-04-27
+Stream: Electronics and Communication
+Preferences:
+Compilers
+Embedded Systems
+VLSI
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Jame Hollowell
+Nationality: Indian
+Permanent Address:
+3 Homfray Ave, Morecambe, Lancashire LA3 3AG, UK
+PIN/ZIP Code: 154943
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 83.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 73.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Graduation:2008
+Percentage: 70.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Post Graduation: 2010
+Percentage: 84.0
+
+GATE Information
+================
+Area: Electronics and Communication
+Year: 2008
+Percentage: 82.0
+Score: 861.0
+Rank: 3535

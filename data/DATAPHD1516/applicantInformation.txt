@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: PeMonserrate You
+Email: monserrateyou@gmail.com
+Enrollment No.: PHD1516
+Correspondence Address:
+37-41 Anne Rd, Smethwick, West Midlands B66 2NZ, India
+Mobile Number: 7506939626
+DOB: 1991-05-28
+Stream: Computer Science
+Preferences:
+Information Security
+Data Processing
+Mobile Computing
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Brent You
+Nationality: Indian
+Permanent Address:
+37-41 Anne Rd, Smethwick, West Midlands B66 2NZ, UK
+PIN/ZIP Code: 301660
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 73.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 74.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Graduation:2013
+Percentage: 77.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Information Technology
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2015
+Percentage: 80.0

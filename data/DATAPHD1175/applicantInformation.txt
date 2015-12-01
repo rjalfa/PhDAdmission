@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: JoVena Chacon
+Email: venachacon@gmail.com
+Enrollment No.: PHD1175
+Correspondence Address:
+1 Old Station Pl, Ballater, Aberdeenshire AB35 5RG, India
+Mobile Number: 7415173953
+DOB: 1991-05-11
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Female
+Category: OBC
+Disabled: false
+Defence Category: false
+Father's Name: Donnie Chacon
+Nationality: Indian
+Permanent Address:
+1 Old Station Pl, Ballater, Aberdeenshire AB35 5RG, UK
+PIN/ZIP Code: 757432
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 75.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 97.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Harcourt Butler Technological Institute
+University: UPTU
+City: Kanpur
+State: Uttar Pradesh
+Year of Graduation:2013
+Percentage: 84.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Harcourt Butler Technological Institute
+University: Harcourt Butler Technological Institute
+City: Kanpur
+State: Uttar Pradesh
+Year of Post Graduation: 2015
+Percentage: 97.0

@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoFreddy Mikels
+Email: freddymikels@gmail.com
+Enrollment No.: PHD1434
+Correspondence Address:
+37-41 Eastwoodbury Cres, Southend-on-Sea, Southend-on-Sea SS2 6XG, India
+Mobile Number: 9650826230
+DOB: 1990-03-28
+Stream: Electronics and Communication
+Preferences:
+Compilers
+Embedded Systems
+VLSI
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Thanh Mikels
+Nationality: Indian
+Permanent Address:
+37-41 Eastwoodbury Cres, Southend-on-Sea, Southend-on-Sea SS2 6XG, UK
+PIN/ZIP Code: 740517
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 83.0
+Year of Passing: 2006
+Class XII:-
+Board: ICSE
+Percentage: 94.0
+Year of Passing: 2008
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IIT-Delhi
+University: IIT
+City: New Delhi
+State: Delhi
+Year of Graduation:2012
+Percentage: 87.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IIT-Delhi
+University: IIT-Delhi
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2014
+CGPA: 7.2

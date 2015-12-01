@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ElDelaine Formica
+Email: delaineformica@gmail.com
+Enrollment No.: PHD1746
+Correspondence Address:
+11 Portpool Ln, London EC1N, India
+Mobile Number: 7879417879
+DOB: 1986-07-04
+Stream: Computational Biology
+Preferences:
+Image Processing
+Mathematical Biology
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Jaime Formica
+Nationality: Indian
+Permanent Address:
+11 Portpool Ln, London EC1N, UK
+PIN/ZIP Code: 649784
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 79.0
+Year of Passing: 2002
+Class XII:-
+Board: ICSE
+Percentage: 77.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: PSG College of Technology
+University: Anna University
+City: Coimbatore
+State: Tamil Nadu
+Year of Graduation:2008
+Percentage: 81.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: PSG College of Technology
+University: PSG College of Technology
+City: Coimbatore
+State: Tamil Nadu
+Year of Post Graduation: 2010
+Percentage: 77.0

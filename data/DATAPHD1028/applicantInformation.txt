@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: Kandis Baron
+Email: kandisbaron@gmail.com
+Enrollment No.: PHD1028
+Correspondence Address:
+33 Campion Cres, Cranbrook, Kent TN17 3QJ, India
+Mobile Number: 9312237451
+DOB: 1986-10-19
+Stream: Electronics and Communication
+Preferences:
+Compilers
+Distributed Systems
+Embedded System
+
+Gender: Male
+Category: SC
+Disabled: false
+Defence Category: false
+Father's Name: Patricia Baron
+Nationality: Indian
+Permanent Address:
+33 Campion Cres, Cranbrook, Kent TN17 3QJ, UK
+PIN/ZIP Code: 557349
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 84.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 70.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: BIT
+University: BIT
+City: Mesra
+State: Jharkhand
+Year of Graduation:2008
+Percentage: 79.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: BIT
+University: BIT
+City: Mesra
+State: Jharkhand
+Year of Post Graduation: 2010
+Percentage: 70.0

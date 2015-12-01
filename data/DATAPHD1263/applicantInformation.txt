@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: MaEryn Napoli
+Email: erynnapoli@gmail.com
+Enrollment No.: PHD1263
+Correspondence Address:
+42 Lyndhurst Rd, Bexleyheath, Greater London DA7 6DF, India
+Mobile Number: 9421463053
+DOB: 1991-03-20
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+
+
+
+Gender: Male
+Category: General
+Disabled: true
+Defence Category: false
+Father's Name: Monty Napoli
+Nationality: Indian
+Permanent Address:
+42 Lyndhurst Rd, Bexleyheath, Greater London DA7 6DF, UK
+PIN/ZIP Code: 334922
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 84.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 75.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Graduation:2013
+Percentage: 76.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Post Graduation: 2015
+Percentage: 75.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 70.0
+Score: 735.0
+Rank: 6565

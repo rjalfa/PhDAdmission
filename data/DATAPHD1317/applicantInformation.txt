@@ -1,0 +1,54 @@
+Personal Information
+====================
+Name: MaDwana Klock
+Email: dwanaklock@gmail.com
+Enrollment No.: PHD1317
+Correspondence Address:
+74-78 Great Whyte, Ramsey, Huntingdon, Cambridgeshire PE26 1HU, India
+Mobile Number: 9026662707
+DOB: 1986-05-09
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Chris Klock
+Nationality: Indian
+Permanent Address:
+74-78 Great Whyte, Ramsey, Huntingdon, Cambridgeshire PE26 1HU, UK
+PIN/ZIP Code: 656841
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 82.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 86.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: PSG College of Technology
+University: Anna University
+City: Coimbatore
+State: Tamil Nadu
+Year of Graduation:2008
+Percentage: 83.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2008
+Percentage: 76.0
+Score: 798.0
+Rank: 5454

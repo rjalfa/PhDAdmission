@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: ElWilbert Stmarie
+Email: wilbertstmarie@gmail.com
+Enrollment No.: PHD1779
+Correspondence Address:
+2 Storws Wen, Brynteg, Isle of Anglesey LL78 8JY, India
+Mobile Number: 9654003030
+DOB: 1988-09-14
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Jerrold Stmarie
+Nationality: Indian
+Permanent Address:
+2 Storws Wen, Brynteg, Isle of Anglesey LL78 8JY, UK
+PIN/ZIP Code: 803914
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 70.0
+Year of Passing: 2004
+Class XII:-
+Board: ICSE
+Percentage: 89.0
+Year of Passing: 2006
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: College of Engineering
+University: Savitribai Phule Pune University 
+City: Pune
+State: Maharashtra
+Year of Graduation:2010
+Percentage: 86.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Information Technology
+College: College of Engineering
+University: College of Engineering
+City: Pune
+State: Maharashtra
+Year of Post Graduation: 2012
+Percentage: 86.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2010
+Percentage: 86.0
+Score: 903.0
+Rank: 2020

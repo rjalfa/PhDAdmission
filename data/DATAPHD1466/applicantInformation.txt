@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoSantina Gunnels
+Email: santinagunnels@gmail.com
+Enrollment No.: PHD1466
+Correspondence Address:
+35 Linton Rd, Rosliston, Swadlincote, Derbyshire DE12 8JB, India
+Mobile Number: 7879417879
+DOB: 1991-10-03
+Stream: Computer Science
+Preferences:
+Information Security
+
+
+
+Gender: Male
+Category: ST
+Disabled: false
+Defence Category: false
+Father's Name: Columbus Gunnels
+Nationality: Indian
+Permanent Address:
+35 Linton Rd, Rosliston, Swadlincote, Derbyshire DE12 8JB, UK
+PIN/ZIP Code: 732742
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 92.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 88.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Harcourt Butler Technological Institute
+University: UPTU
+City: Kanpur
+State: Uttar Pradesh
+Year of Graduation:2013
+Percentage: 81.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Harcourt Butler Technological Institute
+University: Harcourt Butler Technological Institute
+City: Kanpur
+State: Uttar Pradesh
+Year of Post Graduation: 2015
+Percentage: 89.0

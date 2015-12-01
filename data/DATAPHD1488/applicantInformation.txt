@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: PeTereasa Mahler
+Email: tereasamahler@gmail.com
+Enrollment No.: PHD1488
+Correspondence Address:
+88 The Uplands, Rogerstone, Newport, Newport NP10 9FE, India
+Mobile Number: 9312237451
+DOB: 1988-07-28
+Stream: Computational Biology
+Preferences:
+Image Processing
+Mathematical Biology
+
+
+Gender: Female
+Category: General
+Disabled: true
+Defence Category: false
+Father's Name: Carlos Mahler
+Nationality: French
+Permanent Address:
+88 The Uplands, Rogerstone, Newport, Newport NP10 9FE, UK
+PIN/ZIP Code: 701129
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 96.0
+Year of Passing: 2004
+Class XII:-
+Board: CBSE
+Percentage: 86.0
+Year of Passing: 2006
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: College of Engineering
+University: Savitribai Phule Pune University 
+City: Pune
+State: Maharashtra
+Year of Graduation:2010
+Percentage: 69.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: College of Engineering
+University: College of Engineering
+City: Pune
+State: Maharashtra
+Year of Post Graduation: 2012
+Percentage: 86.0

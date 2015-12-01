@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: ShoGuadalupe Basch
+Email: guadalupebasch@gmail.com
+Enrollment No.: PHD1324
+Correspondence Address:
+Mayles Ln, Wickham, Fareham, Hampshire PO17 5NH, India
+Mobile Number: 9938529679
+DOB: 1987-09-08
+Stream: Electronics and Communication
+Preferences:
+Compilers
+VLSI
+Embedded System
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Orville Basch
+Nationality: Indian
+Permanent Address:
+Mayles Ln, Wickham, Fareham, Hampshire PO17 5NH, UK
+PIN/ZIP Code: 750384
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 75.0
+Year of Passing: 2003
+Class XII:-
+Board: CBSE
+Percentage: 74.0
+Year of Passing: 2005
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2009
+CGPA: 7.2
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2011
+Percentage: 74.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2009
+Percentage: 82.0
+Score: 861.0
+Rank: 3939

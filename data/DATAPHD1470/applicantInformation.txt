@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoAdah Neufeld
+Email: adahneufeld@gmail.com
+Enrollment No.: PHD1470
+Correspondence Address:
+105 Piccadilly, Wolverhampton, West Midlands WV1 9FN, India
+Mobile Number: 9999024521
+DOB: 1991-12-18
+Stream: Electronics and Communication
+Preferences:
+Compilers
+Embedded Systems
+VLSI
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Lesley Neufeld
+Nationality: Indian
+Permanent Address:
+105 Piccadilly, Wolverhampton, West Midlands WV1 9FN, UK
+PIN/ZIP Code: 951369
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 89.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 72.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Graduation:2013
+Percentage: 74.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2015
+Percentage: 75.0

@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: MaLelah Glynn
+Email: lelahglynn@gmail.com
+Enrollment No.: PHD1282
+Correspondence Address:
+61 Crichton St, Glasgow, Glasgow City G21 1BG, India
+Mobile Number: 9823807309
+DOB: 1991-05-28
+Stream: Computer Science
+Preferences:
+Information Security
+
+
+
+Gender: Male
+Category: OBC
+Disabled: false
+Defence Category: true
+Father's Name: Otha Glynn
+Nationality: Nepalese
+Permanent Address:
+61 Crichton St, Glasgow, Glasgow City G21 1BG, UK
+PIN/ZIP Code: 528876
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 91.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 81.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: College of Engineering
+University: Savitribai Phule Pune University 
+City: Pune
+State: Maharashtra
+Year of Graduation:2013
+CGPA: 8.4
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: College of Engineering
+University: College of Engineering
+City: Pune
+State: Maharashtra
+Year of Post Graduation: 2015
+Percentage: 72.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 71.0
+Score: 745.0
+Rank: 7373

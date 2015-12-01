@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: PeLorean Gibson
+Email: loreangibson@gmail.com
+Enrollment No.: PHD1548
+Correspondence Address:
+247 Wallacewell Rd, Glasgow, Glasgow City G21 3PS, India
+Mobile Number: 9312237451
+DOB: 1991-06-30
+Stream: Computational Biology
+Preferences:
+Image Processing
+
+
+
+Gender: Male
+Category: General
+Disabled: true
+Defence Category: false
+Father's Name: Waldo Gibson
+Nationality: Indian
+Permanent Address:
+247 Wallacewell Rd, Glasgow, Glasgow City G21 3PS, UK
+PIN/ZIP Code: 563180
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 87.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 90.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: IIT-Delhi
+University: IIT
+City: New Delhi
+State: Delhi
+Year of Graduation:2013
+Percentage: 79.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Information Technology
+College: IIT-Delhi
+University: IIT-Delhi
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2015
+Percentage: 88.0

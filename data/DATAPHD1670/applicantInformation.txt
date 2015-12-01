@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: AClarence Mclaughin
+Email: clarencemclaughin@gmail.com
+Enrollment No.: PHD1670
+Correspondence Address:
+Sunderland Hwy, Sunderland, Tyne and Wear SR5, India
+Mobile Number: 9999024521
+DOB: 1989-01-24
+Stream: Computer Science
+Preferences:
+Information Security
+
+
+
+Gender: Male
+Category: ST
+Disabled: false
+Defence Category: false
+Father's Name: Glenn Mclaughin
+Nationality: Saudi
+Permanent Address:
+Sunderland Hwy, Sunderland, Tyne and Wear SR5, UK
+PIN/ZIP Code: 804736
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 87.0
+Year of Passing: 2005
+Class XII:-
+Board: ICSE
+Percentage: 92.0
+Year of Passing: 2007
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: NIT-Surathkal
+University: NIT
+City: Surathkal
+State: Karnataka
+Year of Graduation:2011
+Percentage: 74.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: NIT-Surathkal
+University: NIT-Surathkal
+City: Surathkal
+State: Karnataka
+Year of Post Graduation: 2013
+CGPA: 9.0

@@ -1,0 +1,69 @@
+Personal Information
+====================
+Name: AJunie Saffold
+Email: juniesaffold@gmail.com
+Enrollment No.: PHD1662
+Correspondence Address:
+3 Savoy Parade, Enfield, Greater London EN1 1RT, India
+Mobile Number: 9823807309
+DOB: 1991-02-09
+Stream: Electronics and Communication
+Preferences:
+Compilers
+VLSI
+Embedded System
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Virgil Saffold
+Nationality: Indian
+Permanent Address:
+3 Savoy Parade, Enfield, Greater London EN1 1RT, UK
+PIN/ZIP Code: 560346
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 85.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 77.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Graduation:2013
+Percentage: 86.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Post Graduation: 2015
+Percentage: 77.0
+
+GATE Information
+================
+Area: Electronics and Communication
+Year: 2013
+Percentage: 96.0
+Score: 989.0
+Rank: 303
+
+Other Achievements:
+Thesis work accepted in International Academic & Research Conference India 2014 

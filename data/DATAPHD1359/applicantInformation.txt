@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: ShoEvette Furey
+Email: evettefurey@gmail.com
+Enrollment No.: PHD1359
+Correspondence Address:
+11 Leacroft, Willenhall, West Midlands WV12 5JZ, India
+Mobile Number: 9654003030
+DOB: 1991-09-20
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Male
+Category: ST
+Disabled: false
+Defence Category: false
+Father's Name: Reed Furey
+Nationality: Indian
+Permanent Address:
+11 Leacroft, Willenhall, West Midlands WV12 5JZ, UK
+PIN/ZIP Code: 748074
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 83.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 97.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Graduation:2013
+Percentage: 74.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Post Graduation: 2015
+Percentage: 84.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 70.0
+Score: 735.0
+Rank: 7171

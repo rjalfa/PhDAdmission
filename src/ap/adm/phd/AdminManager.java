@@ -79,6 +79,7 @@ public class AdminManager {
 	}
 	private static boolean filterPredicate(Applicant A, HashMap<String, String> params)
 	{
+		return true;/*
 		//Personal Information
 		if(params.get("nameField").trim().length() > 0 && A.getPersonalInformation().getApplicantName().equals(params.get("nameField")) == false) return false;
 		System.out.println(params.get("emailField"));
@@ -150,6 +151,6 @@ public class AdminManager {
 		}
 		if(!(params.get("adfField").trim().length() > 0 || (A.getApplicationSubmit().isAfter(LocalDate.parse(params.get("adfField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")).minusDays(1))))) return false;
 		if(!(params.get("adtField").trim().length() > 0 || (A.getApplicationSubmit().isBefore(LocalDate.parse(params.get("adtField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")).plusDays(1))))) return false;
-		return true;
+		return true;*/
 	}
 }

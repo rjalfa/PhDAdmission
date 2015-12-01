@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ADeedra Middendorf
+Email: deedramiddendorf@gmail.com
+Enrollment No.: PHD1696
+Correspondence Address:
+122 The Broadway, Southend-on-Sea, Southend-on-Sea SS99 6HA, India
+Mobile Number: 7506939626
+DOB: 1987-09-03
+Stream: Computational Biology
+Preferences:
+Image Processing
+Data Processing
+Molecular Biology
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Grady Middendorf
+Nationality: Indian
+Permanent Address:
+122 The Broadway, Southend-on-Sea, Southend-on-Sea SS99 6HA, UK
+PIN/ZIP Code: 632056
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 79.0
+Year of Passing: 2003
+Class XII:-
+Board: CBSE
+Percentage: 89.0
+Year of Passing: 2005
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Graduation:2009
+Percentage: 84.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Post Graduation: 2011
+Percentage: 86.0

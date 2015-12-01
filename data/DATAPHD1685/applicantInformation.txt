@@ -1,0 +1,46 @@
+Personal Information
+====================
+Name: ATroy Bellinger
+Email: troybellinger@gmail.com
+Enrollment No.: PHD1685
+Correspondence Address:
+Stanley Cl, Farnham, Surrey GU9 9EU, India
+Mobile Number: 9975933393
+DOB: 1991-11-21
+Stream: Computer Science
+Preferences:
+Mobile Computing
+Data Processing
+Mobile Computing
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Billie Bellinger
+Nationality: Indian
+Permanent Address:
+Stanley Cl, Farnham, Surrey GU9 9EU, UK
+PIN/ZIP Code: 393709
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 92.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 93.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: BIT
+University: BIT
+City: Mesra
+State: Jharkhand
+Year of Graduation:2013
+Percentage: 72.0

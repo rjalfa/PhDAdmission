@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: JamKate Rudnick
+Email: katerudnick@gmail.com
+Enrollment No.: PHD1141
+Correspondence Address:
+42-44 Edwin Grove, Wallsend, Tyne and Wear NE28 0LH, India
+Mobile Number: 9911022043
+DOB: 1989-04-24
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Embedded Systems
+Compilers
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Heath Rudnick
+Nationality: Indian
+Permanent Address:
+42-44 Edwin Grove, Wallsend, Tyne and Wear NE28 0LH, UK
+PIN/ZIP Code: 457104
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 77.0
+Year of Passing: 2005
+Class XII:-
+Board: ICSE
+Percentage: 92.0
+Year of Passing: 2007
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Graduation:2011
+Percentage: 85.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Post Graduation: 2013
+Percentage: 83.0
+
+GATE Information
+================
+Area: Electronics and Communication
+Year: 2011
+Percentage: 93.0
+Score: 976.0
+Rank: 505

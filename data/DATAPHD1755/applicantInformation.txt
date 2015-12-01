@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: ElQuinton Uhrich
+Email: quintonuhrich@gmail.com
+Enrollment No.: PHD1755
+Correspondence Address:
+2 Court Ln, Hadlow, Tonbridge, Kent TN11 0DP, India
+Mobile Number: 7415173953
+DOB: 1991-01-17
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+Mathematical Biology
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Isaias Uhrich
+Nationality: Indian
+Permanent Address:
+2 Court Ln, Hadlow, Tonbridge, Kent TN11 0DP, UK
+PIN/ZIP Code: 614033
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 72.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 70.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Graduation:2013
+Percentage: 72.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Post Graduation: 2015
+Percentage: 72.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 72.0
+Score: 756.0
+Rank: 6969

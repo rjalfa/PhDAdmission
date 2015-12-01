@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: JoJunko Cady
+Email: junkocady@gmail.com
+Enrollment No.: PHD1206
+Correspondence Address:
+90 Earnsheugh Cir, Cove Bay, Aberdeen, Aberdeen City AB12 3RW, India
+Mobile Number: 7879417879
+DOB: 1991-03-29
+Stream: Electronics and Communication
+Preferences:
+Compilers
+Distributed Systems
+Embedded System
+
+Gender: Male
+Category: SC
+Disabled: false
+Defence Category: false
+Father's Name: Ashley Cady
+Nationality: Indian
+Permanent Address:
+90 Earnsheugh Cir, Cove Bay, Aberdeen, Aberdeen City AB12 3RW, UK
+PIN/ZIP Code: 110046
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 76.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 90.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IIT-Mumbai
+University: IIT
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2013
+Percentage: 80.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IIT-Mumbai
+University: IIT-Mumbai
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2015
+Percentage: 84.0

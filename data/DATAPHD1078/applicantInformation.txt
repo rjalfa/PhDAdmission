@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: Divina Secrist
+Email: divinasecrist@gmail.com
+Enrollment No.: PHD1078
+Correspondence Address:
+38 Central Rd, Morden, Greater London SM4 5RT, India
+Mobile Number: 8425023390
+DOB: 1986-07-08
+Stream: Electronics and Communication
+Preferences:
+Compilers
+VLSI
+Embedded System
+
+Gender: Female
+Category: OBC
+Disabled: false
+Defence Category: true
+Father's Name: Todd Secrist
+Nationality: Indian
+Permanent Address:
+38 Central Rd, Morden, Greater London SM4 5RT, UK
+PIN/ZIP Code: 622540
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 78.0
+Year of Passing: 2002
+Class XII:-
+Board: State Board
+Percentage: 75.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Graduation:2008
+Percentage: 70.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Post Graduation: 2010
+Percentage: 75.0
+
+GATE Information
+================
+Area: Electronics and Communication
+Year: 2008
+Percentage: 90.0
+Score: 945.0
+Rank: 1414

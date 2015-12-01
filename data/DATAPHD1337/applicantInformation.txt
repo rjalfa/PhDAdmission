@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ShoIra Scally
+Email: irascally@gmail.com
+Enrollment No.: PHD1337
+Correspondence Address:
+2 Grinnavat Rd, Shawbost, Isle of Lewis, Na h-Eileanan an Iar HS2 9BL, India
+Mobile Number: 9026662707
+DOB: 1991-10-19
+Stream: Computational Biology
+Preferences:
+BioSimulations
+Mathematical Biology
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Carrol Scally
+Nationality: Nepalese
+Permanent Address:
+2 Grinnavat Rd, Shawbost, Isle of Lewis, Na h-Eileanan an Iar HS2 9BL, UK
+PIN/ZIP Code: 868573
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 87.0
+Year of Passing: 2007
+Class XII:-
+Board: State Board
+Percentage: 76.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIT-Delhi
+University: IIT
+City: New Delhi
+State: Delhi
+Year of Graduation:2013
+Percentage: 75.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IIT-Delhi
+University: IIT-Delhi
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2015
+Percentage: 76.0

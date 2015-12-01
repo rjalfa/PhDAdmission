@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: AJonell Duerr
+Email: jonellduerr@gmail.com
+Enrollment No.: PHD1698
+Correspondence Address:
+Huntley Mill Rd, Ticehurst, Wadhurst, East Sussex TN5, India
+Mobile Number: 8425023390
+DOB: 1988-01-25
+Stream: Electronics and Communication
+Preferences:
+Compilers
+VLSI
+Embedded System
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Franklin Duerr
+Nationality: French
+Permanent Address:
+Huntley Mill Rd, Ticehurst, Wadhurst, East Sussex TN5, UK
+PIN/ZIP Code: 598114
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 80.0
+Year of Passing: 2004
+Class XII:-
+Board: ICSE
+Percentage: 90.0
+Year of Passing: 2006
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IIT-Kharagpur
+University: IIT
+City: Kharagpur
+State: West Bengal
+Year of Graduation:2010
+Percentage: 86.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IIT-Kharagpur
+University: IIT-Kharagpur
+City: Kharagpur
+State: West Bengal
+Year of Post Graduation: 2012
+Percentage: 85.0
+
+GATE Information
+================
+Area: Electronics and Communication
+Year: 2010
+Percentage: 97.0
+Score: 918.0
+Rank: 1515

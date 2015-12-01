@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: AVannesa Delgado
+Email: vannesadelgado@gmail.com
+Enrollment No.: PHD1680
+Correspondence Address:
+Edale Cl, Washington, Tyne and Wear NE38, India
+Mobile Number: 9951354542
+DOB: 1991-10-15
+Stream: Electronics and Communication
+Preferences:
+Compilers
+VLSI
+Embedded System
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Adolfo Delgado
+Nationality: Indian
+Permanent Address:
+Edale Cl, Washington, Tyne and Wear NE38, UK
+PIN/ZIP Code: 582825
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 81.0
+Year of Passing: 2007
+Class XII:-
+Board: State Board
+Percentage: 87.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Graduation:2013
+CGPA: 9.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Post Graduation: 2015
+CGPA: 8.4
+
+GATE Information
+================
+Area: Electronics and Communication
+Year: 2013
+Percentage: 95.0
+Score: 997.0
+Rank: 101

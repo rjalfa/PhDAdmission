@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ATrudie Wnuk
+Email: trudiewnuk@gmail.com
+Enrollment No.: PHD1664
+Correspondence Address:
+7A Parklands, Nanpean, Saint Austell, Cornwall PL26 7YR, India
+Mobile Number: 9938529679
+DOB: 1991-12-04
+Stream: Computer Science
+Preferences:
+Information Security
+
+
+
+Gender: Male
+Category: OBC
+Disabled: false
+Defence Category: false
+Father's Name: Norberto Wnuk
+Nationality: Indian
+Permanent Address:
+7A Parklands, Nanpean, Saint Austell, Cornwall PL26 7YR, UK
+PIN/ZIP Code: 799849
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 77.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 87.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIT-Kharagpur
+University: IIT
+City: Kharagpur
+State: West Bengal
+Year of Graduation:2013
+Percentage: 83.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IIT-Kharagpur
+University: IIT-Kharagpur
+City: Kharagpur
+State: West Bengal
+Year of Post Graduation: 2015
+Percentage: 87.0

@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: MaLesa Fomby
+Email: lesafomby@gmail.com
+Enrollment No.: PHD1272
+Correspondence Address:
+22 Southwold Pl, Cramlington, Northumberland NE23 8HE, India
+Mobile Number: 8939033524
+DOB: 1990-02-17
+Stream: Computational Biology
+Preferences:
+Image Processing
+
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Eddy Fomby
+Nationality: Indian
+Permanent Address:
+22 Southwold Pl, Cramlington, Northumberland NE23 8HE, UK
+PIN/ZIP Code: 439246
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 80.0
+Year of Passing: 2006
+Class XII:-
+Board: State Board
+Percentage: 79.0
+Year of Passing: 2008
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Harcourt Butler Technological Institute
+University: UPTU
+City: Kanpur
+State: Uttar Pradesh
+Year of Graduation:2012
+Percentage: 77.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Harcourt Butler Technological Institute
+University: Harcourt Butler Technological Institute
+City: Kanpur
+State: Uttar Pradesh
+Year of Post Graduation: 2014
+CGPA: 8.4

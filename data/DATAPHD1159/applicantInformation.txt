@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: JamSylvester Budd
+Email: sylvesterbudd@gmail.com
+Enrollment No.: PHD1159
+Correspondence Address:
+2 Rosemoor Cottages, Torrington, Devon EX38 8PH, India
+Mobile Number: 9654003030
+DOB: 1987-09-08
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Augustus Budd
+Nationality: Indian
+Permanent Address:
+2 Rosemoor Cottages, Torrington, Devon EX38 8PH, UK
+PIN/ZIP Code: 850338
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 76.0
+Year of Passing: 2003
+Class XII:-
+Board: CBSE
+Percentage: 78.0
+Year of Passing: 2005
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: BIT
+University: BIT
+City: Mesra
+State: Jharkhand
+Year of Graduation:2009
+Percentage: 74.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: BIT
+University: BIT
+City: Mesra
+State: Jharkhand
+Year of Post Graduation: 2011
+CGPA: 8.4
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2009
+Percentage: 83.0
+Score: 871.0
+Rank: 3333

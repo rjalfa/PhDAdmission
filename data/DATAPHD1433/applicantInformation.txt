@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: GoEdgardo Beecher
+Email: edgardobeecher@gmail.com
+Enrollment No.: PHD1433
+Correspondence Address:
+14 Ardarroch Ct, Aberdeen, Aberdeen City AB24 5QZ, India
+Mobile Number: 9597767749
+DOB: 1990-03-22
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Male
+Category: OBC
+Disabled: false
+Defence Category: true
+Father's Name: Steven Beecher
+Nationality: French
+Permanent Address:
+14 Ardarroch Ct, Aberdeen, Aberdeen City AB24 5QZ, UK
+PIN/ZIP Code: 165165
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 86.0
+Year of Passing: 2006
+Class XII:-
+Board: CBSE
+Percentage: 91.0
+Year of Passing: 2008
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Netaji Subhas Institute of Technology
+University: Delhi University
+City: New Delhi
+State: Delhi
+Year of Graduation:2012
+Percentage: 75.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Netaji Subhas Institute of Technology
+University: Netaji Subhas Institute of Technology
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2014
+CGPA: 7.8
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2012
+Percentage: 75.0
+Score: 787.0
+Rank: 5757

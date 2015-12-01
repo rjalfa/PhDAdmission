@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: Olivia Tew
+Email: oliviatew@gmail.com
+Enrollment No.: PHD1009
+Correspondence Address:
+12A The Mews, Brixworth, Northampton, Northamptonshire NN6 9AS, India
+Mobile Number: 8652494041
+DOB: 1988-08-03
+Stream: Computer Science
+Preferences:
+Mobile Computing
+Data Processing
+Mobile Computing
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: George Tew
+Nationality: Indian
+Permanent Address:
+12A The Mews, Brixworth, Northampton, Northamptonshire NN6 9AS, UK
+PIN/ZIP Code: 153507
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 79.0
+Year of Passing: 2004
+Class XII:-
+Board: State Board
+Percentage: 86.0
+Year of Passing: 2006
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: PSG College of Technology
+University: Anna University
+City: Coimbatore
+State: Tamil Nadu
+Year of Graduation:2010
+Percentage: 84.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: PSG College of Technology
+University: PSG College of Technology
+City: Coimbatore
+State: Tamil Nadu
+Year of Post Graduation: 2012
+Percentage: 86.0

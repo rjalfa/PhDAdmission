@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: MaMiyoko Scheffel
+Email: miyokoscheffel@gmail.com
+Enrollment No.: PHD1251
+Correspondence Address:
+4 Darling Ave, Lurgan, Craigavon, Craigavon BT66 8EZ, India
+Mobile Number: 9599775300
+DOB: 1989-09-19
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+Data Processing
+Molecular Biology
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Anibal Scheffel
+Nationality: Indian
+Permanent Address:
+4 Darling Ave, Lurgan, Craigavon, Craigavon BT66 8EZ, UK
+PIN/ZIP Code: 615463
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 72.0
+Year of Passing: 2005
+Class XII:-
+Board: ICSE
+Percentage: 95.0
+Year of Passing: 2007
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: BIT
+University: BIT
+City: Mesra
+State: Jharkhand
+Year of Graduation:2011
+Percentage: 74.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Information Technology
+College: BIT
+University: BIT
+City: Mesra
+State: Jharkhand
+Year of Post Graduation: 2013
+Percentage: 85.0

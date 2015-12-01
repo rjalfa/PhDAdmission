@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: MaMui Rozek
+Email: muirozek@gmail.com
+Enrollment No.: PHD1271
+Correspondence Address:
+3 Country Park View, Bignall End, Stoke-on-Trent, Staffordshire ST7 8NZ, India
+Mobile Number: 9599775300
+DOB: 1989-07-26
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Embedded Systems
+Embedded System
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Ian Rozek
+Nationality: Indian
+Permanent Address:
+3 Country Park View, Bignall End, Stoke-on-Trent, Staffordshire ST7 8NZ, UK
+PIN/ZIP Code: 402604
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 85.0
+Year of Passing: 2005
+Class XII:-
+Board: CBSE
+Percentage: 79.0
+Year of Passing: 2007
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: NIT-Warangal
+University: NIT
+City: Warangal
+State: Andhra Pradesh
+Year of Graduation:2011
+Percentage: 88.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: NIT-Warangal
+University: NIT-Warangal
+City: Warangal
+State: Andhra Pradesh
+Year of Post Graduation: 2013
+Percentage: 75.0

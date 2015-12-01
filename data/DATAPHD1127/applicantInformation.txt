@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: JamLily Luciano
+Email: lilyluciano@gmail.com
+Enrollment No.: PHD1127
+Correspondence Address:
+2 Main St, Polmont, Falkirk, Falkirk FK2 0QY, India
+Mobile Number: 9540474455
+DOB: 1991-07-21
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+Data Processing
+Molecular Biology
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Chris Luciano
+Nationality: Indian
+Permanent Address:
+2 Main St, Polmont, Falkirk, Falkirk FK2 0QY, UK
+PIN/ZIP Code: 136434
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 77.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 79.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: NIT-Surathkal
+University: NIT
+City: Surathkal
+State: Karnataka
+Year of Graduation:2013
+Percentage: 77.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: NIT-Surathkal
+University: NIT-Surathkal
+City: Surathkal
+State: Karnataka
+Year of Post Graduation: 2015
+CGPA: 8.4

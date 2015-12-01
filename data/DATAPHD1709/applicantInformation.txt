@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: AJustine Moriarty
+Email: justinemoriarty@gmail.com
+Enrollment No.: PHD1709
+Correspondence Address:
+151 Cheltenham Gardens, Hedge End, Southampton, Hampshire SO30 4UE, India
+Mobile Number: 8652494041
+DOB: 1991-09-16
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Female
+Category: OBC
+Disabled: false
+Defence Category: false
+Father's Name: Wade Moriarty
+Nationality: Indian
+Permanent Address:
+151 Cheltenham Gardens, Hedge End, Southampton, Hampshire SO30 4UE, UK
+PIN/ZIP Code: 945866
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 76.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 84.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Graduation:2013
+Percentage: 89.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Post Graduation: 2015
+Percentage: 77.0

@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: JoOzie Braddock
+Email: oziebraddock@gmail.com
+Enrollment No.: PHD1201
+Correspondence Address:
+A493, Arthog, Gwynedd LL39 1YY, India
+Mobile Number: 9911022043
+DOB: 1991-03-10
+Stream: Computational Biology
+Preferences:
+BioSimulations
+
+
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Charles Braddock
+Nationality: Indian
+Permanent Address:
+A493, Arthog, Gwynedd LL39 1YY, UK
+PIN/ZIP Code: 430252
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 91.0
+Year of Passing: 2007
+Class XII:-
+Board: State Board
+Percentage: 71.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIT-Kharagpur
+University: IIT
+City: Kharagpur
+State: West Bengal
+Year of Graduation:2013
+Percentage: 75.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IIT-Kharagpur
+University: IIT-Kharagpur
+City: Kharagpur
+State: West Bengal
+Year of Post Graduation: 2015
+CGPA: 7.2
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 93.0
+Score: 976.0
+Rank: 808

@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoCristobal Meinecke
+Email: cristobalmeinecke@gmail.com
+Enrollment No.: PHD1405
+Correspondence Address:
+71 Brenthouse Rd, London E9 6QD, India
+Mobile Number: 9975933393
+DOB: 1987-09-23
+Stream: Computational Biology
+Preferences:
+BioSimulations
+
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Clayton Meinecke
+Nationality: Saudi
+Permanent Address:
+71 Brenthouse Rd, London E9 6QD, UK
+PIN/ZIP Code: 873451
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 96.0
+Year of Passing: 2003
+Class XII:-
+Board: CBSE
+Percentage: 84.0
+Year of Passing: 2005
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Graduation:2009
+Percentage: 72.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Motilal Nehru National Institute of Technology
+University: Motilal Nehru National Institute of Technology
+City: Allahabad
+State: Uttar Pradesh
+Year of Post Graduation: 2011
+Percentage: 84.0

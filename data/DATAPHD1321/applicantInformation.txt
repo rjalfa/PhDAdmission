@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: ShoBernie Sebree
+Email: berniesebree@gmail.com
+Enrollment No.: PHD1321
+Correspondence Address:
+23 Willerby Ct, Gateshead, Tyne and Wear NE9 7JF, India
+Mobile Number: 9911022043
+DOB: 1986-04-14
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Distributed Systems
+Embedded System
+
+Gender: Female
+Category: SC
+Disabled: false
+Defence Category: false
+Father's Name: Lou Sebree
+Nationality: Indian
+Permanent Address:
+23 Willerby Ct, Gateshead, Tyne and Wear NE9 7JF, UK
+PIN/ZIP Code: 110018
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 71.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 74.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Graduation:2008
+Percentage: 75.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IIIT-Hyderabad
+University: IIIT-Hyderabad
+City: Hyderabad
+State: Andhra Pradesh
+Year of Post Graduation: 2010
+Percentage: 74.0
+
+GATE Information
+================
+Area: Electronics and Communication
+Year: 2008
+Percentage: 88.0
+Score: 924.0
+Rank: 1818

@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: JamCierra Chaires
+Email: cierrachaires@gmail.com
+Enrollment No.: PHD1117
+Correspondence Address:
+8 The Crescent, Aberkenfig, Bridgend, Bridgend CF32 9PU, India
+Mobile Number: 9026662707
+DOB: 1991-07-13
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Distributed Systems
+Embedded System
+
+Gender: Male
+Category: SC
+Disabled: false
+Defence Category: false
+Father's Name: Floyd Chaires
+Nationality: Indian
+Permanent Address:
+8 The Crescent, Aberkenfig, Bridgend, Bridgend CF32 9PU, UK
+PIN/ZIP Code: 769722
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 88.0
+Year of Passing: 2007
+Class XII:-
+Board: State Board
+Percentage: 86.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: IT - BHU
+University: IT - BHU
+City: Varanasi
+State: Uttar Pradesh
+Year of Graduation:2013
+Percentage: 83.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: IT - BHU
+University: IT - BHU
+City: Varanasi
+State: Uttar Pradesh
+Year of Post Graduation: 2015
+Percentage: 77.0

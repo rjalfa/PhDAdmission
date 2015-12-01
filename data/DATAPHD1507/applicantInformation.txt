@@ -1,0 +1,46 @@
+Personal Information
+====================
+Name: PeElois Sigala
+Email: eloissigala@gmail.com
+Enrollment No.: PHD1507
+Correspondence Address:
+1 Williams Cl, Penyffordd, Chester, Flintshire CH4 0NG, India
+Mobile Number: 9540474455
+DOB: 1986-08-06
+Stream: Computer Science
+Preferences:
+Mobile Computing
+Data Processing
+Mobile Computing
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Bobby Sigala
+Nationality: Indian
+Permanent Address:
+1 Williams Cl, Penyffordd, Chester, Flintshire CH4 0NG, UK
+PIN/ZIP Code: 905948
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 70.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 91.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Graduation:2008
+Percentage: 76.0

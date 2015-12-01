@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: Basilia Spagnolo
+Email: basiliaspagnolo@gmail.com
+Enrollment No.: PHD1074
+Correspondence Address:
+94 Spring Rd, St. Osyth, Clacton-on-Sea, Essex CO16 8RU, India
+Mobile Number: 9650826230
+DOB: 1991-06-23
+Stream: Computer Science
+Preferences:
+Mobile Computing
+Data Processing
+Molecular Biology
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Derrick Spagnolo
+Nationality: Indian
+Permanent Address:
+94 Spring Rd, St. Osyth, Clacton-on-Sea, Essex CO16 8RU, UK
+PIN/ZIP Code: 439116
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 91.0
+Year of Passing: 2007
+Class XII:-
+Board: CBSE
+Percentage: 77.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Graduation:2013
+Percentage: 87.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: MANIT
+University: MANIT
+City: Bhopal
+State: Madhya Pradesh
+Year of Post Graduation: 2015
+Percentage: 83.0

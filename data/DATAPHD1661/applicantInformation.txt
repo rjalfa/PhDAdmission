@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: ARamonita Peebles
+Email: ramonitapeebles@gmail.com
+Enrollment No.: PHD1661
+Correspondence Address:
+Broadhead Rd, Bolton, Blackburn with Darwen BL7, India
+Mobile Number: 9911022043
+DOB: 1991-08-01
+Stream: Computer Science
+Preferences:
+Mobile Computing
+
+
+
+Gender: Male
+Category: ST
+Disabled: false
+Defence Category: false
+Father's Name: Angel Peebles
+Nationality: Indian
+Permanent Address:
+Broadhead Rd, Bolton, Blackburn with Darwen BL7, UK
+PIN/ZIP Code: 195634
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 92.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 88.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2013
+Percentage: 85.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2015
+Percentage: 88.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 85.0
+Score: 892.0
+Rank: 2828

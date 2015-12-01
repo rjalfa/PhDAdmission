@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ACelina Valentino
+Email: celinavalentino@gmail.com
+Enrollment No.: PHD1669
+Correspondence Address:
+6 Bank St, Greenlaw, Duns, Scottish Borders TD10 6XX, India
+Mobile Number: 8652494041
+DOB: 1988-07-03
+Stream: Computational Biology
+Preferences:
+BioSimulations
+Data Processing
+Molecular Biology
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Kenny Valentino
+Nationality: Indian
+Permanent Address:
+6 Bank St, Greenlaw, Duns, Scottish Borders TD10 6XX, UK
+PIN/ZIP Code: 803458
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 90.0
+Year of Passing: 2004
+Class XII:-
+Board: CBSE
+Percentage: 74.0
+Year of Passing: 2006
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: IIT-Mumbai
+University: IIT
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2010
+Percentage: 89.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: IIT-Mumbai
+University: IIT-Mumbai
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2012
+Percentage: 74.0

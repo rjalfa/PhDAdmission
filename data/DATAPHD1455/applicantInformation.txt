@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: GoErnestina Flohr
+Email: ernestinaflohr@gmail.com
+Enrollment No.: PHD1455
+Correspondence Address:
+Great Wyrley, Staffordshire, India
+Mobile Number: 7415173953
+DOB: 1987-08-23
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Distributed Systems
+Embedded System
+
+Gender: Female
+Category: SC
+Disabled: false
+Defence Category: false
+Father's Name: Clark Flohr
+Nationality: Saudi
+Permanent Address:
+Great Wyrley, Staffordshire, UK
+PIN/ZIP Code: 615336
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 94.0
+Year of Passing: 2003
+Class XII:-
+Board: State Board
+Percentage: 71.0
+Year of Passing: 2005
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2009
+Percentage: 84.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: VJTI
+University: VJTI
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2011
+Percentage: 86.0

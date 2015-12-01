@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ElSanto Potts
+Email: santopotts@gmail.com
+Enrollment No.: PHD1732
+Correspondence Address:
+24 Belmont St, Newtyle, Blairgowrie, Angus PH12 8UE, India
+Mobile Number: 8939033524
+DOB: 1990-06-03
+Stream: Computer Science
+Preferences:
+Information Security
+
+
+
+Gender: Male
+Category: ST
+Disabled: false
+Defence Category: false
+Father's Name: Rosario Potts
+Nationality: Indian
+Permanent Address:
+24 Belmont St, Newtyle, Blairgowrie, Angus PH12 8UE, UK
+PIN/ZIP Code: 273882
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 74.0
+Year of Passing: 2006
+Class XII:-
+Board: ICSE
+Percentage: 96.0
+Year of Passing: 2008
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: IIT-Mumbai
+University: IIT
+City: Mumbai
+State: Maharashtra
+Year of Graduation:2012
+Percentage: 70.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Information Technology
+College: IIT-Mumbai
+University: IIT-Mumbai
+City: Mumbai
+State: Maharashtra
+Year of Post Graduation: 2014
+Percentage: 86.0

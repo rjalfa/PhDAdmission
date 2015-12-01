@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: JoCynthia Whalley
+Email: cynthiawhalley@gmail.com
+Enrollment No.: PHD1162
+Correspondence Address:
+1 Sycamore Grove, Knowbury, Ludlow, Shropshire SY8 3JW, India
+Mobile Number: 9823807309
+DOB: 1986-05-09
+Stream: Computational Biology
+Preferences:
+Image Processing
+Data Processing
+Molecular Biology
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Son Whalley
+Nationality: Indian
+Permanent Address:
+1 Sycamore Grove, Knowbury, Ludlow, Shropshire SY8 3JW, UK
+PIN/ZIP Code: 167801
+
+Schooling Information
+=====================
+Class X:-
+Board: CBSE
+Percentage: 78.0
+Year of Passing: 2002
+Class XII:-
+Board: CBSE
+Percentage: 70.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Graduation:2008
+CGPA: 8.4
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: Delhi Technological University
+University: Delhi Technological University
+City: New Delhi
+State: Delhi
+Year of Post Graduation: 2010
+Percentage: 70.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2008
+Percentage: 74.0
+Score: 777.0
+Rank: 6464

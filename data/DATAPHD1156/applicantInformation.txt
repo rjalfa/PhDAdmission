@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: JamRosalba Hazen
+Email: rosalbahazen@gmail.com
+Enrollment No.: PHD1156
+Correspondence Address:
+Church Hollow, Godshill, Ventnor, Isle of Wight PO38, India
+Mobile Number: 7506939626
+DOB: 1986-04-14
+Stream: Computational Biology
+Preferences:
+Molecular Mechanics
+VLSI
+Embedded System
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Orville Hazen
+Nationality: Indian
+Permanent Address:
+Church Hollow, Godshill, Ventnor, Isle of Wight PO38, UK
+PIN/ZIP Code: 658876
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 89.0
+Year of Passing: 2002
+Class XII:-
+Board: ICSE
+Percentage: 71.0
+Year of Passing: 2004
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: College of Engineering
+University: Savitribai Phule Pune University 
+City: Pune
+State: Maharashtra
+Year of Graduation:2008
+Percentage: 77.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: College of Engineering
+University: College of Engineering
+City: Pune
+State: Maharashtra
+Year of Post Graduation: 2010
+Percentage: 74.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2008
+Percentage: 94.0
+Score: 987.0
+Rank: 505

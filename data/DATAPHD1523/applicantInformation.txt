@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: PeJannie Crimi
+Email: janniecrimi@gmail.com
+Enrollment No.: PHD1523
+Correspondence Address:
+9C Craigie St, Aberdeen, Aberdeen City AB25 1EH, India
+Mobile Number: 9421463053
+DOB: 1991-06-15
+Stream: Electronics and Communication
+Preferences:
+VLSI
+Embedded Systems
+Compilers
+
+Gender: Female
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Maxwell Crimi
+Nationality: Indian
+Permanent Address:
+9C Craigie St, Aberdeen, Aberdeen City AB25 1EH, UK
+PIN/ZIP Code: 710748
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 91.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 73.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Electronics and Communication
+College: PSG College of Technology
+University: Anna University
+City: Coimbatore
+State: Tamil Nadu
+Year of Graduation:2013
+CGPA: 7.8
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Electronics and Communication
+College: PSG College of Technology
+University: PSG College of Technology
+City: Coimbatore
+State: Tamil Nadu
+Year of Post Graduation: 2015
+Percentage: 80.0

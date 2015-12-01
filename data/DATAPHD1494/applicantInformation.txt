@@ -1,0 +1,66 @@
+Personal Information
+====================
+Name: PeDixie Collom
+Email: dixiecollom@gmail.com
+Enrollment No.: PHD1494
+Correspondence Address:
+53 Lakeside, Rainham, Greater London RM13 9SN, India
+Mobile Number: 9650826230
+DOB: 1991-01-06
+Stream: Computational Biology
+Preferences:
+Image Processing
+
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Granville Collom
+Nationality: Indian
+Permanent Address:
+53 Lakeside, Rainham, Greater London RM13 9SN, UK
+PIN/ZIP Code: 829020
+
+Schooling Information
+=====================
+Class X:-
+Board: State Board
+Percentage: 71.0
+Year of Passing: 2007
+Class XII:-
+Board: State Board
+Percentage: 83.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Computer Science
+College: NIT-Warangal
+University: NIT
+City: Warangal
+State: Andhra Pradesh
+Year of Graduation:2013
+Percentage: 74.0
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Computer Science
+College: NIT-Warangal
+University: NIT-Warangal
+City: Warangal
+State: Andhra Pradesh
+Year of Post Graduation: 2015
+Percentage: 83.0
+
+GATE Information
+================
+Area: Computer Science And IT
+Year: 2013
+Percentage: 70.0
+Score: 735.0
+Rank: 7474

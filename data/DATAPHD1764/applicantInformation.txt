@@ -1,0 +1,58 @@
+Personal Information
+====================
+Name: ElRita Barksdale
+Email: ritabarksdale@gmail.com
+Enrollment No.: PHD1764
+Correspondence Address:
+Woodburn Dr, Whitley Bay, Tyne and Wear NE26, India
+Mobile Number: 9938529679
+DOB: 1991-06-13
+Stream: Computational Biology
+Preferences:
+Image Processing
+Mathematical Biology
+
+
+Gender: Male
+Category: General
+Disabled: false
+Defence Category: false
+Father's Name: Craig Barksdale
+Nationality: Indian
+Permanent Address:
+Woodburn Dr, Whitley Bay, Tyne and Wear NE26, UK
+PIN/ZIP Code: 973337
+
+Schooling Information
+=====================
+Class X:-
+Board: ICSE
+Percentage: 90.0
+Year of Passing: 2007
+Class XII:-
+Board: ICSE
+Percentage: 82.0
+Year of Passing: 2009
+
+Graduation Information
+======================
+Degree: B.Tech
+Department: Information Technology
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Graduation:2013
+CGPA: 7.2
+
+Post Graduation Information
+===========================
+Degree: M.Tech
+Thesis:Random Title
+Department: Information Technology
+College: Bengal Engineering & Science University (BESU)
+University: Bengal Engineering & Science University (BESU)
+City: Shibput
+State: West Bengal
+Year of Post Graduation: 2015
+Percentage: 77.0
