@@ -105,7 +105,8 @@ public class GAuthCallback extends HttpServlet {
 		      try {
 		    	  resp.addCookie(new Cookie("guser_name", profile.getString("name")));
 		    	  resp.addCookie(new Cookie("guser_email", profile.getString("email")));
-			      resp.sendRedirect("UserController");
+			      System.out.println(req.getServerName());
+		    	  resp.sendRedirect("UserController");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

@@ -11,6 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 import ap.adm.phd.AdminManager;
 import ap.adm.phd.model.Applicant;
 
+/*
+ * @author Rounaq Jhunjhunu Wala 2014089
+ * @author Ambar Pal 2014012
+ */
 /**
  * Servlet implementation class AdminResultsController
  */
