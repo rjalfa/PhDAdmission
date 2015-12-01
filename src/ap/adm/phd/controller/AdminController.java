@@ -64,7 +64,8 @@ public class AdminController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Enumeration<String> params = request.getParameterNames(); 
     	HashMap<String,String> parameters = new HashMap<>();
-    	while(params.hasMoreElements()){
+    	while(params.hasMoreElements())
+    	{
     		String paramName = (String)params.nextElement();
     		parameters.put(paramName,request.getParameter(paramName));
     		System.out.println("Attribute Name - "+paramName+", Value - "+request.getParameter(paramName));

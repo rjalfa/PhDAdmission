@@ -82,22 +82,21 @@ public class AdminManager {
 		
 		//Personal Information
 		if(params.get("nameField").trim().length() > 0 && A.getPersonalInformation().getApplicantName().equals(params.get("nameField")) == false) return false;
-		System.out.println(params.get("emailField"));
 		if(params.get("emailField").trim().length() > 0 && A.getPersonalInformation().getEmail().equals(params.get("emailField")) == false) return false;
 		if(params.get("enrollField").trim().length() > 0 && A.getPersonalInformation().getEnrollmentNo().equals(params.get("enrollField")) == false) return false;
-		/*
-		if(!params.get("category").equals("") && A.getPersonalInformation().getCategory().equals(params.get("category")) == false) return false;
+		if(!params.get("category").trim().equals("") && A.getPersonalInformation().getCategory().equals(params.get("category")) == false) return false;
 		if(A.getPersonalInformation().getGender().equals(params.get("genderField")) == false) return false;
-		if(A.getPersonalInformation().getDisabled() == params.get("phyDisField").equals("Yes")) return false; 
+		if(params.containsKey("phyDisabled") && !A.getPersonalInformation().getDisabled()) return false; 
+		if(params.get("dobField").trim().length() > 0)
 		switch(params.get("dateOfBirthConditionField"))
 		{
-			case "Before":if(A.getPersonalInformation().getDateOfBirth().isBefore(LocalDate.parse(params.get("dateOfBirthField"), DateTimeFormatter.ofPattern("yyyy-MM-dd"))) == false) return false;break;
-			case "On":if(A.getPersonalInformation().getDateOfBirth().isEqual(LocalDate.parse(params.get("dateOfBirthField"), DateTimeFormatter.ofPattern("yyyy-MM-dd"))) == false) return false;break;
-			case "After":if(A.getPersonalInformation().getDateOfBirth().isAfter(LocalDate.parse(params.get("dateOfBirthField"), DateTimeFormatter.ofPattern("yyyy-MM-dd"))) == false) return false;break;
+			case "Before":if(A.getPersonalInformation().getDateOfBirth().isBefore(LocalDate.parse(params.get("dobField"), DateTimeFormatter.ofPattern("yyyy-MM-dd"))) == false) return false;break;
+			case "On":if(A.getPersonalInformation().getDateOfBirth().isEqual(LocalDate.parse(params.get("dobField"), DateTimeFormatter.ofPattern("yyyy-MM-dd"))) == false) return false;break;
+			case "After":if(A.getPersonalInformation().getDateOfBirth().isAfter(LocalDate.parse(params.get("dobField"), DateTimeFormatter.ofPattern("yyyy-MM-dd"))) == false) return false;break;
+			default:if(A.getPersonalInformation().getDateOfBirth().isEqual(LocalDate.parse(params.get("dobField"), DateTimeFormatter.ofPattern("yyyy-MM-dd"))) == false) return false;break;
 		}
 		
 		//Educational Information
-		*/
 		if(!params.get("phdStreamField").equals("") && !A.getPersonalInformation().getPreferences()[0].equals(params.get("phdStreamField")) && !A.getPersonalInformation().getPreferences()[1].equals(params.get("phdStreamField")) && !A.getPersonalInformation().getPreferences()[2].equals(params.get("phdStreamField"))) return false;
 		if(!params.get("graduationDegreeField").equals("") && A.getEducationInformation().getGraduation().getDegreeName().equals(params.get("graduationDegreeField")) == false) return false;
 		if(!params.get("pgDegreeField").equals("") && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getDegreeName().equals(params.get("pgDegreeField")) == false))) return false;
@@ -109,7 +108,7 @@ public class AdminManager {
 		if(params.get("pgUnivField").trim().length() > 0 && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getUniversity().equals(params.get("pgUnivField")) == false))) return false;
 		if(!params.get("gradStateField").equals("") && A.getEducationInformation().getGraduation().getState().equals(params.get("gradStateField")) == false) return false;
 		if(!params.get("pgStateField").equals("") && (A.getEducationInformation().getPostGraduation() == null || (A.getEducationInformation().getPostGraduation() != null && A.getEducationInformation().getPostGraduation().getState().equals(params.get("pgStateField")) == false))) return false;
-		/*
+		
 		if(params.get("xMarksField").trim().length() > 0)
 		{
 			boolean t = false;
@@ -152,9 +151,8 @@ public class AdminManager {
 			if(params.containsKey("gateMarksFieldLesser") && A.getEducationInformation().getOtherAcademic().getGate().getPercentage() < Double.parseDouble(params.get("gateMarksField"))) t = true;
 			if(t == false) return false;
 		}
-		*/
-		if(!(params.get("adfField").trim().length() > 0 || (A.getApplicationSubmit().isAfter(LocalDate.parse(params.get("adfField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")).minusDays(1))))) return false;
-		if(!(params.get("adtField").trim().length() > 0 || (A.getApplicationSubmit().isBefore(LocalDate.parse(params.get("adtField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")).plusDays(1))))) return false;
+		if(params.get("adfField").trim().length() > 0 && !(A.getApplicationSubmit().isAfter(LocalDate.parse(params.get("adfField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")).minusDays(1)))) return false;
+		if(params.get("adtField").trim().length() > 0 && !(A.getApplicationSubmit().isBefore(LocalDate.parse(params.get("adtField"), DateTimeFormatter.ofPattern("yyyy-MM-dd")).plusDays(1)))) return false;
 		return true;
 	}
 }

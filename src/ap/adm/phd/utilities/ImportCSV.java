@@ -133,7 +133,8 @@ public class ImportCSV {
 		
 		//Set Today's Date to Record
 		try{
-		applicant.setApplicationSubmit((new SimpleDateFormat("YY-MMM-dd HH:mm:ss")).parse(r.get(58)).toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
+		System.out.println((new SimpleDateFormat("yyyy-MMM-dd HH:mm:ss")).parse(r.get(58)));
+		applicant.setApplicationSubmit((new SimpleDateFormat("yyyy-MMM-dd HH:mm:ss")).parse(r.get(58)).toInstant().atZone(ZoneId.systemDefault()).toLocalDate());
 		}catch(Exception e){
 		}
 		return applicant;
