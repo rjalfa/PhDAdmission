@@ -59,6 +59,7 @@ public class UserController extends HttpServlet {
     			break;
     		}
     	}
-        response.sendRedirect("thankyou.html");
+    	RequestDispatcher rd = request.getRequestDispatcher("thankyou.html");
+		rd.include(request,response);
     }
 }
